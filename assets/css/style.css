@@ -97,18 +97,3 @@ h2 {
 figure {
   margin-top: 40px;
 }
-
-
-/* Media queries */
-
-/* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-  header {
-    width: 70%;
-    height: 1200px;
-    text-align: center;
-    white-space: nowrap;
-  }
-
-}
-
