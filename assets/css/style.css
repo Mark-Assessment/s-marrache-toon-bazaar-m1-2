@@ -59,7 +59,6 @@ nav {
   padding-bottom: 20px;
   align-items: center;
   justify-content: center;
-
 }
 
 .left-nav {
@@ -70,13 +69,11 @@ nav {
 .right-nav {
   float: right;
   margin: auto;
-
 }
 
 .center-nav {
   float: center;
   margin: auto;
-
 }
 
 header {
@@ -100,8 +97,6 @@ h2 {
 figure {
   margin-top: 40px;
 }
-
-
 
 
 /* Media queries */
