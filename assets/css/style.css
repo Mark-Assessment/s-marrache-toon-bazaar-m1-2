@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-/* headings and logo */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 h1,
 h2 {
   font-family: "Titan One", sans-serif;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
-  letter-spacing: 10px;
+  letter-spacing: 2rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -18,6 +22,20 @@ h2 {
   font-style: semi-bold;
 }
 
+nav {
+  background-color: black;
+  font: Oswald, sans-serif black;
+  font-weight: bolder;
+  text-align: center;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  margin: 0px 0px 0px 0px;
+  position: inline fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -27,22 +45,23 @@ ul {
 a {
   border: 4px solid black;
   border-radius: 50%;
+  background-color: whitesmoke;
   width: 7rem;
   padding: 5px 10px;
   text-align: center;
   color: black;
-  font-size: 120%;
+  font-size: 112%;
   font-weight: 750;
   text-decoration: none;
   display: inline-block;
-  margin: 10px 10px;
-  border-radius: 16px;
+  margin: 0.5em 0.5em;
+  border-radius: 12px;
   font-family: Lato;
 }
 
-  /* Change the background color on mouse-over */
-  nav a:hover {
-  background-color:red;
+/* Change the background color on mouse-over */
+nav a:hover {
+  background-color: red;
   color: black;
 }
 
@@ -50,20 +69,19 @@ li {
   display: inline;
 }
 
-nav {
-  font: Oswald, sans-serif black;
-  font-weight: bolder;
-  text-align: center;
-  border-bottom: 2px solid black;
-  margin: 1.5em;
-  padding-bottom: 20px;
-  align-items: center;
-  justify-content: center;
-}
-
 .left-nav {
   float: left;
   margin: auto;
+}
+
+.center-left-nav {
+  float: center left;
+  margin: 10vw;
+}
+
+.center-right-nav {
+  float: center right;
+  margin: 10vw;
 }
 
 .right-nav {
@@ -71,29 +89,213 @@ nav {
   margin: auto;
 }
 
-.center-nav {
-  float: center;
-  margin: auto;
-}
-
 header {
-  background-image: "";
+  background-color: rgb(249, 164, 67);
+  padding-bottom: 0.5em;
+  padding-top: 0.2em;
 }
 
 h1 {
   font-family: "Titan One", sans-serif;
   text-align: center;
+  text-shadow: 0px 0px 2px whitesmoke;
   font-size: 4rem;
+  word-spacing: 1em;
   margin-bottom: 1em;
+  margin-top: 0.4em;
 }
 
 h2 {
   font-family: "Titan One", sans-serif;
+  color: black;
+  text-shadow: 0px 0px 2px whitesmoke;
   text-align: center;
-  margin-bottom: 2em;
+  word-spacing: 0.5em;
+  margin-bottom: 1em;
   letter-spacing: 15px;
+}
+
+#circle {
+  background: whitesmoke;
+  border-radius: 50%;
+  border: 0.25em black solid;
+  width: 12.5rem;
+  height: 12.5rem;
+  float: left;
+  margin-left: 5em;
+  margin-top: 0.3rem;
+}
+
+#circle2 {
+  background: whitesmoke;
+  border-radius: 50%;
+  border: 0.25em black solid;
+  width: 12.5rem;
+  height: 12.5rem;
+  float: right;
+  margin-right: 5em;
+  margin-top: 0.3rem;
+}
+
+#circle-bg {
+  background: url(assets/images/wolfy1.jpg);
+  height: 100%;
+  border-radius: 50%;
+}
+
+hr {
+  margin: 0 0 0 0;
 }
 
 figure {
   margin-top: 40px;
+  align-content: center;
+}
+
+section {
+  padding: 1rem;
+  background-color: rgb(255, 224, 98);
+}
+
+footer {
+  background-color: black;
+  margin: 0;
+}
+
+.left-social {
+  float: left;
+  margin: auto;
+}
+
+.center-left-social {
+  float: center left;
+  margin: 12.5vw;
+}
+
+.center-social {
+  float: center;
+}
+
+.center-right-social {
+  float: center right;
+  margin: 12.5vw;
+}
+
+.right-social {
+  float: right;
+  margin: auto;
+}
+
+.social-networks {
+  text-align: center;
+
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 110%;
+  margin: 1%;
+}
+
+/* Change the background color on mouse-over */
+.social-networks a:hover {
+  background-color: red;
+}
+
+
+
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+  #club-ethos {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+
+  #welcome {
+    padding: 30px 0;
+    margin-top: 0;
+  }
+
+  #left-about,
+  #right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+
+  #center-about {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+
+  #times div {
+    width: 100%;
+    clear: both;
+    height: 150px;
+    padding: 0;
+  }
+
+
+  hr {
+    display: none;
+  }
+}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  #cover-text {
+    left: 0px;
+  }
+
+  #club-ethos {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+
+  .left-about-heading,
+  .right-about-heading {
+    width: inherit;
+  }
+
+  .left-about-heading h2,
+  .right-about-heading h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .left-about-heading p,
+  .right-about-heading p {
+    text-align: center;
+    padding: 0 20px 0 20px;
+  }
+
+  #photo {
+    column-count: 3;
+  }
+}
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+  #photo {
+    column-count: 2;
+  }
 }
