@@ -8,30 +8,141 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>TOON BAZAAR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="assets/css/style.css">
+    <title>TOON BAZAAR/CONTACT</title>
 </head>
 
 <body>
     <header>
+        <div id="circle"><img src="assets/images/wolfy-logo.jpg" alt="logo"></div>
         <h1>TOON BAZAAR</h1>
-        <h2><i>Your Vision | Our Toons</i></h2>
+        <h2><strong>Your Vision | Our Toons</strong></h2>
     </header>
-    <hr>
     <nav>
         <ul>
             <li class="left-nav">
-                <a href="index.html"><strong>HOME</strong></a>
+                <a href="index.html#home" aria-label="Go to the top of the page"><strong>HOME</strong></a>
             </li>
             <li class="center-nav">
-                <a href="portfolio.html"><strong>PORTFOLIO</strong></a>
-            </li>
+                <a href="market.html#market"
+                    aria-label="See what we have to offer in our marketplace"><strong>MARKET</strong></a>
             <li class="right-nav">
-                <a href="contact.html"><strong>CONTACT</strong></a>
+                <a href="contact.html#contact"
+                    aria-label="Contact us for any questions or bespoke requests"><strong>CONTACT</strong></a>
             </li>
         </ul>
     </nav>
+    <form action="https://formdump.codeinstitute.net" method="POST">
 
+        <fieldset>
+            <legend>
+                <h3><u>Details</u></h3>
+            </legend>
+
+            <div class="float-left">
+                <label for="name-field" class="block-label">Name</label>
+                <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+            </div>
+            <div class="float-left">
+                <label for="email-field" class="block-label">Email Address</label>
+                <input id="email-field" type="email" name="email" placeholder="Your email" required>
+            </div>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>
+                <h3><u>Request</u></h3>
+            </legend>
+
+            <label for="request-nature" class="block-label">Nature of request</label>
+            <select id="request-nature" name="request-nature" required>
+                <option value="">Select your option</option>
+                <option value="personal">Personal</option>
+                <option value="independent">Independent</option>
+                <option value="commercial">Commercial</option>
+                <option value="branding">Branding</option>
+                <option value="corporate">Corporate</option>
+                <option value="merchandise">Merchandise</option>
+                <option value="other">Other</option>
+            </select>
+            <div>
+                <label for="vision" class="block-label">What is your vision?</label>
+                <input id="vision" list="visions" name="vision" required>
+                <datalist id="visions">
+                    <option value="Caricature"></option>
+                    <option value="Cartoon"></option>
+                    <option value="Illustration">
+                    <option value="Comic"></option>
+                    <option value="Animation">
+                    <option value="Video Game"></option>
+                </datalist>
+            </div>
+            <h3><u>Services Required</u></h3>
+            <div>
+                <input type="checkbox" id="cartooning-checkbox" name="cartooning">
+                <label for="cartooning-checkbox">Cartooning</label>
+            </div>
+            <div>
+                <input type="checkbox" id="writing-checkbox" name="writing">
+                <label for="writing-checkbox">Writing</label>
+            </div>
+            <div>
+                <input type="checkbox" id="editing-checkbox" name="editing">
+                <label for="editing-checkbox">Editing</label>
+            </div>
+            <div>
+                <input type="checkbox" id="publishing-checkbox" name="publishing">
+                <label for="publishing-checkbox">Publishing</label>
+            </div>
+            <div>
+                <input type="checkbox" id="streaming-checkbox" name="streaming">
+                <label for="streaming-checkbox">Streaming</label>
+            </div>
+            <div>
+                <input type="checkbox" id="promotion-checkbox" name="promotion">
+                <label for="promotion-checkbox">Promotion</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h3><u>Description</u></h3>
+            </legend>
+            <label for="request-bespoke" class="block-label">Please describe your vision &
+                <br>
+                how you would like us to
+                help?</label>
+            <textarea id="request-bespoke" rows="12" cols="50" name="request-bespoke"></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="mailing-list-join"><i class="fa-solid fa-envelope-open-text fa-xs"></i> Sign up for weekly toons
+                & offers</label>
+            <input type="checkbox" id="mailing-list-join" name="mailing-list-sign-up" value="both" required>
+            <input class="send-button" type="submit" value="SEND">
+        </fieldset>
+    </form>
+    <footer>
+        <ul class="social-networks">
+            <li class="left-social">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a>
+            </li>
+            <li class="center-left-social">
+                <a href="https://www.instagram.com" target="_blank"><i
+                        class="fa-brands fa-square-instagram fa-xl"></i></a>
+            </li>
+            <li class="center-right-social">
+                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-square-youtube fa-xl"></i></a>
+            </li>
+            <li class="right-social">
+                <a href="https://www.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest fa-xl"></i></a>
+            </li>
+        </ul>
+    </footer>
 </body>
 
 </html>
