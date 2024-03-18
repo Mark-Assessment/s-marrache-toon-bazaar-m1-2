@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
+/* Template Body */
+
 * {
   margin: 0px;
   padding: 0px;
@@ -16,11 +18,65 @@ h2 {
   margin-right: auto;
 }
 
+/* External Fonts */
+
 .titan-one-regular {
   font-family: "Titan One", sans-serif;
   font-weight: 700;
   font-style: semi-bold;
 }
+
+.jomhuria-regular {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Header and Logo */
+
+header {
+  background-color: rgb(249, 164, 67);
+  padding-bottom: 0.5em;
+  padding-top: 0.2em;
+}
+
+h1 {
+  font-family: "Titan One", sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+  font-size: 5rem;
+  word-spacing: 1em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-family: "Titan One", sans-serif;
+  color: black;
+  text-shadow: 1px 1px 1px whitesmoke;
+  text-align: center;
+  word-spacing: 0.5em;
+  margin-bottom: 1em;
+  letter-spacing: 15px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+#circle {
+  border-radius: 50%;
+  border: 0.25em black solid;
+  box-shadow: 2px 2px 2px rgb(208, 65, 77);
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 5em;
+  margin-top: 0.3rem;
+}
+
+
+/* Navigation Links */
 
 nav {
   background-color: black;
@@ -42,6 +98,10 @@ ul {
   padding: 0;
 }
 
+li {
+  display: inline;
+}
+
 a {
   border: 4px solid black;
   border-radius: 50%;
@@ -59,29 +119,14 @@ a {
   font-family: Lato;
 }
 
-/* Change the background color on mouse-over */
-nav a:hover {
-  background-color: red;
-  color: black;
-}
-
-li {
-  display: inline;
-}
-
 .left-nav {
   float: left;
   margin: auto;
 }
 
-.center-left-nav {
-  float: center left;
-  margin: 10vw;
-}
-
-.center-right-nav {
-  float: center right;
-  margin: 10vw;
+.center-nav {
+  float: center;
+  margin: auto;
 }
 
 .right-nav {
@@ -89,77 +134,117 @@ li {
   margin: auto;
 }
 
-header {
-  background-color: rgb(249, 164, 67);
-  padding-bottom: 0.5em;
-  padding-top: 0.2em;
-}
+/* Change the background color on mouse-over */
 
-h1 {
-  font-family: "Titan One", sans-serif;
-  text-align: center;
-  text-shadow: 0px 0px 2px whitesmoke;
-  font-size: 4rem;
-  word-spacing: 1em;
-  margin-bottom: 1em;
-  margin-top: 0.4em;
-}
-
-h2 {
-  font-family: "Titan One", sans-serif;
+nav a:hover {
+  background-color: rgb(208, 65, 77);
   color: black;
-  text-shadow: 0px 0px 2px whitesmoke;
-  text-align: center;
-  word-spacing: 0.5em;
-  margin-bottom: 1em;
-  letter-spacing: 15px;
 }
 
-#circle {
-  background: whitesmoke;
-  border-radius: 50%;
-  border: 0.25em black solid;
-  width: 12.5rem;
-  height: 12.5rem;
-  float: left;
-  margin-left: 5em;
-  margin-top: 0.3rem;
-}
-
-#circle2 {
-  background: whitesmoke;
-  border-radius: 50%;
-  border: 0.25em black solid;
-  width: 12.5rem;
-  height: 12.5rem;
-  float: right;
-  margin-right: 5em;
-  margin-top: 0.3rem;
-}
-
-#circle-bg {
-  background: url(assets/images/wolfy1.jpg);
-  height: 100%;
-  border-radius: 50%;
-}
-
-hr {
-  margin: 0 0 0 0;
-}
-
-figure {
-  margin-top: 40px;
-  align-content: center;
-}
+/* Home Body */
 
 section {
   padding: 1rem;
   background-color: rgb(255, 224, 98);
 }
 
+/* Market Body */
+
+figure {
+  margin-top: 40px;
+  align-content: center;
+}
+
+
+
+
+
+/* Contact Body with Form */
+
+fieldset {
+  border: none;
+  margin-top: 20px;
+  font-family: "Jomhuria", serif;
+  font-size: xx-large;
+  letter-spacing: 0.25rem;
+}
+
+form {
+  width: 700px;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 25px auto;
+  background-color: white;
+}
+
+.block-label {
+  display: block;
+}
+
+label {
+  margin: 10px 15px 5px 0;
+}
+
+#name-field {
+  height: 22px;
+}
+
+#email-field {
+  height: 22px;
+}
+
+#vision {
+  height: 20px;
+}
+
+#request-bespoke {
+  margin: 3% 0%
+}
+
+fieldset>p {
+  margin: 2%;
+}
+
+h3 {
+  margin: 2% 0%;
+  font-size: xxx-large;
+  letter-spacing: 0.5rem;
+}
+
+.send-button {
+  margin-top: 20px;
+  border: solid black 3px;
+  padding: 12.5px 25px 12.5px 25px;
+  text-align: center;
+  font-family: "Titan One", sans-serif;
+  font-size: 100%;
+  color: black;
+  background-color: white;
+  display: block;
+}
+
+.send-button:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
+/* Footer + Links to Social Media */
+
 footer {
   background-color: black;
-  margin: 0;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  height: 0.75rem;
+  text-align: center;
 }
 
 .left-social {
@@ -169,16 +254,12 @@ footer {
 
 .center-left-social {
   float: center left;
-  margin: 12.5vw;
-}
-
-.center-social {
-  float: center;
+  margin-right: 10%;
 }
 
 .center-right-social {
   float: center right;
-  margin: 12.5vw;
+  margin-left: 10%;
 }
 
 .right-social {
@@ -186,34 +267,17 @@ footer {
   margin: auto;
 }
 
-.social-networks {
-  text-align: center;
-
-}
-
-.social-networks li {
-  display: inline;
-}
-
-.social-networks i {
-  font-size: 110%;
-  margin: 1%;
-}
-
 /* Change the background color on mouse-over */
 .social-networks a:hover {
-  background-color: red;
+  background-color: #db3005;
 }
-
-
-
 
 /* Media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
   #club-ethos {
-    width: 65%;
+    width: full-width;
     height: 1200px;
     margin: 0 auto;
   }
