@@ -13,11 +13,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
     <link rel="stylesheet" media="screen" href="assets/css/style.css">
     <title>TOON BAZAAR/CONTACT</title>
+    <style>
+        body {
+            background-image: url('assets/images/toon-bizarre-trippy-lg.jpg');
+            background-size: cover;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <div id="circle"><img src="assets/images/wolfy-logo.jpg" alt="logo"></div>
+        <div id="circle"><img src="assets/images/wolfy.jpg" alt="logo"></div>
         <h1>TOON BAZAAR</h1>
         <h2><strong>Your Vision | Our Toons</strong></h2>
     </header>
@@ -92,6 +98,10 @@
                 <label for="writing-checkbox">Writing</label>
             </div>
             <div>
+                <input type="checkbox" id="directing-checkbox" name="directing">
+                <label for="directing-checkbox">Directing</label>
+            </div>
+            <div>
                 <input type="checkbox" id="editing-checkbox" name="editing">
                 <label for="editing-checkbox">Editing</label>
             </div>
@@ -117,12 +127,12 @@
                 <br>
                 how you would like us to
                 help?</label>
-            <textarea id="request-bespoke" rows="12" cols="50" name="request-bespoke"></textarea>
+            <textarea id="request-bespoke" rows="12" cols="60" name="request-bespoke"></textarea>
         </fieldset>
         <fieldset>
-            <label for="mailing-list-join"><i class="fa-solid fa-envelope-open-text fa-xs"></i> Sign up for weekly toons
-                & offers</label>
-            <input type="checkbox" id="mailing-list-join" name="mailing-list-sign-up" value="both" required>
+            <label for="mailing-list-join"><i class="fa-solid fa-envelope-open-text fa-xs"></i> Join us at Toon Bazaar & get
+                15% off</label>
+            <input type="checkbox" id="mailing-list-join" name="mailing-list-sign-up" value="both" checked>
             <input class="send-button" type="submit" value="SEND">
         </fieldset>
     </form>
