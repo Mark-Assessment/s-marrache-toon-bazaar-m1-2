@@ -48,6 +48,21 @@ h1 {
   word-spacing: 1em;
   margin-top: 1rem;
   margin-bottom: 1em;
+
+  /* Animates zoom effect on loading the page */
+  animation-name: h1-zoom;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
+}
+
+/* Creates the level of zoom for h1 text */
+@keyframes h1-zoom {
+  from{
+      transform: scale(1);
+  }
+  to{
+      transform: scale(1.07);
+  }
 }
 
 h2 {
@@ -59,23 +74,53 @@ h2 {
   word-spacing: 0.5em;
   margin-bottom: 1em;
   letter-spacing: 1rem;
+
+        /* Animates zoom effect on loading the page */
+        animation-name: h2-zoom;
+        animation-duration: 3.5s;
+        animation-delay: 2.4s;
+        animation-fill-mode: forwards;
+    }
+    
+    /* Creates the level of zoom for h2 text */
+    @keyframes h2-zoom {
+        from{
+            transform: scale(1);
+        }
+        to{
+            transform: scale(1.1);
+        }
 }
 
-img {
-  border-radius: 50%;
+header img {
+  border-radius: 60%;
 }
 
-#circle {
+#logo {
   border-radius: 50%;
   border: 0.25em black solid;
-  shadow: 1px 1px 1px whitesmoke;
   width: 245px;
   height: 245px;
   float: left;
   margin-left: 5.5em;
-  margin-top: 0.3em;
+  margin-top: 1em;
   margin-bottom: 0.3em;
-}
+
+      /* Animates zoom effect on loading the page */
+      animation-name: logo-zoom;
+      animation-duration: 3.5s;
+      animation-fill-mode: forwards;
+  }
+  
+  /* Creates the level of zoom for logo image */
+  @keyframes logo-zoom {
+      from{
+          transform: scale(0.95);
+      }
+      to{
+          transform: scale(1.066);
+      }
+  }
 
 /* Navigation Links */
 
@@ -84,9 +129,7 @@ nav {
   font: Oswald, sans-serif black;
   font-style: bolder;
   text-align: center;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
-  margin: 0px 0px 0px 0px;
+
   position: inline fixed;
   align-items: center;
   justify-content: center;
@@ -150,11 +193,56 @@ section {
 
 /* Market Body */
 
-
-figure {
-  margin-top: 40px;
-  align-content: center;
+.artist-examples {
+  background-color: #3a3a3a;
+  opacity: 0.75;
+  margin: 5vw 5vw;
 }
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  padding: 0 4px;
+}
+
+.row img {
+  opacity: 1;
+
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33.3%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin: 1vw 1vw;
+  vertical-align: middle;
+  width: 100%;
+  border: black solid 0.5em;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
 
 
 
@@ -275,7 +363,6 @@ footer {
 /* Change the background color on mouse-over */
 .social-networks a:hover {
   background-color: #d01e47;
-  background-color: ;
   color: white;
 }
 
