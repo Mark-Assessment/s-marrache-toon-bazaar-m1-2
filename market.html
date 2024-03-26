@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toon Bazaar marketplace for tailor-made animations and cartoons">
     <script src="https://kit.fontawesome.com/fced343307.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,15 +18,16 @@
         body {
             background-image: url('assets/images/toon-bazaar.jpg');
             background-size: cover;
+            background-repeat: no-repeat;
+            height: auto;
+            width: auto;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <div id="logo"><img src="assets/images/wolfy.jpg" alt="logo"></div>
         <h1>TOON BAZAAR</h1>
-        <br>
         <h2><strong>Your Vision | Our Toons</strong></h2>
     </header>
     <nav>
@@ -42,70 +44,103 @@
             </li>
         </ul>
     </nav>
-    <div class="artist-examples">
-    <div class="row">
-        <div class="column">
-          <img src="assets/images/60s-spies.jpg">
+    <br>
+    <div id="animations-caption" class="caption">ANIMATIONS</div>
+    <div class="animation-examples">
+        <div class="row">
+            <span class="column">
+                <div class="container">
+                    <iframe src="https://www.youtube.com/embed/Ws6VnG91b0o?si=wQwk-Xm6PhlxY-YH"
+                        title="YouTube video player" frameborder="0" allowfullscreen class="video"></iframe>
+                </div>
+            </span>
+            <span class="column">
+                <div class="container">
+                    <iframe src="https://www.youtube.com/embed/2E2MjEHJRlQ?si=llgtsBXj0SfgU4fc"
+                        title="YouTube video player" frameborder="0" allowfullscreen class="video"></iframe>
+                </div>
+            </span>
+            <span class="column">
+                <div class="container">
+                    <iframe src="https://www.youtube-nocookie.com/embed/StSgGZm7mcc?si=MdGMOdD8ITAemj4u" frameborder="0"
+                        allowfullscreen class="video"></iframe>
+                </div>
+            </span>
         </div>
-        <div class="column">
-          <img src="assets/images/miliband-blair.jpg">
-        </div>
-        <div class="column">
-          <img src="assets/images/suarez-kennel.jpg">
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <img src="wedding.jpg">
-        </div>
-        <div class="column">
-          <img src="wedding.jpg">
-        </div>
-        <div class="column">
-          <img src="wedding.jpg">
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <img src="wedding.jpg">
-        </div>
-        <div class="column">
-          <img src="wedding.jpg">
-        </div>
-        <div class="column">
-          <img src="wedding.jpg">
-        </div>
-      </div>
-      <div class="merch-row">
-        <div class="column">
-          <img src="wedding.jpg">
-        </div>
-        <div class="column">
-          <img src="wedding.jpg">
-        </div>
-        <div class="column">
-          <img src="wedding.jpg">
-        </div>
-      </div>
     </div>
+    <br>
+    <div id="illustrations-caption" class="caption">ILLUSTRATIONS</div>
+    <div class="illustration-examples">
+        <div class="row">
+            <span class="column">
+                <img id="spies" src="assets/images/60s-spies-xl.jpg" alt="a cartoon of 1960s Russian spies">
+            </span>
+            <span id="mixed-column" class="column">
+                <img id="matrix" src="assets/images/miliband-blair.jpg"
+                    alt="a cartoon of Tony Blair & Ed Milliband in a parody of the Matrix">
+                <hr>
+                <img id="bunny" src="assets/images/hoppy-bunny.jpg" alt="a cartoon of Hoppy the Bunny">
+                <img id="wolfy" src="assets/images/wolfy-bw.jpg" alt="a cartoon of street artist - Wolfy">
+                <img id="croc" src="assets/images/croc-tears.jpg" alt="a cartoon of a crocodile crying crocodile tears">
+            </span>
+            <span class="column">
+                <img src="assets/images/suarez-kennel-lg.jpg" alt="a cartoon of Suarez in the doghouse">
+            </span>
+        </div>
+    </div>
+    <br>
+    <div id="comics-caption" class="caption">COMICS & STORYBOARDS</div>
+    <div class="comic-examples">
+        <div class="row">
+            <span class="column">
+                <img id="sexplicit1" src="assets/images/sexplicit.jpg" alt="a storyboard for a sitcom">
+                <img id="sexplicit2" src="assets/images/sexplicit-2.jpg" alt="a storyboard for a sitcom">
+            </span>
+            <span class="column">
+                <img id="chaos" src="assets/images/chaos-cover.jpg" alt="a cover for the graphic novel - Chaos">
+            </span>
+            <span class="column">
+                <img id="wild-cards" src="assets/images/wild-cards-sm.jpg"
+                    alt="scene 1 of comic strip - The Wild Cards">
+            </span>
+        </div>
+    </div>
+    <br>
+    <div id="merch-caption" class="caption">MERCHANDISE</div>
+    <div class="merch-examples">
+        <div class="row">
+            <span class="column">
+                <img src="assets/images/outside-card-xl.jpg" alt="outside of a thank you card template">
+            </span>
+            <span class="column">
+                <img src="assets/images/suarez-kennel-match.jpg" alt="a cartoon of Suarez in the doghouse">
+            </span>
+            <span class="column">
+                <img src="assets/images/inside-card-xlg.jpg" alt="inside of a thank you card template">
+            </span>
+        </div>
+    </div>
+    <br>
     <footer>
         <ul class="social-networks">
             <li class="left-social">
-                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                <a href="https://www.facebook.com" aria-label="Enjoy more from Toon Bazaar on Facebook"
+                    target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a>
             </li>
             <li class="center-left-social">
-                <a href="https://www.instagram.com" target="_blank"><i
-                        class="fa-brands fa-square-instagram fa-xl"></i></a>
+                <a href="https://www.instagram.com" aria-label="Enjoy more from Toon Bazaar on Instagram"
+                    target="_blank"><i class="fa-brands fa-square-instagram fa-xl"></i></a>
             </li>
             <li class="center-right-social">
-                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-square-youtube fa-xl"></i></a>
+                <a href="https://www.youtube.com" aria-label="Enjoy more from Toon Bazaar on YouTube" target="_blank"><i
+                        class="fa-brands fa-square-youtube fa-xl"></i></a>
             </li>
             <li class="right-social">
-                <a href="https://www.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest fa-xl"></i></a>
+                <a href="https://www.pinterest.com" aria-label="Enjoy more from Toon Bazaar on Pinterest"
+                    target="_blank"><i class="fa-brands fa-pinterest fa-xl"></i></a>
             </li>
         </ul>
     </footer>
-
 </body>
 
 </html>
