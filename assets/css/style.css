@@ -36,7 +36,7 @@ h2 {
 header {
   background-color: rgba(215, 79, 0, 0.945);
   padding-bottom: 0.5em;
-  padding-top: 0.2em;
+  padding-top: 0.5em;
 }
 
 h1 {
@@ -44,52 +44,20 @@ h1 {
   color: whitesmoke;
   text-align: center;
   text-shadow: 3px 3px 3px black;
-  font-size: 5rem;
-  word-spacing: 1em;
-  margin-top: 1rem;
-  margin-bottom: 1em;
-
-  /* Animates zoom effect on loading the page */
-  animation-name: h1-zoom;
-  animation-duration: 3.5s;
-  animation-fill-mode: forwards;
-}
-
-/* Creates the level of zoom for h1 text */
-@keyframes h1-zoom {
-  from{
-      transform: scale(1);
-  }
-  to{
-      transform: scale(1.07);
-  }
+  font-size: 4.5rem;
+  letter-spacing: 1rem;
+  word-spacing: 0.4em;
 }
 
 h2 {
   font-family: "Titan One", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: black;
   text-shadow: 1px 1px 1px whitesmoke;
   text-align: center;
-  word-spacing: 0.5em;
-  margin-bottom: 1em;
-  letter-spacing: 1rem;
-
-        /* Animates zoom effect on loading the page */
-        animation-name: h2-zoom;
-        animation-duration: 3.5s;
-        animation-delay: 2.4s;
-        animation-fill-mode: forwards;
-    }
-    
-    /* Creates the level of zoom for h2 text */
-    @keyframes h2-zoom {
-        from{
-            transform: scale(1);
-        }
-        to{
-            transform: scale(1.1);
-        }
+  word-spacing: 0.4em;
+  letter-spacing: 0.4rem;
+  margin: 20px 20px 20px 20px;
 }
 
 header img {
@@ -105,22 +73,7 @@ header img {
   margin-left: 5.5em;
   margin-top: 1em;
   margin-bottom: 0.3em;
-
-      /* Animates zoom effect on loading the page */
-      animation-name: logo-zoom;
-      animation-duration: 3.5s;
-      animation-fill-mode: forwards;
-  }
-  
-  /* Creates the level of zoom for logo image */
-  @keyframes logo-zoom {
-      from{
-          transform: scale(0.95);
-      }
-      to{
-          transform: scale(1.066);
-      }
-  }
+}
 
 /* Navigation Links */
 
@@ -129,7 +82,10 @@ nav {
   font: Oswald, sans-serif black;
   font-style: bolder;
   text-align: center;
-
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-width: 100%;
+  margin-bottom: 1.8rem;
   position: inline fixed;
   align-items: center;
   justify-content: center;
@@ -160,7 +116,7 @@ a {
   display: inline-block;
   margin: 0.5em 0.5em;
   border-radius: 12px;
-  font-family: Lato;
+  font-family: "Lato";
 }
 
 .left-nav {
@@ -187,51 +143,288 @@ nav a:hover {
 
 /* Home Body */
 
-section {
-  padding: 1rem;
+.about {
+  display: inline-block;
+  padding: 1em;
+  background-color: whitesmoke;
+  margin: 5% 22% 5% 22%;
 }
+
+.about-left {
+  float: left;
+}
+
+.about-right {
+  float: right;
+}
+
+.cartoonists {
+  max-width: 55%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#delightful {
+  float: right;
+}
+
+#hippy {
+  float: right;
+}
+
+#jazzy {
+  float: right;
+}
+
+#dreadz {
+  float: right;
+}
+
 
 /* Market Body */
 
-.artist-examples {
-  background-color: #3a3a3a;
-  opacity: 0.75;
-  margin: 5vw 5vw;
+
+.caption {
+  height: 3rem;
+  width: 25rem;
+  margin: 0 auto;
+  padding: 2% 2%;
+  vertical-align: center;
+  text-align: center;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  border: black solid 0.5rem;
+  font-family: "Jomhuria", serif;
+  font-size: xxx-large;
+  letter-spacing: 3px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #262424;
+}
+
+span {
+  border: 0.5rem solid black;
+  display: inline-block;
+
+}
+
+#spies {
+  display: block;
+  margin: auto;
+}
+
+#suarez {
+  display: block;
+  margin: auto;
+}
+
+#matrix {
+  border: 1em;
+  margin-top: 4.25%;
+}
+
+#bunny {
+  max-width: 30%;
+  max-height: 36.75%;
+  float: left;
+  border: 0.3em black solid;
+}
+
+#wolfy {
+  max-width: 30%;
+  max-height: 100%;
+  float: center;
+  border: 0.3em black solid;
+  margin-top: auto auto;
+  justify-content: center;
+}
+
+#croc {
+  max-width: 30%;
+  max-height: 36.75%;
+  float: right;
+  border: 0.3em black solid;
+}
+
+#sheep {
+  max-width: 30%;
+  max-height: 36.75%;
+  float: center;
+  border: 0.3em black solid;
+}
+
+
+.illustration-examples {
+  background-color: black;
+  opacity: 1;
+  margin: 0 auto;
+  width: 100%;
+
+  justify-content: center;
+}
+
+.animation-examples {
+  background-color: #1c1b1b;
+  opacity: 1;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.comic-examples {
+  background-color: #1c1b1b;
+  opacity: 1;
+}
+
+#wild-cards {
+  display: cover;
+}
+
+#chaos {
+  margin: 3.5% auto;
+}
+
+.merch-examples {
+  background-color: #1c1b1b;
+  opacity: 1;
 }
 
 .row {
+  max-width: 100%;
   display: flex;
   flex-wrap: nowrap;
   position: relative;
-  padding: 0 4px;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: 10% solid black;
 }
 
-.row img {
-  opacity: 1;
-
+span hr {
+  margin: 2.5% 0;
+  display: block;
 }
 
-/* Create four equal columns that sits next to each other */
+/* Create three equal columns that sit next to one another */
 .column {
-  flex: 33.3%;
-  max-width: 33.3%;
-  padding: 0 4px;
+  flex: 33%;
+  max-width: 33%;
+  padding: 0px 0px;
 }
 
 .column img {
-  margin: 1vw 1vw;
+  margin: 0em 0em 0em 0em;
   vertical-align: middle;
   width: 100%;
-  border: black solid 0.5em;
+}
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+  .caption {
+    height: 55%;
+    width: 35%;
+    margin: 0 auto;
+    vertical-align: center;
+    text-align: center;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: black solid 0.5rem;
+    font-size: xx-large;
+  }
+
+  #bunny {
+    max-width: 30%;
+    max-height: 36.75%;
+    float: left;
+    border: 0.1em black solid;
+    margin: 0 auto;
+  }
+
+  #wolfy {
+    max-width: 30%;
+    max-height: 100%;
+    float: center;
+    border: 0.1em black solid;
+    margin: 0 auto;
+  }
+
+  #croc {
+    max-width: 30%;
+    max-height: 36.75%;
+    float: right;
+    border: 0.1em black solid;
+    margin: 0 auto;
+  }
+
+
+
+  .animation-examples span {
+    background-color: #262424;
+    opacity: 1;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .column {
     flex: 50%;
     max-width: 50%;
+    margin: 0.3em 0.3em 0.3em 0.3em;
+  }
+
+  .caption {
+    height: 55%;
+    width: 35%;
+    margin: 0 auto;
+    vertical-align: center;
+    text-align: center;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: black solid 0.5rem;
+    font-size: x-large;
+  }
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 750px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+    margin: 0.3em 0.3em 0.3em 0.3em;
+  }
+
+  .caption {
+    height: 55%;
+    width: 35%;
+    margin: 0 auto;
+    vertical-align: center;
+    text-align: center;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: black solid 0.5rem;
+    font-size: large;
   }
 }
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -239,10 +432,19 @@ section {
     flex: 100%;
     max-width: 100%;
   }
+
+  .caption {
+    height: 55%;
+    width: 35%;
+    margin: 0 auto;
+    vertical-align: center;
+    text-align: center;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: black solid 0.5rem;
+    font-size: medium;
+  }
 }
-
-
-
 
 
 
@@ -258,20 +460,26 @@ fieldset {
   border: none;
   margin-top: 20px;
   font-family: "Jomhuria", serif;
-  font-size: xx-large;
+  font-size: x-large;
   letter-spacing: 0.25rem;
 }
 
 form {
-  width: 700px;
+  width: 71.5%;
   padding: 25px;
   border-radius: 8px;
-  margin: 25px auto;
+  margin: 10vh auto;
   background-color: white;
 }
 
 .block-label {
   display: block;
+}
+
+legend {
+  font-size: xx-large;
+  margin-bottom: 0.5em;
+  text-underline-position: under;
 }
 
 label {
@@ -288,6 +496,11 @@ label {
 
 #vision {
   height: 20px;
+  margin-bottom: 1.5em;
+}
+
+.checkbox {
+  margin: 2%;
 }
 
 #request-bespoke {
@@ -325,6 +538,9 @@ h3 {
 
 footer {
   background-color: black;
+  margin-top: 1.5em;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .social-networks {
@@ -370,90 +586,163 @@ footer {
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-  #club-ethos {
-    width: full-width;
-    height: 1200px;
-    margin: 0 auto;
+
+  h1 {
+    font-family: "Titan One", sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    font-size: 4.5rem;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.4em;
   }
 
-  #welcome {
-    padding: 30px 0;
-    margin-top: 0;
-  }
-
-  #left-about,
-  #right-about {
-    width: 100%;
-    float: left;
-    padding: 0;
-  }
-
-  #center-about {
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
-  }
-
-  #times div {
-    width: 100%;
-    clear: both;
-    height: 150px;
-    padding: 0;
+  h2 {
+    font-family: "Titan One", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-shadow: 1px 1px 1px whitesmoke;
+    text-align: center;
+    text-overflow: hidden;
+    word-spacing: 0.3em;
+    letter-spacing: 0.3rem;
+    margin: 10px 10px 10px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
 
-  hr {
-    display: none;
-  }
+
 }
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
-  #menu {
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
+  h1 {
+    font-family: "Titan One", sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.4em;
   }
 
-  #cover-text {
-    left: 0px;
+  h2 {
+    font-family: "Titan One", sans-serif;
+    font-size: 0.95rem;
+    color: black;
+    text-shadow: 1px 1px 1px whitesmoke;
+    text-align: center;
+    text-overflow: hidden;
+    word-spacing: 0.3em;
+    letter-spacing: 0.3rem;
+    margin: 10px 10px 10px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
-  #club-ethos {
+  nav a {
+    border: 2.5px solid black;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    width: 5rem;
+    padding: 1px 1px;
+    text-align: center;
+    color: black;
+    font-size: 90%;
+    font-weight: 750;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    font-family: Lato;
+  }
+
+  #request-bespoke {
+    margin: 3% 0%;
     width: 90%;
-    height: 1200px;
-    margin: 0 auto;
   }
 
-  .left-about-heading,
-  .right-about-heading {
-    width: inherit;
-  }
-
-  .left-about-heading h2,
-  .right-about-heading h2 {
-    width: 100%;
+  .social-networks a {
+    border: 2.5px solid black;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    width: 4rem;
+    padding: 1px 1px;
     text-align: center;
+    color: black;
+    font-size: 100%;
+    font-weight: 750;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    font-family: Lato;
   }
 
-  .left-about-heading p,
-  .right-about-heading p {
-    text-align: center;
-    padding: 0 20px 0 20px;
-  }
-
-  #photo {
-    column-count: 3;
-  }
 }
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
-  #photo {
-    column-count: 2;
+
+  .social-networks a {
+    border: 2.5px solid black;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    width: 3rem;
+    padding: 1px 1px;
+    text-align: center;
+    color: black;
+    font-size: 100%;
+    font-weight: 750;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    font-family: Lato;
+  }
+
+  #request-bespoke {
+    margin: 3% 0%;
+    width: 90%;
+  }
+}
+
+/* For small screens sizes from 350px wide and down */
+@media screen and (max-width: 350px) {
+
+  body {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  header {
+    width: full-width;
+  }
+
+
+  nav {
+    min-width: 100%;
+  }
+
+  .social-networks a {
+    border: 2.5px solid black;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    width: full-width;
+    padding: 1px 1px;
+    text-align: center;
+    color: black;
+    font-size: 70%;
+    font-weight: 750;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    font-family: Lato;
+  }
+
+  #request-bespoke {
+    margin: 3% 0%;
+    width: 90%;
   }
 }
