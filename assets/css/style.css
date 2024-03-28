@@ -185,11 +185,10 @@ nav a:hover {
 
 /* Market Body */
 
-
 .caption {
   height: 3rem;
   width: 25rem;
-  margin: 0 auto;
+  margin: 1% auto;
   padding: 2% 2%;
   vertical-align: center;
   text-align: center;
@@ -199,13 +198,48 @@ nav a:hover {
   font-family: "Jomhuria", serif;
   font-size: xxx-large;
   letter-spacing: 3px;
-  box-shadow: 0.5px 0.5px 0.5px 0.5px #262424;
+ 
 }
 
 span {
   border: 0.5rem solid black;
   display: inline-block;
 
+}
+
+.animation-examples {
+  background-color: black;
+  opacity: 1;
+  margin: 0 auto;
+  border-top: 1.25px solid white;
+  border-bottom: 1.25px solid white;
+  width: 100%;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.illustration-examples {
+  background-color: black;
+  opacity: 1;
+  margin: 0 auto;
+  border-top: 1.25px solid white;
+  border-bottom: 1.25px solid white;
+  width: 100%;
+  justify-content: center;
 }
 
 #spies {
@@ -220,7 +254,7 @@ span {
 
 #matrix {
   border: 1em;
-  margin-top: 4.25%;
+  margin-top: 0.4%;
 }
 
 #bunny {
@@ -253,40 +287,14 @@ span {
   border: 0.3em black solid;
 }
 
-
-.illustration-examples {
+.comic-examples {
   background-color: black;
   opacity: 1;
   margin: 0 auto;
+  border-top: 1.25px solid white;
+  border-bottom: 1.25px solid white;
   width: 100%;
-
   justify-content: center;
-}
-
-.animation-examples {
-  background-color: #1c1b1b;
-  opacity: 1;
-}
-
-.container {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
-}
-
-.video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-
-.comic-examples {
-  background-color: #1c1b1b;
-  opacity: 1;
 }
 
 #wild-cards {
@@ -298,8 +306,13 @@ span {
 }
 
 .merch-examples {
-  background-color: #1c1b1b;
+  background-color: black;
   opacity: 1;
+  margin: 0 auto;
+  border-top: 1.25px solid white;
+  border-bottom: 1.25px solid white;
+  width: 100%;
+  justify-content: center;
 }
 
 .row {
@@ -308,13 +321,12 @@ span {
   flex-wrap: nowrap;
   position: relative;
   text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  border: 10% solid black;
+  margin-top: 0.25%;
+  margin-bottom: 0.25%;
 }
 
 span hr {
-  margin: 2.5% 0;
+  margin: 6% 0;
   display: block;
 }
 
@@ -329,121 +341,6 @@ span hr {
   margin: 0em 0em 0em 0em;
   vertical-align: middle;
   width: 100%;
-}
-
-/* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-  .caption {
-    height: 55%;
-    width: 35%;
-    margin: 0 auto;
-    vertical-align: center;
-    text-align: center;
-    border-radius: 50%;
-    background-color: whitesmoke;
-    border: black solid 0.5rem;
-    font-size: xx-large;
-  }
-
-  #bunny {
-    max-width: 30%;
-    max-height: 36.75%;
-    float: left;
-    border: 0.1em black solid;
-    margin: 0 auto;
-  }
-
-  #wolfy {
-    max-width: 30%;
-    max-height: 100%;
-    float: center;
-    border: 0.1em black solid;
-    margin: 0 auto;
-  }
-
-  #croc {
-    max-width: 30%;
-    max-height: 36.75%;
-    float: right;
-    border: 0.1em black solid;
-    margin: 0 auto;
-  }
-
-
-
-  .animation-examples span {
-    background-color: #262424;
-    opacity: 1;
-  }
-
-  iframe {
-    width: 100%;
-    height: auto;
-  }
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 950px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-    margin: 0.3em 0.3em 0.3em 0.3em;
-  }
-
-  .caption {
-    height: 55%;
-    width: 35%;
-    margin: 0 auto;
-    vertical-align: center;
-    text-align: center;
-    border-radius: 50%;
-    background-color: whitesmoke;
-    border: black solid 0.5rem;
-    font-size: x-large;
-  }
-
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 750px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-    margin: 0.3em 0.3em 0.3em 0.3em;
-  }
-
-  .caption {
-    height: 55%;
-    width: 35%;
-    margin: 0 auto;
-    vertical-align: center;
-    text-align: center;
-    border-radius: 50%;
-    background-color: whitesmoke;
-    border: black solid 0.5rem;
-    font-size: large;
-  }
-}
-
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-
-  .caption {
-    height: 55%;
-    width: 35%;
-    margin: 0 auto;
-    vertical-align: center;
-    text-align: center;
-    border-radius: 50%;
-    background-color: whitesmoke;
-    border: black solid 0.5rem;
-    font-size: medium;
-  }
 }
 
 
