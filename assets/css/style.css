@@ -144,25 +144,160 @@ nav a:hover {
 /* Home Body */
 
 
-.questions {
-  display: flex;
-  flex-wrap: nowrap;
-  padding: 1em;
-  background-color: whitesmoke;
-  margin: 5% 22% 5% 22%;
-}
+/* For large to medium screens sizes from 3840px wide and down */
+@media screen and (max-width: 3840px) {
 
-.img-text {
-  float: center;
-  background-color: white;
-  border: 2.5px solid black;
-  text-align: center;
-  align-content: center;
-  text-transform: uppercase;
-  font-family: "Titan One", sans-serif;
-  font-size: m;
-  display: block;
-}
+
+  .questions {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-shrink: 0;
+    opacity: 1;
+    margin: auto 25%;
+    text-align: center;
+    justify-content: center;
+    break-before: column;
+  }
+  
+  
+  .questions img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    float: center;
+    width: 100%;
+    display: block;
+    border: 2px solid black;
+  }
+  
+  #inspiration {
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+  }
+  
+  #attempt {
+    display: flex;
+    margin: auto;
+    width:100%;
+  }
+  
+  #struggle {
+    display: flex;
+    margin: auto;
+    width:100%;
+  }
+  
+  #defeat {
+    display: block;
+    margin: auto;
+    width:100%;
+  }
+  
+  .img-text {
+    float: center;
+    background-color: white;
+    border: 2.5px solid black;
+    text-align: center;
+    align-content: center;
+    text-transform: uppercase;
+    font-family: "Titan One", sans-serif;
+    font-size: m;
+    display: block;
+  }
+  
+  .questions .row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    max-width: 100%;
+  
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
+  }
+  }
+  
+  .sales-text {
+    background-color: brown;
+    font: white;
+    font: 700;
+    padding: 1.5%;
+    border-top: 1em solid black;
+    border-bottom: 1em solid black;
+    font-size: xx-large bold;
+    margin-bottom: 1%;
+  }
+  
+  /* For large to medium screens sizes from 1366px wide and down */
+  @media screen and (max-width: 1368px) {
+  
+    .questions .row {
+      max-width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      position: relative;
+      text-align: center;
+      margin-top: 0.25%;
+      margin-bottom: 0.25%;
+  
+    }
+  }
+  
+  /* For large to medium screens sizes from 1280px wide and down */
+  @media screen and (max-width: 1280px) {
+  
+  .questions .row {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    text-align: center;
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
+  }
+  }
+  
+  /* For large to medium screens sizes from 950px wide and down */
+  @media screen and (max-width: 950px) {
+  
+    .questions .row {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      text-align: center;
+      margin-top: 0.25%;
+      margin-bottom: 0.25%;
+    }
+  }
+  
+  .column {
+    flex: 100%;
+    max-width:100%;
+    padding: 0px 0px;
+  }
+  
+  
+  #inspiration {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+  
+  #attempt {
+    display: block;
+    margin: auto;
+    width:100%;
+  }
+  
+  #defeat {
+    display: block;
+    margin: auto;
+    width:100%;
+  }
 
 .about {
   display: inline-block;
