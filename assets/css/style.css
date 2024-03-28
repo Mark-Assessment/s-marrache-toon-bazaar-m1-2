@@ -183,10 +183,7 @@ nav a:hover {
 }
 
 .questions {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  flex-shrink: 0;
+  display: inline-block;
   opacity: 1;
   margin: auto 25%;
   text-align: center;
@@ -196,8 +193,7 @@ nav a:hover {
 
 
 .questions img {
-  display: flex;
-  flex-wrap: wrap;
+  display: inline-block;
   justify-items: center;
   width: 100%;
   height: 100%;
@@ -208,25 +204,25 @@ nav a:hover {
 }
 
 #inspiration {
-  display: flex;
+  display: inline-block;
   margin: auto;
   max-width: 100%;
 }
 
 #attempt {
-  display: flex;
+  display: inline-block;
   margin: auto;
   width:100%;
 }
 
 #struggle {
-  display: flex;
+  display: inline-block;
   margin: auto;
   width:100%;
 }
 
 #defeat {
-  display: block;
+  display: inline-block;
   margin: auto;
   width:100%;
 }
@@ -240,7 +236,7 @@ nav a:hover {
   text-transform: uppercase;
   font-family: "Titan One", sans-serif;
   font-size: m;
-  display: block;
+  display: inline-block;
 }
 
 
