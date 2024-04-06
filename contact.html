@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Tooon Bazaar contact form for requests for tailor-made cartoons sand general inquiries.">
+    <meta name="description" content="Tooon Bazaar contact form for requests for tailor-made cartoons sand general inquiries.">
     <script src="https://kit.fontawesome.com/fced343307.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,14 +12,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" media="screen" href="assets/css/style.css">
     <title>TOON BAZAAR/CONTACT</title>
     <style>
         body {
             background-image: url('assets/images/toon-bizarre-trippy-4.jpg');
             background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
             background-repeat: no-repeat;
             height: 100%;
+            width: 100%;
         }
     </style>
 </head>
@@ -33,7 +39,7 @@
     <nav>
         <ul>
             <li class="left-nav">
-                <a href="index.html#home" aria-label="Go to the top of the page"><strong>HOME</strong></a>
+                <a href="index.html#home" aria-label="Go to the homepage"><strong>HOME</strong></a>
             </li>
             <li class="center-nav">
                 <a href="market.html#market"
@@ -59,6 +65,7 @@
             </div>
 
         </fieldset>
+        <br>
         <fieldset>
             <legend><u>Request</u></legend>
 
@@ -67,12 +74,13 @@
                 <option value="">Select your option</option>
                 <option value="personal">Personal</option>
                 <option value="independent">Independent</option>
-                <option value="network">Network</option>
                 <option value="commercial">Commercial</option>
                 <option value="branding">Branding</option>
                 <option value="marketing">Marketing</option>
                 <option value="corporate">Corporate</option>
                 <option value="merchandise">Merchandise</option>
+                <option value="portfolios">Portfolios</option>
+                <option value="application">Application</option>
                 <option value="inquiry">Inquiry</option>
                 <option value="complaint">Complaint</option>
                 <option value="other">Other</option>
@@ -85,7 +93,8 @@
                         </placeholder>
                     <option value="Caricature"></option>
                     <option value="Cartoon"></option>
-                    <option value="Illustration">
+                    <option value="2D Illustration">
+                    <option value="3D Illustration">
                     <option value="Comic"></option>
                     <option value="Animation">
                     <option value="Video Game"></option>
@@ -93,7 +102,8 @@
                     <option value="Concept Art"></option>
                 </datalist>
             </div>
-            <legend><u>Services Required</u></legend>
+            <br>
+            <legend><u>Services</u></legend>
             <div>
                 <input type="checkbox" class="checkbox" id="cartooning-checkbox" name="cartooning">
                 <label for="cartooning-checkbox">Cartooning</label>
@@ -131,7 +141,7 @@
                 <label for="affiliate-checkbox">Affiliate</label>
             </div>
         </fieldset>
-
+        <br>
         <fieldset>
             <legend><u>Description</u></legend>
             <label for="request-bespoke" class="block-label">Please describe your vision or request below:</label>
