@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
+/* Presets */
 
 * {
   margin: 0px;
@@ -9,7 +10,7 @@
 h1,
 h2 {
   font-family: "Titan One", sans-serif;
-  font-weight: 700;
+  font-weight: 650;
   font-style: normal;
   text-transform: uppercase;
   letter-spacing: 2rem;
@@ -17,24 +18,31 @@ h2 {
   margin-right: auto;
 }
 
+
 /* External Fonts */
+
 
 .titan-one-regular {
   font-family: "Titan One", sans-serif;
-  font-weight: 700;
-  font-style: semi-bold;
+  font-style: normal;
 }
 
 .jomhuria-regular {
   font-family: "Jomhuria", serif;
-  font-weight: 400;
   font-style: normal;
 }
 
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+
 /* Header and Logo */
 
+
 header {
-  background-color: rgba(215, 79, 0, 0.945);
+  background-image: linear-gradient(rgb(244, 50, 32, 0.95), rgba(215, 79, 0, 0.9675));
   padding-bottom: 0.5em;
   padding-top: 0.5em;
 }
@@ -75,12 +83,14 @@ header img {
   margin-bottom: 0.3em;
 }
 
+
 /* Navigation Links */
+
 
 nav {
   background-color: black;
-  font: Oswald, sans-serif black;
-  font-style: bolder;
+  font-family: "Raleway", sans-serif;
+  font-weight: 345;
   text-align: center;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -102,22 +112,23 @@ li {
   display: inline;
 }
 
-a {
+nav a {
   border: 4px solid black;
   border-radius: 50%;
   background-color: whitesmoke;
   width: 7rem;
-  padding: 5px 10px;
+  padding: 5px 5px;
   text-align: center;
   color: black;
-  font-size: 112%;
-  font-weight: 750;
+  font-size: 110%;
+  font-weight: 350;
   text-decoration: none;
   display: inline-block;
-  margin: 0.5em 0.5em;
+  margin: 0.4em 0.4em;
   border-radius: 12px;
-  font-family: "Lato";
+  font-family: "Raleway", sans-serif;
 }
+
 
 .left-nav {
   float: left;
@@ -141,49 +152,194 @@ nav a:hover {
   color: white;
 }
 
+
 /* Home Body */
 
-.about {
-  display: inline-block;
-  padding: 1em;
+
+.flexcontainer {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.flexrow {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  text-align: center;
+  margin-top: 0.25%;
+  margin-bottom: 0.25%;
   background-color: whitesmoke;
-  margin: 5% 22% 5% 22%;
+  display: flex;
+  flex-direction: column;
+  contain: cover;
 }
 
-.about-left {
+#flexrow-main {
+  border: 0.3rem solid black;
+}
+
+.flexcolumn {
+  flex: 20%;
+  max-width: 20%;
+  margin: 0;
+}
+
+.flexcolumn img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.states {
+  max-width: 100%;
+  height: auto;
+  border: 0.3rem solid black;
+}
+
+.img-text {
+  display: flex;
+  flex-flow: nowrap;
+  float: center;
+  background-color: whitesmoke;
+  border: 0.3rem solid black;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Titan One", sans-serif;
+  font-size: 1.25vw;
+  word-spacing: 0.1vw;
+}
+
+.about {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  flex: 20%;
   float: left;
+  background-color: whitesmoke;
+  text-transform: uppercase;
+  font-family: "Titan One", sans-serif;
+  font-size: auto 100%;
+  padding-right: 0.1rem;
 }
 
-.about-right {
-  float: right;
+.flexbox-square {
+  display: flex;
+  border: 0.1em solid whitesmoke;
+  display: inline-flex;
+  margin: 0 0;
+}
+
+.flexbox-rectangle-upper {
+  display: flex;
+  flex-flow: column nowrap;
+  contain: content;
+  align-content: center;
+  padding-bottom: 0.75em;
+  border-top: 0.1em solid whitesmoke;
+  border-left: 0.1em solid whitesmoke;
+  background-color: rgba(215, 79, 0, 1);
+  color: black;
+}
+
+.flexbox-rectangle {
+  display: flex;
+  flex-flow: column nowrap;
+  contain: content;
+  align-content: center;
+  padding-bottom: 0.75em;
+  border-left: 0.1em solid whitesmoke;
+  border-bottom: 0.1em solid whitesmoke;
+  
+  background-color: rgb(203, 106, 64);
+  background-image: linear-gradient(rgba(215, 79, 0, 1), rgb(244, 50, 32), rgb(228, 74, 43));
+  color: black;
+}
+
+.cartoon {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .cartoonists {
-  max-width: 55%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  border: 0.1em solid whitesmoke;
+  margin: 1 1;
 }
 
-#delightful {
-  float: right;
+.about h3 {
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 3vw;
+  background-color: linear-gradient(rgb(244, 50, 32), rgb(228, 74, 43));
+  color: whitesmoke;
+  margin-top: 0;
+  padding-bottom: 0.1em;
+  text-align: center;
+  align-content: center;
+  font-style: oblique;
+  text-shadow: 2px 2px 2px black;
 }
 
-#hippy {
-  float: right;
+.about h4 {
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 1.5vw;
+  background-color: linear-gradient(rgba(215, 79, 0, 1), rgb(244, 50, 32));
+  padding: 2.5%;
+  text-shadow: 0.05vw 0.05vw 0.05vw whitesmoke;
+  letter-spacing: 0.205em;
 }
 
-#jazzy {
-  float: right;
+article {
+  
+  padding-top: 0.8%;
+  padding-bottom: 1%;
 }
 
-#dreadz {
-  float: right;
+article>p {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 2;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-shadow: 0.5px 0.5px 0.5px whitesmoke;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  word-spacing: 0.2em;
+}
+
+.white-text {
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px black;
+}
+
+article>br {
+  size-adjust: 75%;
+}
+
+.market-link {
+  color: white;
+  display: flex;
+  display: inline-block;
+  max-width: 100%;
+  
+}
+
+.market-link:hover {
+  color: #ac1ed0;
+  background-color: white;
+  text-decoration: underline;
+  border-radius: 36%;
+  border-color: #262424;
+  font-weight: 600;
 }
 
 
 /* Market Body */
+
 
 .caption {
   height: 3rem;
@@ -198,19 +354,18 @@ nav a:hover {
   font-family: "Jomhuria", serif;
   font-size: xxx-large;
   letter-spacing: 3px;
- 
 }
 
 span {
   border: 0.5rem solid black;
   display: inline-block;
-
 }
 
 .animation-examples {
   background-color: black;
   opacity: 1;
   margin: 0 auto;
+  padding: 0.9% 0;
   border-top: 1.25px solid white;
   border-bottom: 1.25px solid white;
   width: 100%;
@@ -236,6 +391,7 @@ span {
   background-color: black;
   opacity: 1;
   margin: 0 auto;
+  padding-top: 0.9%;
   border-top: 1.25px solid white;
   border-bottom: 1.25px solid white;
   width: 100%;
@@ -280,17 +436,11 @@ span {
   border: 0.3em black solid;
 }
 
-#sheep {
-  max-width: 30%;
-  max-height: 36.75%;
-  float: center;
-  border: 0.3em black solid;
-}
-
 .comic-examples {
   background-color: black;
   opacity: 1;
   margin: 0 auto;
+  padding: 0.9% 0;
   border-top: 1.25px solid white;
   border-bottom: 1.25px solid white;
   width: 100%;
@@ -309,6 +459,7 @@ span {
   background-color: black;
   opacity: 1;
   margin: 0 auto;
+  padding: 0.9% 0;
   border-top: 1.25px solid white;
   border-bottom: 1.25px solid white;
   width: 100%;
@@ -331,6 +482,7 @@ span hr {
 }
 
 /* Create three equal columns that sit next to one another */
+
 .column {
   flex: 33%;
   max-width: 33%;
@@ -344,14 +496,8 @@ span hr {
 }
 
 
-
-
-
 /* Contact Body with Form */
 
-body {
-  background: url("assets/images/cartoon-background-contact.jpg");
-}
 
 fieldset {
   border: none;
@@ -431,7 +577,9 @@ h3 {
   color: whitesmoke;
 }
 
+
 /* Footer + Links to Social Media */
+
 
 footer {
   background-color: black;
@@ -473,45 +621,78 @@ footer {
   margin: auto;
 }
 
+.social-networks i {
+    padding-top: 10%;
+  }
+
+.social-networks a {
+  border: 4px solid black;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  width: 7rem;
+  padding: 5px 5px;
+  text-align: center;
+  color: black;
+  font-size: 110%;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.4em 0.4em;
+  border-radius: 12px;
+  display: cover;
+}
+
 /* Change the background color on mouse-over */
+
 .social-networks a:hover {
   background-color: #d01e47;
   color: white;
 }
 
+
 /* Media queries */
 
 
-/* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+/* For large to medium screens sizes from 3840px wide and down */
 
-  h1 {
-    font-family: "Titan One", sans-serif;
-    color: whitesmoke;
-    text-align: center;
-    text-shadow: 3px 3px 3px black;
-    font-size: 4.5rem;
-    letter-spacing: 0.5rem;
-    word-spacing: 0.4em;
-  }
+@media screen and (max-width: 3840px) {
 
-  h2 {
-    font-family: "Titan One", sans-serif;
-    font-size: 1.2rem;
-    color: black;
-    text-shadow: 1px 1px 1px whitesmoke;
-    text-align: center;
-    text-overflow: hidden;
-    word-spacing: 0.3em;
-    letter-spacing: 0.3rem;
-    margin: 10px 10px 10px 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
 
-  /* For large to medium screens sizes from 1200px wide and down */
-  @media screen and (max-width: 1200px) {
+ 
+
+
+  /* For large to medium screens sizes from 1366px wide and down */
+  @media screen and (max-width: 1368px) {
+
+    h1 {
+      font-family: "Titan One", sans-serif;
+      color: whitesmoke;
+      text-align: center;
+      text-shadow: 3px 3px 3px black;
+      font-size: 4.5rem;
+      letter-spacing: 0.5rem;
+      word-spacing: 0.4em;
+    }
+
+    h2 {
+      font-family: "Titan One", sans-serif;
+      font-size: 1.2rem;
+      color: black;
+      text-shadow: 1px 1px 1px whitesmoke;
+      text-align: center;
+      text-overflow: hidden;
+      word-spacing: 0.3em;
+      letter-spacing: 0.3rem;
+      margin: 10px 10px 10px 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+ 
+
+   
+
     .caption {
       height: 55%;
       width: 35%;
@@ -560,9 +741,91 @@ footer {
     }
   }
 
+
 }
 
+/* For large to medium screens sizes from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+
+  h1 {
+    font-family: "Titan One", sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    font-size: 4.5rem;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.4em;
+  }
+
+  h2 {
+    font-family: "Titan One", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-shadow: 1px 1px 1px whitesmoke;
+    text-align: center;
+    text-overflow: hidden;
+    word-spacing: 0.3em;
+    letter-spacing: 0.3rem;
+    margin: 10px 10px 10px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+ 
+
+  .caption {
+    height: 55%;
+    width: 35%;
+    margin: 0 auto;
+    vertical-align: center;
+    text-align: center;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: black solid 0.4rem;
+    font-size: xx-large;
+  }
+
+  #bunny {
+    max-width: 30%;
+    max-height: 36.75%;
+    float: left;
+    border: 0.1em black solid;
+    margin: 0 auto;
+  }
+
+  #wolfy {
+    max-width: 30%;
+    max-height: 100%;
+    float: center;
+    border: 0.1em black solid;
+    margin: 0 auto;
+  }
+
+  #croc {
+    max-width: 30%;
+    max-height: 36.75%;
+    float: right;
+    border: 0.1em black solid;
+    margin: 0 auto;
+  }
+
+
+  .animation-examples span {
+    background-color: #262424;
+    opacity: 1;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
 /* For medium screens sizes from 950px wide and down */
+
 @media screen and (max-width: 950px) {
 
   h1 {
@@ -603,8 +866,10 @@ footer {
     text-decoration: none;
     display: inline-block;
     border-radius: 12px;
-    font-family: Lato;
+    font-family: "Raleway", sans-serif;
   }
+
+
 
   #request-bespoke {
     margin: 3% 0%;
@@ -619,16 +884,16 @@ footer {
     padding: 1px 1px;
     text-align: center;
     color: black;
-    font-size: 100%;
-    font-weight: 750;
     text-decoration: none;
     display: inline-block;
     border-radius: 12px;
-    font-family: Lato;
+    font-family: "Raleway", sans-serif;
+    font-size: 110%;
+    font-weight: 350;
   }
-}  
 
   /* Responsive layout - makes a two column-layout instead of four columns */
+
   @media screen and (max-width: 950px) {
     .column {
       flex: 50%;
@@ -647,5 +912,120 @@ footer {
       border: black solid 0.5rem;
       font-size: x-large;
     }
-
   }
+}
+
+/* For small screens sizes from 800px wide and down */
+
+@media screen and (max-width: 800px) {
+
+  .social-networks a {
+    border: 2.5px solid black;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    width: 3rem;
+    padding: 1px 1px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    border-radius: 12px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 350;
+    font-size: 100%;
+  }
+
+  .social-networks i {
+    height: 0.5rem;
+    text-align: center;
+  }
+
+  #request-bespoke {
+    margin: 3% 0%;
+    width: 90%;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+
+  @media screen and (max-width: 750px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+      margin: 0.3em 0.3em 0.3em 0.3em;
+    }
+
+    .caption {
+      height: 55%;
+      width: 35%;
+      margin: 0 auto;
+      vertical-align: center;
+      text-align: center;
+      border-radius: 50%;
+      background-color: whitesmoke;
+      border: black solid 0.5rem;
+      font-size: large;
+    }
+  }
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .caption {
+    height: 55%;
+    width: 35%;
+    margin: 0 auto;
+    vertical-align: center;
+    text-align: center;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: black solid 0.5rem;
+    font-size: medium;
+  }
+}
+
+/* For small screens sizes from 350px wide and down */
+
+@media screen and (max-width: 350px) {
+
+  body {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  header {
+    width: full-width;
+  }
+
+
+  nav {
+    min-width: 100%;
+  }
+
+  .social-networks a {
+    border: 2.5px solid black;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    width: full-width;
+    padding: 1px 1px;
+    text-align: center;
+    color: black;
+    font-size: 70%;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 350;
+    font-size: 110%;
+  }
+
+  #request-bespoke {
+    margin: 3% 0%;
+    width: 90%;
+  }
+}
