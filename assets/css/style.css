@@ -42,7 +42,7 @@ h2 {
 
 
 header {
-    background-image: linear-gradient(rgb(244, 50, 32, 0.95), rgba(215, 79, 0, 0.9675));
+    background: linear-gradient(rgb(244, 50, 32, 0.95), rgba(215, 79, 0, 0.9675));
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 }
@@ -79,9 +79,7 @@ nav {
     text-align: center;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    border-width: 100%;
     margin-bottom: 1.8rem;
-    position: inline fixed;
     align-items: center;
     justify-content: center;
 }
@@ -121,7 +119,6 @@ nav a {
 }
 
 .center-nav {
-    float: center;
     margin: auto;
 }
 
@@ -192,7 +189,6 @@ nav a:hover {
     display: flex;
     flex-flow: nowrap;
     flex-shrink: 0;
-    float: center;
     max-width: 100%;
     max-height: 100%;
     width: 100%;
@@ -246,7 +242,7 @@ nav a:hover {
     border-left: 0.2vw solid whitesmoke;
     border-right: 0.1vw solid whitesmoke;
     border-bottom: 0.1vw solid whitesmoke;
-    background-image: linear-gradient(rgba(215, 79, 0, 1), rgb(244, 50, 32), rgb(228, 74, 43));
+    background: linear-gradient(rgba(215, 79, 0, 1), rgb(244, 50, 32), rgb(228, 74, 43));
     color: black;
 }
 
@@ -261,7 +257,6 @@ nav a:hover {
     border-top: 0.1em solid whitesmoke;
     border-bottom: 0.1em solid whitesmoke;
     flex-shrink: 0;
-    margin: 1;
     box-sizing: border-box;
     flex: content;
     align-items: baseline;
@@ -278,7 +273,7 @@ nav a:hover {
     background-color: whitesmoke;
     text-transform: uppercase;
     font-family: "Titan One", sans-serif;
-    font-size: auto;
+    ;
     align-items: baseline;
     align-self: stretch;
 }
@@ -288,7 +283,7 @@ nav a:hover {
     display: flex;
     flex-flow: column nowrap;
     font-size: 3.25vw;
-    background-color: linear-gradient(rgb(244, 50, 32), rgb(228, 74, 43));
+    background: linear-gradient(rgb(244, 50, 32), rgb(228, 74, 43));
     color: whitesmoke;
     margin-bottom: 2%;
     margin-top: 2%;
@@ -303,7 +298,7 @@ nav a:hover {
     display: flex;
     flex-flow: column nowrap;
     font-size: 1.5vw;
-    background-color: linear-gradient(rgba(215, 79, 0, 1), rgb(244, 50, 32), rgb(228, 74, 43));
+    background: linear-gradient(rgba(215, 79, 0, 1), rgb(244, 50, 32), rgb(228, 74, 43));
     margin-bottom: 3%;
     padding: 2% 0;
     text-shadow: 0.05vw 0.05vw 0.05vw whitesmoke;
@@ -329,17 +324,9 @@ article>p {
     word-spacing: 0.2em;
 }
 
-#dreadz {
-    border-bottom: 2.5em slid white;
-}
-
 .white-text {
     color: whitesmoke;
     text-shadow: 1px 1px 1px black;
-}
-
-article>br {
-    size-adjust: 75%;
 }
 
 .market-link {
@@ -378,7 +365,7 @@ article>br {
     letter-spacing: 3px;
 }
 
-span {
+.span {
     border: 0.5rem solid black;
     display: inline-block;
 }
@@ -394,7 +381,7 @@ span {
     justify-content: center;
 }
 
-.container {
+.frame {
     position: relative;
     width: 100%;
     height: 0;
@@ -418,6 +405,7 @@ span {
     border-bottom: 1.25px solid white;
     width: 100%;
     justify-content: center;
+    align-items: center;
 }
 
 #spies {
@@ -445,9 +433,8 @@ span {
 #wolfy {
     max-width: 30%;
     max-height: 100%;
-    float: center;
+    
     border: 0.3em black solid;
-    margin-top: auto auto;
     justify-content: center;
 }
 
@@ -467,10 +454,6 @@ span {
     border-bottom: 1.25px solid white;
     width: 100%;
     justify-content: center;
-}
-
-#wild-cards {
-    display: cover;
 }
 
 #chaos {
@@ -498,7 +481,7 @@ span {
     margin-bottom: 0.25%;
 }
 
-span hr {
+.span hr {
     margin: 6% 0;
     display: block;
 }
@@ -632,12 +615,10 @@ footer {
 }
 
 .center-left-social {
-    float: center left;
     margin-right: 10%;
 }
 
 .center-right-social {
-    float: center right;
     margin-left: 10%;
 }
 
@@ -666,7 +647,6 @@ footer {
     display: inline-block;
     margin: 0.4em 0.4em;
     border-radius: 12px;
-    display: cover;
 }
 
 /* Change the background color on mouse-over */
@@ -681,9 +661,36 @@ footer {
 
 /* For large to medium screens sizes from 3840px wide and down */
 
-@media screen and (max-width: 3840px) {
+@media screen and (min-width: 2000px) and (max-width: 4000px) {
 
+    h1 {
+        font-family: "Titan One", sans-serif;
+        color: whitesmoke;
+        text-align: center;
+        text-shadow: 3px 3px 3px black;
+        font-size: 5.5rem;
+        letter-spacing: 0.5rem;
+        word-spacing: 0.4em;
+    }
 
+    h2 {
+        font-family: "Titan One", sans-serif;
+        font-size: 2rem;
+        color: black;
+        text-shadow: 1px 1px 1px whitesmoke;
+        text-align: center;
+        
+        word-spacing: 0.3em;
+        letter-spacing: 0.3rem;
+        margin: 10px 10px 10px 10px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    nav a {
+        width: 7em;
+        font-size: 1.5em;
+    }
 
 
     .flexbox-rectangle {
@@ -697,6 +704,12 @@ footer {
         padding-bottom: 0.4%;
     }
 
+    .social-networks a {
+        width: 7em;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
 }
 
 
@@ -708,7 +721,6 @@ footer {
         display: flex;
         flex-flow: nowrap;
         flex-shrink: 0;
-        float: center;
         max-width: 100%;
         background-color: whitesmoke;
         border: 0.3rem solid black;
@@ -740,7 +752,7 @@ footer {
         display: flex;
         flex-flow: nowrap;
         flex-shrink: 0;
-        float: center;
+        
         max-width: 100%;
         background-color: whitesmoke;
         border: 0.3rem solid black;
@@ -776,7 +788,7 @@ footer {
         display: flex;
         flex-flow: nowrap;
         flex-shrink: 0;
-        float: center;
+        
         max-width: 100%;
         background-color: whitesmoke;
         border: 0.3rem solid black;
@@ -805,30 +817,6 @@ footer {
 
 @media screen and (max-width: 1650px) {
 
-    h1 {
-        font-family: "Titan One", sans-serif;
-        color: whitesmoke;
-        text-align: center;
-        text-shadow: 3px 3px 3px black;
-        font-size: 4.5rem;
-        letter-spacing: 0.5rem;
-        word-spacing: 0.4em;
-    }
-
-    h2 {
-        font-family: "Titan One", sans-serif;
-        font-size: 1.2rem;
-        color: black;
-        text-shadow: 1px 1px 1px whitesmoke;
-        text-align: center;
-        text-overflow: hidden;
-        word-spacing: 0.3em;
-        letter-spacing: 0.3rem;
-        margin: 10px 10px 10px 10px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
 
     .cartoon img {
         display: inline-flex;
@@ -840,7 +828,7 @@ footer {
         display: flex;
         flex-flow: nowrap;
         flex-shrink: 0;
-        float: center;
+        
         max-width: 100%;
         background-color: whitesmoke;
         border: 0.3rem solid black;
@@ -931,7 +919,7 @@ footer {
         color: black;
         text-shadow: 1px 1px 1px whitesmoke;
         text-align: center;
-        text-overflow: hidden;
+        
         word-spacing: 0.3em;
         letter-spacing: 0.3rem;
         margin: 10px 10px 10px 10px;
@@ -963,7 +951,7 @@ footer {
         flex-flow: column nowrap;
         align-content: center;
         background-color: rgb(203, 106, 64);
-        background-image: linear-gradient(rgba(215, 79, 0, 1), rgb(244, 50, 32), rgb(228, 74, 43));
+        background: linear-gradient(rgba(215, 79, 0, 1), rgb(244, 50, 32), rgb(228, 74, 43));
         color: black;
     }
 
@@ -978,7 +966,6 @@ footer {
         background-color: whitesmoke;
         text-transform: uppercase;
         font-family: "Titan One", sans-serif;
-        font-size: auto 100%;
 
     }
 
@@ -986,7 +973,7 @@ footer {
         display: flex;
         flex-flow: column nowrap;
         font-size: 3vw;
-        background-color: linear-gradient(rgb(244, 50, 32), rgb(228, 74, 43));
+        background: linear-gradient(rgb(244, 50, 32), rgb(228, 74, 43));
         color: whitesmoke;
         margin-top: 0;
         padding-bottom: 0.1em;
@@ -1000,14 +987,13 @@ footer {
         display: flex;
         flex-flow: column nowrap;
         font-size: 1.5vw;
-        background-color: linear-gradient(rgba(215, 79, 0, 1), rgb(244, 50, 32));
+        background: linear-gradient(rgba(215, 79, 0, 1), rgb(244, 50, 32));
 
         text-shadow: 0.05vw 0.05vw 0.05vw whitesmoke;
         letter-spacing: 0.205em;
     }
 
     article {
-        height: 0 auto;
         width: 100%;
         padding-top: 0.8%;
         padding-bottom: 1%;
@@ -1050,7 +1036,7 @@ footer {
     #wolfy {
         max-width: 30%;
         max-height: 100%;
-        float: center;
+        
         border: 0.1em black solid;
         margin: 0 auto;
     }
@@ -1066,7 +1052,7 @@ footer {
 
     .animation-examples span {
         background-color: #262424;
-        opacity: 1;
+        
     }
 
     iframe {
@@ -1081,13 +1067,13 @@ footer {
 
     article {
         font-weight: 1000;
-        font-stretch: wider;
+        
         font-size: 2vw;
         max-width: 100%;
         max-height: 100%;
         width: 100%;
         line-height: 100%;
-        border: auto;
+        
         padding-bottom: 10%;
     }
 
@@ -1122,13 +1108,13 @@ footer {
 
     article {
         font-weight: 1000;
-        font-stretch: wider;
+        
         font-size: 2vw;
         max-width: 100%;
         max-height: 100%;
         width: 100%;
         line-height: 100%;
-        border: auto;
+        
         padding-bottom: 6%;
     }
 
@@ -1143,7 +1129,7 @@ footer {
         font-size: 1.5vw;
         font-weight: 350;
         margin-top: 5%;
-        margin-bottom: 0 auto;
+        
         padding: 0 5%;
     }
  
@@ -1170,7 +1156,7 @@ footer {
         color: black;
         text-shadow: 1px 1px 1px whitesmoke;
         text-align: center;
-        text-overflow: hidden;
+        
         word-spacing: 0.3em;
         letter-spacing: 0.3rem;
         margin: 10px 10px 10px 10px;
@@ -1203,7 +1189,7 @@ footer {
         display: flex;
         flex-flow: nowrap;
         flex-shrink: 0;
-        float: center;
+        
         max-width: 200px;
         max-height: 200px;
         width: auto;
@@ -1242,13 +1228,13 @@ footer {
 
     article {
         font-weight: 1000;
-        font-stretch: wider;
+        
         font-size: 2vw;
-        max-width: auto;
+        
         max-height: none;
         width: 100%;
         line-height: 88%;
-        border: auto;
+        
         padding-bottom: 3.75%;
     }
 
@@ -1262,7 +1248,7 @@ footer {
         font-size: 1.5vw;
         font-weight: 350;
         margin-top: 5%;
-        margin-bottom: 0 auto;
+        
         padding: 0 5%;
     }
 
@@ -1293,7 +1279,7 @@ footer {
     #wolfy {
         max-width: 30%;
         max-height: 100%;
-        float: center;
+        
         border: 0.1em black solid;
         margin: 0 auto;
     }
@@ -1341,7 +1327,7 @@ footer {
         color: black;
         text-shadow: 1px 1px 1px whitesmoke;
         text-align: center;
-        text-overflow: hidden;
+        
         word-spacing: 0.3em;
         letter-spacing: 0.3rem;
         margin: 10px 10px 10px 10px;
@@ -1389,7 +1375,7 @@ footer {
         display: flex;
         flex-flow: nowrap;
         flex-shrink: 0;
-        float: center;
+        
         max-width: 200px;
         width: 100%;
         height: 100%;
@@ -1404,13 +1390,13 @@ footer {
 
     article {
         font-weight: 1000;
-        font-stretch: wider;
+        
         font-size: 2vw;
-        max-width: auto;
-        max-height: auto;
+        
+        
         width: 100%;
         line-height: 70%;
-        border: auto;
+        
         padding-bottom: 9%;
     }
 
@@ -1476,20 +1462,20 @@ footer {
 
 article {
     font-weight: 1000;
-    font-stretch: wider;
+    
     font-size: 2vw;
-    max-width: auto;
-    max-height: auto;
+    
+    
     width: 100%;
     line-height: 53.5%;
-    border: auto;
+    
     padding-bottom: 1%;
 }
 
 .about h3 {
     font-size: 3vw;
     margin-top: 11%;
-    margin-bottom: 0 auto;
+    
 }
 
 
@@ -1497,7 +1483,7 @@ article {
     font-size: 1.5vw;
     font-weight: 350;
     margin-top: 5%;
-    margin-bottom: 0 auto;
+    
     padding: 0 5%;
 }
 
@@ -1540,7 +1526,7 @@ iframe {
         color: black;
         text-shadow: 1px 1px 1px whitesmoke;
         text-align: center;
-        text-overflow: hidden;
+        
         word-spacing: 0.3em;
         letter-spacing: 0.3rem;
         margin: 10px 10px 10px 10px;
@@ -1588,7 +1574,7 @@ iframe {
         display: flex;
         flex-flow: nowrap;
         flex-shrink: 0;
-        float: center;
+        
         max-width: 200px;
         max-height: 200px;
         width: auto;
@@ -1624,18 +1610,18 @@ iframe {
 
     article {
         font-weight: 1000;
-        font-stretch: wider;
+        
         font-size: 4.5vw;
         max-width: 100%;
         width: auto;
         line-height: 65%;
-        border: auto;
+        
     }
 
     .about h3 {
         font-size: 5.25vw;
         margin-top: 15%;
-        margin-bottom: 0 auto;
+        
     }
 
 
@@ -1643,7 +1629,7 @@ iframe {
         font-size: 2.2vw;
         font-weight: bolder;
         margin-top: 5%;
-        margin-bottom: 0 auto;
+        
         padding: 0 5%;
     }
 
@@ -1700,7 +1686,7 @@ iframe {
             display: flex;
             flex-flow: nowrap;
             flex-shrink: 0;
-            float: center;
+            
             max-width: 200px;
             max-height: 200px;
             width: auto;
@@ -1737,25 +1723,25 @@ iframe {
 
         article {
             font-weight: 1000;
-            font-stretch: wider;
+            
             font-size: 5vw;
             max-width: 100%;
             width: auto;
             line-height: 65%;
-            border: auto;
+            
         }
 
         .about h3 {
             font-size: 5.25vw;
             margin-top: 15%;
-            margin-bottom: 0 auto;
+            
         }
 
         .about h4 {
             font-size: 2.2vw;
             font-weight: bolder;
             margin-top: 5%;
-            margin-bottom: 0 auto;
+            
             padding: 0 5%;
         }
 
@@ -1810,7 +1796,7 @@ iframe {
         display: flex;
         flex-flow: nowrap;
         flex-shrink: 0;
-        float: center;
+        
         max-width: 150px;
         max-height: 150px;
         width: 300px;
@@ -1846,25 +1832,25 @@ iframe {
 
     article {
         font-weight: 1000;
-        font-stretch: wider;
+        
         font-size: 5vw;
         max-width: 100%;
         width: auto;
         line-height: 65%;
-        border: auto;
+        
     }
 
     .about h3 {
         font-size: 5.25vw;
         margin-top: 15%;
-        margin-bottom: 0 auto;
+        
     }
 
     .about h4 {
         font-size: 2.2vw;
         font-weight: bolder;
         margin-top: 5%;
-        margin-bottom: 0 auto;
+        
         padding: 0 5%;
     }
 
@@ -1923,7 +1909,7 @@ iframe {
             display: flex;
             flex-flow: nowrap;
             flex-shrink: 0;
-            float: center;
+            
             max-width: 150px;
             max-height: 150px;
             width: 300px;
@@ -1958,31 +1944,31 @@ iframe {
             display: none;
         }
 
-        #text-column {
+        .text-column {
             margin: 0 auto;
         }
 
         article {
             font-weight: 1000;
-            font-stretch: wider;
+            
             font-size: 5vw;
             max-width: 100%;
             width: auto;
             line-height: 65%;
-            border: auto;
+            
         }
 
         .about h3 {
             font-size: 4vw;
             margin-top: 15%;
-            margin-bottom: 0 auto;
+            
         }
 
         .about h4 {
             font-size: 2vw;
             font-weight: bolder;
             margin-top: 5%;
-            margin-bottom: 0 auto;
+            
             padding: 0 5%;
         }
 
@@ -2028,7 +2014,7 @@ iframe {
         display: flex;
         flex-flow: nowrap;
         flex-shrink: 0;
-        float: center;
+        
         max-width: 150px;
         max-height: 150px;
         width: 300px;
@@ -2100,7 +2086,7 @@ iframe {
         display: flex;
         flex-flow: nowrap;
         flex-shrink: 0;
-        float: center;
+        
         max-width: 150px;
         max-height: 150px;
         width: 300px;
@@ -2136,18 +2122,18 @@ iframe {
 
     article {
         font-weight: 1000;
-        font-stretch: wider;
+        
         font-size: 5vw;
-        max-width: auto;
+        
         width: 100%;
         line-height: 65%;
-        border: auto;
+        
     }
 
     .about h3 {
         font-size: 4vw;
         margin-top: 15%;
-        margin-bottom: 0 auto;
+        
     }
 
 
@@ -2155,7 +2141,7 @@ iframe {
         font-size: 2.1vw;
         font-weight: bolder;
         margin-top: 5%;
-        margin-bottom: 0 auto;
+        
         padding: 0 5%;
     }
 
@@ -2185,10 +2171,6 @@ iframe {
         max-width: 100%;
     }
 
-    header {
-        width: full-width;
-    }
-
 
     nav {
         min-width: 100%;
@@ -2207,7 +2189,7 @@ iframe {
         display: flex;
         flex-flow: nowrap;
         flex-shrink: 0;
-        float: center;
+        
         max-width: 150px;
         max-height: 150px;
         width: 300px;
@@ -2243,18 +2225,18 @@ iframe {
 
     article {
         font-weight: 1000;
-        font-stretch: wider;
+        
         font-size: 5vw;
-        max-width: auto;
+        
         width: 100%;
         line-height: 65%;
-        border: auto;
+        
     }
 
     .about h3 {
         font-size: 4vw;
         margin-top: 15%;
-        margin-bottom: 0 auto;
+        
     }
 
 
@@ -2262,7 +2244,7 @@ iframe {
         font-size: 2vw;
         font-weight: bolder;
         margin-top: 5%;
-        margin-bottom: 0 auto;
+        
         padding: 0 5%;
     }
 
@@ -2274,7 +2256,6 @@ iframe {
         border: 2.5px solid black;
         border-radius: 50%;
         background-color: whitesmoke;
-        width: full-widt;
         padding: 1px 1px;
         text-align: center;
         color: black;
@@ -2300,10 +2281,6 @@ iframe {
     body {
         min-width: 100%;
         max-width: 100%;
-    }
-
-    header {
-        width: full-width;
     }
 
     h1 {
@@ -2335,7 +2312,7 @@ iframe {
         display: flex;
         flex-flow: nowrap;
         flex-shrink: 0;
-        float: center;
+        
         max-width: 150px;
         max-height: 150px;
         width: auto;
@@ -2371,27 +2348,27 @@ iframe {
 
     article {
         font-weight: 1000;
-        font-stretch: wider;
+        
         font-size: 5vw;
-        max-width: auto;
+        
         width: 100%;
         line-height: 65%;
-        border: auto;
+        
     }
 
     .about h3 {
         font-size: 3.5vw;
         margin-top: 15%;
-        margin-bottom: 0 auto;
+        
         text-align: center;
-        float: center;
+        
     }
 
     .about h4 {
         font-size: 2.75vw;
         font-weight: bolder;
         margin-top: 5%;
-        margin-bottom: 0 auto;
+        
         padding: 0 5%;
     }
 
@@ -2399,7 +2376,7 @@ iframe {
         font-size: 1.925vw;
     }
 
-    #text-column {
+    .text-column {
         margin: 0 auto;
     }
 
@@ -2442,10 +2419,6 @@ iframe {
         max-width: 100%;
     }
 
-    header {
-        width: full-width;
-    }
-
     h1 {
         font-size: 3.5em;
     }
@@ -2472,7 +2445,7 @@ iframe {
         display: flex;
         flex-flow: nowrap;
         flex-shrink: 0;
-        float: center;
+        
         max-width: 150px;
         max-height: 150px;
         width: 300px;
@@ -2508,27 +2481,27 @@ iframe {
 
     article {
         font-weight: 1000;
-        font-stretch: wider;
+        
         font-size: 5vw;
-        max-width: auto;
+        
         width: 100%;
         line-height: 65%;
-        border: auto;
+        
     }
 
     .about h3 {
         font-size: 3.3vw;
         margin-top: 15%;
-        margin-bottom: 0 auto;
+        
         text-align: center;
-        float: center;
+        
     }
 
     .about h4 {
         font-size: 2vw;
         font-weight: bolder;
         margin-top: 5%;
-        margin-bottom: 0 auto;
+        
         padding: 0 5%;
     }
 
