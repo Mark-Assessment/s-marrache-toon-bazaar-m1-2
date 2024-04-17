@@ -19,9 +19,11 @@
 
 Toon Bazaar is a site offering bespoke cartoon, comic, illustration and animation services.
 
-The collective of cartoonists are happy to create anything for a respective customer, from simple greeting cards and t-shirts to a graphic novel or full feature animation.
+The collective of cartoonists are happy to create anything for a respective customer, from simple greeting cards and t-shirts to graphic novels or full feature animations.
 
-This is the main marketing website for Toon Bazaar. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients wanting to see the services on offer or artists who might want to join our community.
+This is the main marketing website for Toon Bazaar. 
+
+It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients wanting to see the services on offer and perhaps get a quote, or for freelance artists wanting to join our community.
 
 
 # Table of Contents 
@@ -36,18 +38,18 @@ This is the main marketing website for Toon Bazaar. It is designed to be respons
   + [Imagery](#imagery)
 - [Structure](#structure)
   + [Information Architecture](#information-architecture)
-  + [Navigation Bar](#navigation-bar)
-  + [Back To Top Button](#back-to-top-button)
-  + [Buttons](#buttons)
-  + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)
-  + [Footer](#footer)
-  + [404 Page](#404-page)
-- [Wireframes](#wireframes)
 - [Features](#features)
-  + [Current Features](#current-features)
+    + [Current Features](#current-features)
+        + [Navigation Bar](#navigation-bar)
+        + [Back To Top Button](#back-to-top-button)
+        + [Buttons](#buttons)
+        + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)
+        + [Footer](#footer)
+        + [404 Page](#404-page)
   + [Future Features](#future-features)
-- [Technologies](#technologies-used)
-  + [Languages Used](#languages-used)
+- [Wireframes](#wireframes)
+- [Technologies](#technologies)
+  + [Languages Used](#languages)
   + [Frameworks Libraries and Programs](#frameworks-libraries-and-programs)
 - [Testing](#testing)
 - [Deployment](#deployment)
@@ -65,7 +67,7 @@ This is the main marketing website for Toon Bazaar. It is designed to be respons
 
 -   ## User Stories
 
-    -   #### First Time Visitor Goals
+    -   ### First Time Visitor Goals
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.
 
@@ -75,7 +77,7 @@ This is the main marketing website for Toon Bazaar. It is designed to be respons
 
         4. As a First Time Visitor, I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-    -   #### Returning Visitor Goals
+    -   ### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to see more of the artwork they have on offer with their daily exhibits of different artists.
 
@@ -83,7 +85,7 @@ This is the main marketing website for Toon Bazaar. It is designed to be respons
 
         3. As a Returning Visitor, I want to find community links and links to all the artists' portfolios.
 
-    -   #### Frequent User Goals
+    -   ### Frequent User Goals
 
         1. As a Frequent User, I want to check to see if there are any newly added cartoons, comics illustrations and animations.
 
@@ -91,9 +93,9 @@ This is the main marketing website for Toon Bazaar. It is designed to be respons
         
         3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.
 
--   ### Artist Stories
+-   ## Artist Stories
 
-    -   #### Artist Goals
+    -   ### Artist Goals
 
         1. As an Artist, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.
 
@@ -109,7 +111,7 @@ This is the main marketing website for Toon Bazaar. It is designed to be respons
 
     -   ### Colour Scheme
 
-        -   The four main colours used are Toon Bazaar black, white, pink and orange. These colours are supposed to imbue the site with a comic strip feel.
+        -   The five main colours used for Toon Bazaar are black, white, pink, purple and orange. These colours are supposed to imbue the site with a vivid and colourful comic strip feel.
 
     -   ### Typography
 
@@ -192,90 +194,127 @@ This is the main marketing website for Toon Bazaar. It is designed to be respons
 
         - This features a lovely, colourful background image and a contact form.
 
-        ## Structure
+-   ## Structure
 
-### Information Architecture
+    -   ### Information Architecture
 
-- The website has 3 pages:
+        - The website has 3 pages:
 
-    1. Homepage -  Landing page with a 3D comic strip, an about us section and links out to:
+        1. Homepage -  Landing page with a 3D comic strip, an about us section and links to:
 
-    * External Artist Portfolios
-    * Samples of 2D Toons
-    * Samples of 3D Toons
-    * Samples of Animations
-    * Samples of Merchandise
-    * A Contact Form with SignUp discount.
-
-
-    2. Market Page - A Gallery Page, showcasing daily uploads of our artists' work. These are split into 4 rows, each showcasing three artviards or videos:
-
-    * Animations
-    * 2D Illustrations
-    * Comics & Storyboards
-    * Merchandise
-
-    3. Contact Page - A Form Page, whereby clients can get in touch to make inquiries, requests and get a quote. Artists can also get in touch to inquire about becoming part of the collective.
+        * External Artist Portfolios
+        * Samples of 2D Toons
+        * Samples of 3D Toons
+        * Samples of Animations
+        * Samples of Merchandise
+        * A Contact Form with SignUp discount.
 
 
-### Navigation Bar
+         2. Market Page - A Gallery Page, showcasing daily uploads of our artists' work. These are split into 4 rows, each showcasing three artboards or videos:
 
-- The Homepage, Market and Contact pages feature a navigation bar, with easy access buttons to each page, allowing the user to easily navigate between them without needing to go back to the homepage.
-- The Navigation bar appears as a horizontal list of buttons on desktop and mobile.
-- The colours of the background and the text change when hovered over. This further emphasises that this is a clickable link, making for a very intuitive user experience.
+        * Animations
+        * 2D Illustrations
+        * Comics & Storyboards
+        * Merchandise
 
-<h2 align="center"><img src="assets/readme/design-navbar.jpg"></h2>
-<h2 align="center"><img src="assets/readme/design-navbar-colour-change.jpg"></h2>
+        3. Contact Page - A Form Page, whereby clients can get in touch to make inquiries, requests and get a quote. Artists can also get in touch to inquire about becoming part of the collective.
 
-### Button
+    -   ### Irregular Structure
 
-- Buttons are consistent in design across the site.
-- Buttons are used for navigation, for links to social media and for the contact form.
-- Buttons change colour (both background and text) when hovered over. The button text is legible both in its normal and hover state.
+        -   The website includes a few structural irregularities:
 
-<h2 align="center"><img src="assets/readme/buttons-normal.jpg"></h2>
-<h2 align="center"><img src="assets/readme/buttons-hover.jpg"></h2>
+        1. Background image styling placed in the head of the HTML file instead of including it in the CSS stylesheet. Rationale:
+
+            I wanted a background image which would stand out to potential users as a piece of quality artwork in its own right. However I didn't want it to detract from the artists' artwork in the foreground. 
+        
+            Therefore I opted for a fixed static background, whereby I could scroll through artwork in the foreground with nothing moving in the background. This proved to be the easiest way to do so, with the least impact on loading performance.
+
+        2. My flexbox css is extensive because when I tried to create text boxes and make them flex with the images, I encountered two problems:
+
+            -   [i] **Space vs Size** - I couldn't fit enough text inside a box the same size as one of the about section's border images. I tried using two boxes in column formation (each one sized according to the image next to it), but then formatting the text in the two boxes to look conjoined gave me problems. 
+
+            -   [ii] **Duality vs Binary** - I needed the about section to flex with both the columns and the rows of images bordering it, but with flex I either had the option of choosing to flex the text with the row of images or the column of images, never both.
+
+            Therefore I had to set different css rules for media queries spanning device sizes, from a tiny Galaxy Fold resolution size to a 4K monitor resolution size.
+
+            If ever confronted with trying to build an image border around an article of text again, I will try and find an alternative and more efficient way of doing so.
+    
+-   ## Features
+
+    -   ### Current Features:
+
+        -   Responsive on all device sizes.
+
+        -   Content-packed pages, full of colourful and inspiring imagery and media including the background images.
+
+        -   Interactive elements such as videos, links to artwork and forms to make requests or get a quote.
+
+        -   Easy offsite navigation to social media accounts and artists' portfolios.
+
+    -   ### Navigation Bar
+
+        - The Homepage, Market and Contact pages feature a navigation bar, with easy access buttons to each page, allowing the user to easily navigate between them without needing to go back to the homepage.
+        - The Navigation bar appears as a horizontal list of buttons on desktop and mobile.
+        - The colours of the background and the text change when hovered over. This further emphasises that this is a clickable link, making for a very intuitive user experience.
+
+    <h2 align="center"><img src="assets/readme/design-navbar.jpg"></h2>
+    <h2 align="center"><img src="assets/readme/design-navbar-colour-change.jpg"></h2>
+            
+    -   ### Buttons
+
+        - Buttons are consistent in design across the site.
+        - Buttons are used for navigation, for links to social media and for the contact form.
+        - Buttons change colour (both background and text) when hovered over. 
+        - Button text is legible both in its normal and hover state.
 
 
-### Footer
+    <h2 align="center"><img src="assets/readme/contact-button-normal.jpg"></h2>
+    <h2 align="center"><img src="assets/readme/contact-button-hover.jpg"></h2>
 
-- The Footer remains consistent on each page.
 
-- The Footer includes social media buttons.
+    -   ### Footer
 
-- Social Media links open in a new page.
+        -   The Footer remains consistent on each page.
 
-- Pleasant looking brand icons make each one evident to the user. 
+        -   The Footer includes social media buttons.
 
-- Aria-Labels have been used to make it clear  Screen Readers.
+        -   Social Media links open in a new page.
 
-<h2 align="center"><img src="assets/readme/design-footer.jpg"></h2>
+        -   Pleasant looking brand icons make each one evident to the user. 
 
+        -   Aria-Labels have been used to make it clear  Screen Readers.
+
+    <h2 align="center"><img src="assets/readme/footer-normal.jpg"></h2>
+
+    -   ### Future Features
+
+        -   Content-packed pages, full of colourful and inspiring imagery and media including the background images.
+
+        -   Interactive elements such as videos, links to artwork and forms to make requests or get a quote.
+
+        -   Responsive across device resolutions.
 
 *   ## Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   #### Home Page Wireframe - [View](https://github.com/)
 
-    -   Market Page Wireframe - [View](https://github.com/)
+    -   #### Market Page Wireframe - [View](https://github.com/)
 
-    -   Contact Page Wireframe - [View](https://github.com/)
+    -   #### Contact Page Wireframe - [View](https://github.com/)
 
-## Features
 
--   Responsive on all device sizes
 
--   Content-packed pages, full of colourful and inspiring imagery and media, including the background images.
 
--   Interactive elements such as videos, links to other artwork and other websites and forms to make requests or get a quote
 
-## Technologies Used
 
-### Languages Used
+## Technologies
+
+-   ### Languages
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs
 
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
@@ -283,24 +322,29 @@ This is the main marketing website for Toon Bazaar. It is designed to be respons
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 3. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-4. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-5. [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox): Used throughout the project to make rows and columns responsive on all devices.
+4. [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox): 
+    - Flexbox was used throughout the project to make rows and columns responsive on all devices, but especially on the homepage to build the border of cartoonists around the about section.
 
-6.  [Media Queries](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries): Used throughout the project to make the web site responsive on all devices.
+5. [Media Queries](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries): 
+    - Media Queries was used throughout the project to make the web site responsive on all devices.
 
-7.  [IFrame Player API](https://developers.google.com/youtube/iframe_api_reference): The IFrame player API lets you embed a YouTube video player on your website and control the player using JavaScript.
+6. [IFrame Player API](https://developers.google.com/youtube/iframe_api_reference): 
+    - The IFrame player API was used to embed a YouTube video player on the website and control the player using JavaScript.
 
-8.  [Git](https://git-scm.com/)
+7. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-9.  [GitHub:](https://github.com/)
+8. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+9. [Illustrator:](https://www.adobe.com/ie/products/illustrator.html)
+    - Illustrator was used to create the vector artwork with the aid of a tablet and pen.
 10. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-10. [Balsamiq:](https://balsamiq.com/)
+    - Photoshop was used to paint, resize and edit images for the website.
+11. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
-## Testing
+12. [Pencil:](https://pencil.evolus.vn/)
+    - Pencil was used to create the [wireframes](https://github.com/) during the design process.
+
 
 # Testing
 
@@ -414,9 +458,9 @@ Responsivity tests were carried out using Google Chrome DevTools. Device screen 
 I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 2160) screens to ensure the web pages would work across monitor sizes. 
 
 
-### Testing User Stories from User Experience (UX) Section
+-   ### Testing User Stories from User Experience (UX) Section
 
--   #### First Time Visitor Goals
+    -   #### First Time Visitor Goals
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
@@ -473,16 +517,20 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 ### Further Testing
 
 -   The Website was tested on Brave, Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop & different S series Samsung phones.
+-   The website was viewed on a variety of devices, including a desktop, a laptop & a variety of different-sized S Series Samsung phones.
 -   A large amount of testing was done to ensure that all pages were linking correctly for both internal and external links.
 
-### Unresolved
+### Resolved Bugs
 
-- Improve Lighthouse Performance score on all pages, but particularly the Market Page by making changes including:
+
+
+### Unresolved Bugs
+
+-   Improve Lighthouse Performance score on all pages, but particularly the Market Page by making changes including:
 
     - Serve images in next-gen formats (Image formats like WebP and AVIF often provide better compression than PNG or JPEG, which means faster downloads and less data consumption.)
     - Eliminate render-blocking resources (Resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles)
-    - Minify CSS by using more inline HTML and defining styling in the head section
+    - Minify CSS
 
 
 ## Deployment
@@ -517,11 +565,12 @@ The project was deployed to GitHub Pages using the following steps...
 
 -   All Images were created by the developer, either by hand or via the AI image generator NightCafe Studio (https://creator.nightcafe.studio/).
 
-- All videos were kindly provided free of charge and free of copyright by BEEPLE (https://www.beeple-crap.com/). 
+- All Animations are placeholders, kindly provided free of charge and free of copyright by BEEPLE (https://www.beeple-crap.com/).
+<h2 align="center"><img src="assets/readme/beeple-proof-open.png"></h2> 
 
 ### Acknowledgements
 
--   My Mentor, Excellence, for kind advice and helpful feedback.
+-   My Mentor, Excellence, for all the kind advice and helpful feedback.
 
 -   My academic supervisor and lecturer, Rachel, for the great lessons, kind advice and helpful feedback.
 
