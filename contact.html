@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Head inc. Viewport, External Fonts & Meta Data Start -->
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tooon Bazaar contact form for requests for tailor-made cartoons sand general inquiries.">
+    <meta name="description" content="Toon Bazaar homepage for general information about purchasing cartoons and animations from our community of cartoonists.">
     <script src="https://kit.fontawesome.com/fced343307.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" media="screen" href="assets/css/style.css">
+    <!-- Page Title Start -->
     <title>TOON BAZAAR/CONTACT</title>
+    <!-- Page Title End -->
+    <!-- Background Styling Start-->
     <style>
       body {
         background-image: url('assets/images/toon-bizarre-trippy-4.jpg');
@@ -27,14 +31,20 @@
         width: 100%;
       }
     </style>
+    <!-- Background Styling End-->
   </head>
+  <!-- Head inc. Viewport, External Fonts & Meta Data End -->
+  <!-- Main Body Start -->
   <body>
+    <!-- Document Header Start -->
     <header>
       <h1>TOON BAZAAR</h1>
       <h2>
         <strong>Your Vision | Our Toons</strong>
       </h2>
     </header>
+    <!-- Document Header End -->
+    <!-- Main Navigation Start -->
     <nav>
       <ul>
         <li class="left-nav">
@@ -53,27 +63,34 @@
         </li>
       </ul>
     </nav>
+    <!-- Main Navigation End -->
+    <!-- Contact Form Start -->
     <form action="https://formdump.codeinstitute.net" method="POST">
       <fieldset>
         <legend>
           <u>Details</u>
         </legend>
+        <!-- Name Field Start -->
         <div class="name">
           <label for="name-field" class="block-label">Name</label>
           <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
         </div>
+        <!-- Name Field End -->
+        <!-- Email Field Start -->
         <div class="email">
           <label for="email-field" class="block-label">Email Address</label>
           <input id="email-field" type="email" name="email" placeholder="Your email" required>
         </div>
+        <!-- Email Field End -->
       </fieldset>
       <br>
+      <!-- Nature of Request Start -->
       <fieldset>
         <legend>
           <u>Request</u>
         </legend>
         <label for="request-nature" class="block-label">Nature of request</label>
-        <select id="request-nature" name="request-nature" required>
+        <select id="request-nature" name="request-nature" required style="width:14em" style="height:120%" ;>
           <option value="">Select your option</option>
           <option value="personal">Personal</option>
           <option value="independent">Independent</option>
@@ -82,32 +99,39 @@
           <option value="marketing">Marketing</option>
           <option value="corporate">Corporate</option>
           <option value="merchandise">Merchandise</option>
-          <option value="portfolios">Portfolios</option>
           <option value="application">Application</option>
           <option value="inquiry">Inquiry</option>
           <option value="complaint">Complaint</option>
           <option value="other">Other</option>
         </select>
       </fieldset>
+      <!-- Nature of Request End -->
+      <!-- What is Your Vision Start -->
       <div>
-        <label for="vision" class="block-label">What is your vision?</label>
-        <input id="vision" list="visions" name="vision">
-        <datalist id="visions">
-          <option value="Type something here"></option>
-          <option value="Caricature"></option>
-          <option value="Cartoon"></option>
-          <option value="2D Illustration">
-          <option value="3D Illustration">
-          <option value="Comic"></option>
-          <option value="Animation">
-          <option value="Video Game"></option>
-          <option value="Storyboard"></option>
-          <option value="Concept Art"></option>
-        </datalist>
+        <fieldset>
+          <label for="vision" class="block-label">What is your vision?</label>
+          <input id="vision" list="visions" name="vision">
+          <datalist id="visions">
+            <option value="Type your vision here"></option>
+            <option value="Caricature"></option>
+            <option value="Cartoon"></option>
+            <option value="2D Illustration"></option>
+            <option value="3D Illustration"></option>
+            <option value="Comic"></option>
+            <option value="Animation"></option>
+            <option value="Video Game"></option>
+            <option value="Storyboard"></option>
+            <option value="Concept Art"></option>
+          </datalist>
+        </fieldset>
       </div>
+      <!-- What is Your Vision End -->
       <br>
+      <!-- Services Needed / Offered Start -->
       <fieldset>
-        <u>Services</u>
+        <div id="alt-legend">
+          <u>Services</u>
+        </div>
         <div>
           <input type="checkbox" class="checkbox" id="cartooning-checkbox" name="cartooning">
           <label for="cartooning-checkbox">Cartooning</label>
@@ -145,7 +169,9 @@
           <label for="affiliate-checkbox">Affiliate</label>
         </div>
       </fieldset>
+      <!-- Services Needed / Offered End -->
       <br>
+      <!-- Description of Request Start -->
       <fieldset>
         <legend>
           <u>Description</u>
@@ -159,7 +185,10 @@
         <input type="checkbox" id="mailing-list-join" name="mailing-list-sign-up" value="both" checked>
         <input class="send-button" type="submit" value="SEND">
       </fieldset>
+      <!-- Description of Request End -->
     </form>
+    <!-- Contact Form End -->
+    <!-- Footer w/ Links to Social Media Start -->
     <footer>
       <ul class="social-networks">
         <li class="left-social">
@@ -184,5 +213,7 @@
         </li>
       </ul>
     </footer>
+    <!-- Footer w/ Links to Social Media End -->
   </body>
+  <!-- Main Body End -->
 </html>
