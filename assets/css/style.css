@@ -655,22 +655,74 @@ footer {
 
 /* Media queries */
 
-/* For large to medium screens sizes from 3840px wide and down */
+/* For large to medium screens sizes from 3840px wide down to 2600px wide */
 
-@media screen and (min-width: 2000px) and (max-width: 4000px) {
+@media screen and (min-width: 2600px) and (max-width: 4000px) {
   h1 {
-    font-family: "Titan One", sans-serif;
-    color: whitesmoke;
-    text-align: center;
-    text-shadow: 3px 3px 3px black;
-    font-size: 5.5rem;
+    font-size: 11rem;
     letter-spacing: 0.5rem;
     word-spacing: 0.4em;
   }
 
   h2 {
     font-family: "Titan One", sans-serif;
-    font-size: 2rem;
+    font-size: 3.5rem;
+    padding: 0.5% 0;
+
+
+    word-spacing: 0.3em;
+    letter-spacing: 0.3rem;
+    margin: 10px 10px 10px 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  nav a {
+    width: 5.5em;
+    font-size: 3em;
+  }
+
+  .flexbox-rectangle {
+    padding-bottom: 10%;
+  }
+
+  .img-text {
+    font-size: 1.3vw;
+  }
+
+  .about p {
+    padding-bottom: 0.4%;
+  }
+
+  .social-networks a {
+    width: 5.5em;
+    font-size: 3em;
+    font-weight: 600;
+  }
+
+  .social-networks I {
+    max-height: 120%;
+    height: auto;
+  }
+}
+
+/* For large to medium screens sizes from 2600px wide and down */
+
+@media screen and (max-width: 2600px) {
+  
+  h1 {
+    font-family: "Titan One", sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    font-size: 8rem;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.4em;
+  }
+
+  h2 {
+    font-family: "Titan One", sans-serif;
+    font-size: 2.5rem;
     color: black;
     text-shadow: 1px 1px 1px whitesmoke;
     text-align: center;
@@ -683,54 +735,10 @@ footer {
   }
 
   nav a {
-    width: 7em;
-    font-size: 1.5em;
+    width: 5em;
+    font-size: 1.8em;
   }
-
-  .flexbox-rectangle {
-    padding-bottom: 10%;
-  }
-
-  .about p {
-    padding-bottom: 0.4%;
-  }
-
-  .social-networks a {
-    width: 7em;
-    font-size: 1.5em;
-    font-weight: 600;
-  }
-}
-
-/* For large to medium screens sizes from 2850px wide and down */
-
-@media screen and (max-width: 2850px) {
-  .img-text {
-    display: flex;
-    flex-flow: nowrap;
-    flex-shrink: 0;
-    max-width: 100%;
-    background-color: whitesmoke;
-    border: 0.3rem solid black;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Titan One", sans-serif;
-    font-size: 1.3vw;
-    word-spacing: 0.1vw;
-  }
-
-  .flexbox-rectangle {
-    padding-bottom: 10%;
-  }
-
-  .about p {
-    padding-bottom: 0.33%;
-  }
-}
-
-/* For large to medium screens sizes from 2560px wide and down */
-
-@media screen and (max-width: 2560px) {
+  
   .img-text {
     display: flex;
     flex-flow: nowrap;
@@ -752,6 +760,17 @@ footer {
 
   .about p {
     padding-bottom: 0.4%;
+  }
+
+  .social-networks a {
+    width: 5em;
+    font-size: 1.75em;
+    font-weight: 600;
+  }
+
+  .social-networks I {
+    max-height: 120%;
+    height: auto;
   }
 }
 
@@ -779,6 +798,14 @@ footer {
 
   .about p {
     padding-bottom: 0.3%;
+  }
+
+  .social-networks a {
+    width: 6em;
+    max-height: 120%;
+    height: auto;
+    font-size: 2;
+    font-weight: 600;
   }
 }
 
@@ -1269,6 +1296,17 @@ footer {
 
   iframe {
     width: 100%;
+    height: auto;
+  }
+
+  .social-networks a {
+    font-size: large;
+    width: 6.5em;
+    font-weight: 600;
+  }
+
+  .social-networks I {
+    max-height: 120%;
     height: auto;
   }
 }
