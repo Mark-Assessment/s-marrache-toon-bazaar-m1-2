@@ -13,9 +13,7 @@
 
 ## Toon Bazaar
 
-<h3 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h3>
-
-<h3 align="center"><img src="assets/readme/techsini-homepage.jpg"></h3>
+<h3 align="center"><img src="assets/readme/techsini-homepage.jpeg"></h3>
 
 Toon Bazaar is a site offering bespoke cartoon, comic, illustration and animation services.
 
