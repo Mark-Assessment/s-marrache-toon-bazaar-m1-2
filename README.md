@@ -13,7 +13,7 @@
 
 ## Toon Bazaar
 
-<h3 align="center"><img src="assets/readme/techsini-homepage.jpeg"></h3>
+<h3 align="center"><img src="assets/readme/techsini-homepage.png"></h3>
 
 Toon Bazaar is a site offering bespoke cartoon, comic, illustration and animation services.
 
@@ -391,11 +391,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The Toon Bazaar website passed all tests using the W3C HTML Validator tool
 
--   #### Home Page - <h2 align="right"><img src="assets/readme/homepage.jpg"></h2> 
+-   #### Home Page - <h2 align="right"><img src="assets/readme/homepage.png"></h2> 
 
--   #### Market Page - <h2 align="right"><img src="assets/readme/market.jpg"></h2> 
+-   #### Market Page - <h2 align="right"><img src="assets/readme/market.png"></h2> 
 
--   #### Contact Page - <h2 align="right"><img src="assets/readme/contact.jpg"></h2> 
+-   #### Contact Page - <h2 align="right"><img src="assets/readme/contact.png"></h2> 
 
 
 
