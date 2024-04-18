@@ -23,7 +23,7 @@ The collective of cartoonists are happy to create anything for a respective cust
 
 This is the main marketing website for Toon Bazaar. 
 
-It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients wanting to see the services on offer and perhaps get a quote, or for freelance artists wanting to join our community.
+It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients wanting to see the services on offer and hopefully make a request. Freelance artists hoping to join our community should also find the website useful for deciding whether it is somewhere they might wish to work and initiating contact with respects to applying.
 
 
 # Table of Contents 
@@ -36,26 +36,25 @@ It is designed to be responsive and accessible on a range of devices, making it 
   + [Colour Scheme](#colour-scheme)
   + [Typography](#typography)
   + [Imagery](#imagery)
+  + [Icons](#icons)
 - [Structure](#structure)
   + [Information Architecture](#information-architecture)
+  - [Irregular Structure](#irregular-structure)
 - [Features](#features)
     + [Current Features](#current-features)
         + [Navigation Bar](#navigation-bar)
-        + [Back To Top Button](#back-to-top-button)
         + [Buttons](#buttons)
         + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)
         + [Footer](#footer)
-        + [404 Page](#404-page)
   + [Future Features](#future-features)
+        + [404 Page](#404-page)
 - [Wireframes](#wireframes)
 - [Technologies](#technologies)
   + [Languages Used](#languages)
-  + [Frameworks Libraries and Programs](#frameworks-libraries-and-programs)
+  + [Frameworks, Libraries and Programs](#frameworks)
 - [Testing](#testing)
 - [Deployment](#deployment)
   + [GitHub Pages](#github-pages)
-  + [Forking the GitHub Repository](#forking-the-github-repository)
-  + [Making a Local Clone](#making-a-local-clone)
 - [Credits](#credits)
   + [Code](#code)
   + [Media](#media)
@@ -194,6 +193,11 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
         - This features a lovely, colourful background image and a contact form.
 
+    -   ### Icons
+        
+    - I used icons from Font Awesome for social media links in the footer and for the email subscription offer, to improve user clarity and efficiency.
+
+
 -   ## Structure
 
     -   ### Information Architecture
@@ -223,31 +227,36 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
         -   The website includes a few structural irregularities:
 
-        1. Background image styling placed in the head of the HTML file instead of including it in the CSS stylesheet. Rationale:
+        #### Embedded CSS 
+        
+        -   Background image styling placed in the head of the HTML file    instead of including it in the CSS stylesheet. Rationale:
 
             I wanted a background image which would stand out to potential users as a piece of quality artwork in its own right. However I didn't want it to detract from the artists' artwork in the foreground. 
         
             Therefore I opted for a fixed static background, whereby I could scroll through artwork in the foreground with nothing moving in the background. This proved to be the easiest way to do so, with the least impact on loading performance.
 
-        2. My flexbox css is extensive because when I tried to create text boxes and make them flex with the images, I encountered two problems:
+        #### Flexbox CSS 
 
-            -   [i] **Space vs Size** - I couldn't fit enough text inside a box the same size as one of the about section's border images. I tried using two boxes in column formation (each one sized according to the image next to it), but then formatting the text in the two boxes to look conjoined gave me problems. 
+        -   My flexbox css is extensive because when I tried to create text boxes and make them flex with the images, I encountered two problems:
+
+            -   [i] **Space vs Size** - I couldn't fit enough text inside a box the same size as one of the about section's border images. I tried using two boxes in column formation (each one sized according to the image next to it), but then formatting the text in the two boxes to look conjoined gave me problems. I tried flex-grow, flex-shrink and flex-basis, but to no avail.
 
             -   [ii] **Duality vs Binary** - I needed the about section to flex with both the columns and the rows of images bordering it, but with flex I either had the option of choosing to flex the text with the row of images or the column of images, never both.
-
-            Therefore I had to set different css rules for media queries spanning device sizes, from a tiny Galaxy Fold resolution size to a 4K monitor resolution size.
+                Therefore I had to set different css rules for media queries spanning device sizes, from a tiny Galaxy Fold resolution size to a 4K monitor resolution size.
 
             If ever confronted with trying to build an image border around an article of text again, I will try and find an alternative and more efficient way of doing so.
     
 -   ## Features
 
-    -   ### Current Features:
+    -   ### General Features:
 
         -   Responsive on all device sizes.
 
         -   Content-packed pages, full of colourful and inspiring imagery and media including the background images.
 
-        -   Interactive elements such as videos, links to artwork and forms to make requests or get a quote.
+        -   Interactive elements such as fully-controllable video iframes and internal links to different media.
+        
+        -   Forms to make requests or get a quote.
 
         -   Easy offsite navigation to social media accounts and artists' portfolios.
 
@@ -282,28 +291,39 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
         -   Pleasant looking brand icons make each one evident to the user. 
 
-        -   Aria-Labels have been used to make it clear  Screen Readers.
+        -   Aria-Labels have been used to make it clear to Screen Readers.
 
     <h2 align="center"><img src="assets/readme/footer-normal.jpg"></h2>
+    <h2 align="center"><img src="assets/readme/footer-normal.jpg"></h2>
 
-    -   ### Future Features
+-  ## Future Features
 
-        -   Content-packed pages, full of colourful and inspiring imagery and media including the background images.
-
-        -   Interactive elements such as videos, links to artwork and forms to make requests or get a quote.
-
-        -   Responsive across device resolutions.
-
-*   ## Wireframes
-
-    -   #### Home Page Wireframe - [View](https://github.com/)
-
-    -   #### Market Page Wireframe - [View](https://github.com/)
-
-    -   #### Contact Page Wireframe - [View](https://github.com/)
+    -   ###  Popup Infinite Slider Gallery Modal (HTML, CSS, JavaScript) 
+        
+        - When a user clicks on a piece of artwork (be it an image or a video) a new frame will pop up in the foreground, allowing the user to view the art in a larger frame with greater detail. Then they will be able to scroll horizontally through the different pieces of art.
+        [https://www.youtube.com/watch?v=H5zTYYOX1to]
+        [https://codinginpublic.dev/projects/popup-image-slider/]
 
 
+    -   ### Onsite Artist Portfolios
 
+        - Ideally in a future update, all the artist portfolios will be onsite and available via internal links.
+
+    -   ### Academy Page
+
+        - I would like to add a page with tutorials (text & video) and the ability to be tutored online by the user's artist of choice.
+
+    -   ### 404 Page
+        - I will add a colourful and friendly custom 404 error page to help the user navigate back to the hompage if they enter an incorrect URL. I will achieve this by following the below Github documentation:
+         [Github Documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
+
+## Wireframes
+
+-   #### Home Page Wireframe - <h2 align="right"><img src="assets/readme/homepage-wireframe.png"></h2> 
+
+-   #### Market Page Wireframe - <h2 align="right"><img src="assets/readme/market-wireframe.png"></h2> 
+
+-   #### Contact Page Wireframe - <h2 align="right"><img src="assets/readme/contact-wireframe.png"></h2> 
 
 
 
@@ -314,7 +334,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Libraries & Programs
+-   ### Frameworks & Libraries & Programs
 
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
@@ -324,13 +344,10 @@ It is designed to be responsive and accessible on a range of devices, making it 
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 4. [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox): 
     - Flexbox was used throughout the project to make rows and columns responsive on all devices, but especially on the homepage to build the border of cartoonists around the about section.
-
 5. [Media Queries](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries): 
     - Media Queries was used throughout the project to make the web site responsive on all devices.
-
 6. [IFrame Player API](https://developers.google.com/youtube/iframe_api_reference): 
     - The IFrame player API was used to embed a YouTube video player on the website and control the player using JavaScript.
-
 7. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 8. [GitHub:](https://github.com/)
@@ -338,13 +355,15 @@ It is designed to be responsive and accessible on a range of devices, making it 
 9. [Illustrator:](https://www.adobe.com/ie/products/illustrator.html)
     - Illustrator was used to create the vector artwork with the aid of a tablet and pen.
 10. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to paint, resize and edit images for the website.
+    - Photoshop was used to paint, resize, retouch and edit images for the website.
 11. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
-
 12. [Pencil:](https://pencil.evolus.vn/)
     - Pencil was used to create the [wireframes](https://github.com/) during the design process.
-
+13. [CodeBeautify:](https://codebeautify.org/css-beautify-minify#)
+    - CodeBeautify was used to help beautify the code.
+14. [NightCafeStudio:](https://creator.nightcafe.studio/)
+    - NightCafeStudio was used in tandem with my own artwork to create the backgrounds and the 3D cartoons characters.
 
 # Testing
 
@@ -375,13 +394,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 The Toon Bazaar website passed all tests using the W3C HTML Validator tool
 
 ### Home Page
-<h2 align="center"><img src="assets/readme/code-validator-index.html.jpg"></h2>
+<h2 align="center"><img src="assets/readme/index.html-validated.jpg"></h2>
 
 ### Market Page
-<h2 align="center"><img src="assets/readme/code-validator-market.html.jpg"></h2>
+<h2 align="center"><img src="assets/readme/market.html-validated.jpg"></h2>
 
 ### Contact Page
-<h2 align="center"><img src="assets/readme/code-validator-contact.html.jpg"></h2>
+<h2 align="center"><img src="assets/readme/contact-wireframe.html.jpg"></h2>
 
 
 
@@ -438,7 +457,7 @@ Appearance, functionality and responsiveness were largely consistent across brow
 
 # Responsiveness
 
-Responsivity tests were carried out using Google Chrome DevTools. Device screen sizes covered include:
+Responsivity tests were carried out using Google Chrome DevTools & Microsoft Edge DevTools. Device screen sizes covered include:
 
 - iPhone SE
 - iPhone XR
@@ -455,7 +474,7 @@ Responsivity tests were carried out using Google Chrome DevTools. Device screen 
 - Nest Hub
 - Nest Hub Max
 
-I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 2160) screens to ensure the web pages would work across monitor sizes. 
+I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 2160) screens to verify the web pages would work across monitor sizes. 
 
 
 -   ### Testing User Stories from User Experience (UX) Section
@@ -551,7 +570,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Code
 
--   [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox): Used throughout the project to make rows and columns responsive on all devices.
+-   [Code](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox): Used throughout the project to make rows and columns responsive on all devices.
 
 -   [Media Queries](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries): Used throughout the project to make the web site responsive on all devices.
 
@@ -570,8 +589,8 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Acknowledgements
 
--   My Mentor, Excellence, for all the kind advice and helpful feedback.
+-   My Mentor, Excellence Ilesanmi, for all the kind advice, helpful feedback and recommended tools.
 
--   My academic supervisor and lecturer, Rachel, for the great lessons, kind advice and helpful feedback.
+-   My academic supervisor and lecturer, Rachel Thurlong, for the great lessons, kind guidance, helpful feedback and recommended tools.
 
 -   Tutor support at Code Institute for their support.
