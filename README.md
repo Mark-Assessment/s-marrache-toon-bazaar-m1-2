@@ -384,8 +384,8 @@ The Toon Bazaar website has been tested using the following methods:
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 # Code Validation
 
@@ -394,13 +394,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 The Toon Bazaar website passed all tests using the W3C HTML Validator tool
 
 ### Home Page
-<h2 align="center"><img src="assets/readme/index.html-validated.jpg"></h2>
+<h2 align="center"><img src="assets/readme/homepage.jpg"></h2>
 
 ### Market Page
-<h2 align="center"><img src="assets/readme/market.html-validated.jpg"></h2>
+<h2 align="center"><img src="assets/readme/market.jpg"></h2>
 
 ### Contact Page
-<h2 align="center"><img src="assets/readme/contact-wireframe.html.jpg"></h2>
+<h2 align="center"><img src="assets/readme/contact.jpg"></h2>
 
 
 
