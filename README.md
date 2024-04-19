@@ -407,22 +407,22 @@ The Toon Bazaar website passed all tests using the W3C CSS Validator tool
 # Lighthouse
 
 ### Lighthouse Report for Homepage (Desktop)
-<h2 align="center"><img src="assets/readme/lighthouse-homepage-desktop.jpg"></h2>
+<h2 align="center"><img src="assets/readme/lighthouse-homepage-desktop.png"></h2>
 
 ### Lighthouse Report for Homepage (Mobile)
-<h2 align="center"><img src="assets/readme/lighthouse-homepage-mobile.jpg"></h2>
+<h2 align="center"><img src="assets/readme/lighthouse-homepage-mobile.png"></h2>
 
 ### Lighthouse Report for Market Page (Desktop)
-<h2 align="center"><img src="assets/readme/lighthouse-market-desktop.jpg"></h2>
+<h2 align="center"><img src="assets/readme/lighthouse-market-desktop.png"></h2>
 
 ### Lighthouse Report for Market Page (Mobile)
-<h2 align="center"><img src="assets/readme/lighthouse-market-mobile.jpg"></h2>
+<h2 align="center"><img src="assets/readme/lighthouse-market-mobile.png"></h2>
 
 ### Lighthouse Report for Contact Page (Desktop)
-<h2 align="center"><img src="assets/readme/lighthouse-contact-desktop.jpg"></h2>
+<h2 align="center"><img src="assets/readme/lighthouse-contact-desktop.png"></h2>
 
 ### Lighthouse Report for Contact Page (Mobile)
-<h2 align="center"><img src="assets/readme/lighthouse-contact-mobile.jpg"></h2>
+<h2 align="center"><img src="assets/readme/lighthouse-contact-mobile.png"></h2>
 
 I used the Lighthouse reports in Google Developer Tools to examine the pages of the website for the following
 - Performace
