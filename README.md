@@ -233,9 +233,9 @@ It is designed to be responsive and accessible on a range of devices, making it 
         
             Therefore I opted for a fixed static background, whereby I could scroll through artwork in the foreground with nothing moving in the background. This proved to be the easiest way to do so, with the least impact on loading performance.
 
-        #### Flexbox CSS 
+        #### Flexbox & Media Queries 
 
-        -   My flexbox css is extensive because when I tried to create text boxes and make them flex with the images, I encountered two problems:
+        -   My Media Queries use of Flexbox css is extensive because whenever I tried to create text boxes and make them flex with the images, I encountered two problems:
 
             -   [i] **Space vs Size** - I couldn't fit enough text inside a box the same size as one of the about section's border images. I tried using two boxes in column formation (each one sized according to the image next to it), but then formatting the text in the two boxes to look conjoined gave me problems. I tried flex-grow, flex-shrink and flex-basis, but to no avail.
 
@@ -402,27 +402,27 @@ The Toon Bazaar website passed all tests using the W3C HTML Validator tool
 ## W3C CSS Validator
 
 The Toon Bazaar website passed all tests using the W3C CSS Validator tool
-<h2 align="center"><img src="assets/readme/code-validator-stylecss.jpg"></h2>
+<h2 align="center"><img src="assets/readme/css.png"></h2>
 
 # Lighthouse
 
 ### Lighthouse Report for Homepage (Desktop)
-<h2 align="center"><img src="assets/readme/lighthouse-index.html.jpg"></h2>
+<h2 align="center"><img src="assets/readme/lighthouse-homepage-desktop.jpg"></h2>
 
 ### Lighthouse Report for Homepage (Mobile)
-<h2 align="center"><img src="assets/readme/lighthouse-mobile-index.html.jpg"></h2>
+<h2 align="center"><img src="assets/readme/lighthouse-homepage-mobile.jpg"></h2>
 
 ### Lighthouse Report for Market Page (Desktop)
-<h2 align="center"><img src="assets/readme/lighthouse-market.html.jpg"></h2>
+<h2 align="center"><img src="assets/readme/lighthouse-market-desktop.jpg"></h2>
 
 ### Lighthouse Report for Market Page (Mobile)
-<h2 align="center"><img src="assets/readme/lighthouse-mobile-market.html.jpg"></h2>
+<h2 align="center"><img src="assets/readme/lighthouse-market-mobile.jpg"></h2>
 
 ### Lighthouse Report for Contact Page (Desktop)
-<h2 align="center"><img src="assets/readme/lighthouse-contact.html.jpg"></h2>
+<h2 align="center"><img src="assets/readme/lighthouse-contact-desktop.jpg"></h2>
 
 ### Lighthouse Report for Contact Page (Mobile)
-<h2 align="center"><img src="assets/readme/lighthouse-mobile-contact.html.jpg"></h2>
+<h2 align="center"><img src="assets/readme/lighthouse-contact-mobile.jpg"></h2>
 
 I used the Lighthouse reports in Google Developer Tools to examine the pages of the website for the following
 - Performace
