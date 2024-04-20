@@ -264,19 +264,18 @@ It is designed to be responsive and accessible on a range of devices, making it 
         - The Navigation bar appears as a horizontal list of buttons on desktop and mobile.
         - The colours of the background and the text change when hovered over. This further emphasises that this is a clickable link, making for a very intuitive user experience.
 
-    <h2 align="center"><img src="assets/readme/design-navbar.jpg"></h2>
-    <h2 align="center"><img src="assets/readme/design-navbar-colour-change.jpg"></h2>
+    <h2 align="center"><img src="assets/readme/navbar-normal.jpg"></h2>
+    <h2 align="center"><img src="assets/readme/navbar-hover.jpg"></h2>
             
     -   ### Buttons
 
-        - Buttons are consistent in design across the site.
         - Buttons are used for navigation, for links to social media and for the contact form.
         - Buttons change colour (both background and text) when hovered over. 
         - Button text is legible both in its normal and hover state.
 
 
-    <h2 align="center"><img src="assets/readme/contact-button-normal.jpg"></h2>
-    <h2 align="center"><img src="assets/readme/contact-button-hover.jpg"></h2>
+    <h2 align="center"><img src="assets/readme/send-button.jpg"></h2>
+    <h2 align="center"><img src="assets/readme/send-button-hover.jpg"></h2>
 
 
     -   ### Footer
@@ -292,7 +291,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
         -   Aria-Labels have been used to make it clear to Screen Readers.
 
     <h2 align="center"><img src="assets/readme/footer-normal.jpg"></h2>
-    <h2 align="center"><img src="assets/readme/footer-normal.jpg"></h2>
+    <h2 align="center"><img src="assets/readme/footer-hover.jpg"></h2>
 
 -  ## Future Features
 
@@ -424,19 +423,65 @@ The Toon Bazaar website passed all tests using the W3C CSS Validator tool
 ### Lighthouse Report for Contact Page (Mobile)
 <h2 align="center"><img src="assets/readme/lighthouse-contact-mobile.png"></h2>
 
-I used the Lighthouse reports in Google Developer Tools to examine the pages of the website for the following
+I used the Lighthouse reports in Google Developer Tools to examine the pages of the website for the following:
+
 - Performace
 - Accessibility
 - Best Practices 
 - SEO
 
-All Pages performed well (scored 90 and above) for:
-- Accessibility, Best Practices and SEO on Desktop
-- Accessibility, Best Practices and SEO on Mobile
+### For Desktop:
+
+- Homepage scored:
+    - Performace - 97
+    - Accessibility -100
+    - Best Practices -100
+    - SEO - 100
+
+- Market Page scored:
+    - Performace - 94
+    - Accessibility -100
+    - Best Practices - 96
+    - SEO - 100
+
+- Contact Page scored:
+    - Performace - 100
+    - Accessibility -100
+    - Best Practices -100
+    - SEO - 100
+
+### For Mobile:
+
+- Homepage scored:
+    - Performace - 97
+    - Accessibility -100
+    - Best Practices -100
+    - SEO - 88
+
+- Market Page scored:
+    - Performace - 66
+    - Accessibility -100
+    - Best Practices - 96
+    - SEO - 100
+
+- Contact Page scored:
+    - Performace - 99
+    - Accessibility -100
+    - Best Practices -100
+    - SEO - 100
+
+- ### Future Improvements
+
+If I want to improve my Best Practices score for the Market Page, I need to correct the aspect ratio for the images, as per:
+
+https://developer.chrome.com/docs/lighthouse/best-practices/image-aspect-ratio/?utm_source=lighthouse&utm_medium=devtools
+
+I will weigh up the pros and cons at a future instance.
 
 For Performance:
 - The Home Page & Contact Page performed reasonably (scored between 74 and 88) on both Desktop and Mobile.
-- The Market Page performed poorly (scored between 54 and 70) on both Desktop and Mobile.
+
+- The Market Page performed not so well on Mobile and needs to be improved:
 
 Lighthouse recommends removing external fonts or placing them in the HTML rather than CSS code, saving images in next-gen formats, removing javascript iframes and eliminating render-blocking resources to improve performance on the Market Page. (Detailed in [Unresolved Bugs](#unresolved) section)
 
