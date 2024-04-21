@@ -45,7 +45,6 @@ It is designed to be responsive and accessible on a range of devices, making it 
         + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)
         + [Footer](#footer)
   + [Future Features](#future-features)
-        + [404 Page](#404-page)
 - [Wireframes](#wireframes)
 - [Technologies](#technologies)
   + [Languages Used](#languages)
@@ -193,7 +192,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
     -   ### Icons
         
-    - I used icons from Font Awesome for social media links in the footer and for the email subscription offer, to improve user clarity and efficiency.
+        - I used icons from Font Awesome for social media links in the footer and for the email subscription offer, to improve clarity and efficiency for my users.
 
 
 -   ## Structure
@@ -298,7 +297,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
     -   ###  Popup Infinite Slider Gallery Modal (HTML, CSS, JavaScript) 
         
         - When a user clicks on a piece of artwork (be it an image or a video) a new frame will pop up in the foreground, allowing the user to view the art in a larger frame with greater detail. Then they will be able to scroll horizontally through the different pieces of art.
-        [https://www.youtube.com/watch?v=H5zTYYOX1to]
+        [https://www.youtube.com/watch?v=H5zTYYOX1to] | 
         [https://codinginpublic.dev/projects/popup-image-slider/]
 
 
@@ -311,7 +310,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
         - I would like to add a page with tutorials (text & video) and the ability to be tutored online by the user's artist of choice.
 
     -   ### 404 Page
-        - I will add a colourful and friendly custom 404 error page to help the user navigate back to the hompage if they enter an incorrect URL. I will achieve this by following the below Github documentation:
+        - I will add a colourful and friendly custom 404 error page to help the user navigate back to the Homepage if they enter an incorrect URL. I will achieve this by following the below Github documentation:
          [Github Documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
 
 ## Wireframes
@@ -336,31 +335,31 @@ It is designed to be responsive and accessible on a range of devices, making it 
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 2. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import various fonts into the style.css file, which were then used on different pages.
 3. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used on all pages throughout the website to add icons for the purpose of a more efficient UX & website aesthetics.
 4. [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox): 
-    - Flexbox was used throughout the project to make rows and columns responsive on all devices, but especially on the homepage to build the border of cartoonists around the about section.
+    - Flexbox was used throughout the project to make rows and columns responsive on all devices, but in particular on the Homepage to build the border of cartoonists around the about section.
 5. [Media Queries](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries): 
     - Media Queries was used throughout the project to make the web site responsive on all devices.
 6. [IFrame Player API](https://developers.google.com/youtube/iframe_api_reference): 
     - The IFrame player API was used to embed a YouTube video player on the website and control the player using JavaScript.
-7. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-8. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-9. [Illustrator:](https://www.adobe.com/ie/products/illustrator.html)
+7. [Illustrator:](https://www.adobe.com/ie/products/illustrator.html)
     - Illustrator was used to create the vector artwork with the aid of a tablet and pen.
-10. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+8. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to paint, resize, retouch and edit images for the website.
-11. [Balsamiq:](https://balsamiq.com/)
+9. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
-12. [Pencil:](https://pencil.evolus.vn/)
+10. [Pencil:](https://pencil.evolus.vn/)
     - Pencil was used to create the [wireframes](https://github.com/) during the design process.
-13. [CodeBeautify:](https://codebeautify.org/css-beautify-minify#)
+11. [CodeBeautify:](https://codebeautify.org/css-beautify-minify#)
     - CodeBeautify was used to help beautify the code.
-14. [NightCafeStudio:](https://creator.nightcafe.studio/)
+12. [NightCafeStudio:](https://creator.nightcafe.studio/)
     - NightCafeStudio was used in tandem with my own artwork to create the backgrounds and the 3D cartoons characters.
+13. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+14. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
 
 # Testing
 
@@ -479,17 +478,25 @@ https://developer.chrome.com/docs/lighthouse/best-practices/image-aspect-ratio/?
 I will weigh up the pros and cons at a future instance.
 
 For Performance:
-- The Home Page & Contact Page performed reasonably (scored between 74 and 88) on both Desktop and Mobile.
+
+- The Home Page & Contact Page performed very well across the board, though for better SEO:
+
+  - Text-size on the Homepage should be improved for Mobile.
 
 - The Market Page performed not so well on Mobile and needs to be improved:
 
-Lighthouse recommends removing external fonts or placing them in the HTML rather than CSS code, saving images in next-gen formats, removing javascript iframes and eliminating render-blocking resources to improve performance on the Market Page. (Detailed in [Unresolved Bugs](#unresolved) section)
+  - Lighthouse recommends the following:
+
+  1. Removing external fonts or making them embedded.
+  2. Saving images in next-gen formats. 
+  3. Removing javascript iframes.
+  4. Eliminating render-blocking resources to improve performance on the Market Page.
 
 # Browser Compatibility
 
 The site was tested in Brave, Google Chrome, Microsoft Edge and Mozilla Firefox on desktop.
 
-The site was tested in Google Chrome and Firefox on mobile and tablet.
+The site was tested in Brave, Google Chrome and Firefox on mobile and tablet.
 
 No issues arose during browser testing. 
 
@@ -514,7 +521,25 @@ Responsivity tests were carried out using Google Chrome DevTools & Microsoft Edg
 - Nest Hub
 - Nest Hub Max
 
+#### Iphone 
+<h2 align="center"><img src="assets/readme/toon-bazaar-iphone.png"></h2>
+
+#### Ipad 
+<h2 align="center"><img src="assets/readme/toon-bazaar-ipad.png"></h2>
+
+#### Nest Hub Max 
+<h2 align="center"><img src="assets/readme/toon-bazaar-nest-hub-max.png"></h2>
+
 I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 2160) screens to verify the web pages would work across monitor sizes. 
+
+#### FHD (1920x1080) 
+<h2 align="center"><img src="assets/readme/toon-bazaar-fhd.png"></h2>
+
+#### 2k (2560x1440)
+<h2 align="center"><img src="assets/readme/toon-bazaar-2k.png"></h2>
+
+#### 4K (3840 x 2160)
+<h2 align="center"><img src="assets/readme/toon-bazaar-4k.png"></h2>
 
 
 -   ### Testing User Stories from User Experience (UX) Section
@@ -610,11 +635,24 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Code
 
--   [Code](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox): Used throughout the project to make rows and columns responsive on all devices.
+-   [Code Institute](https://codeinstitute.net/): I referred back to tutorial videos and my notes taken throughout the process of developing this website. The navbar and footer were built in an almost identical fashion and I referred to the code from the Coders Coffee House project to create the contact form page and to the code from the Love Running project to improve my use of Media Queries.
 
--   [Media Queries](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries): Used throughout the project to make the web site responsive on all devices.
+-   [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries): I also had to do a little more research via Mozilla Developer to achieve the exact level of responsiveness I wanted from Media Queries.
 
--   [IFrame Player API](https://developers.google.com/youtube/iframe_api_reference): The IFrame player API lets you embed a YouTube video player on your website and control the player using JavaScript. 
+-   [W3 Schools](https://www.w3schools.com/css/css3_gradients.asp): W3 Schools gave me the knowledge to create backgrounds featuring different gradients of colour.
+
+-   [W3 Docs](https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html): W3 Docs gave me the knowledge to link to a specific section of the same page or another page.
+
+-   [Google's IFrame Player API](https://developers.google.com/youtube/iframe_api_reference): It was through Google's own page that I learnt how to insert and resize their IFrame Player API.
+
+-   [Free Code Camp](https://www.freecodecamp.org/news/git-revert-commit-how-to-undo-the-last-commit/): Free Code Camp gave me the knowledge to reset or revert the changes of a recent git commit.
+
+-   [W3 Schools](https://www.w3schools.com/css/css3_gradients.asp): W3 Schools gave me the knowledge to create backgrounds featuring different gradients of colour.
+
+-   [Stack Overflow](https://stackoverflow.com/questions/12991351/how-to-force-image-resize-and-keep-aspect-ratio): Stack Overflow gave me the knowledge to force an image to resize but retain the aspect ratio?
+
+-   [CSS-TRICKS](https://css-tricks.com/almanac/properties/t/text-underline-position/): CSS-TRICKS gave me the knowledge to set the placement of the underline so it wasn't broken by the text when using the Jomhuria font.
+
 
 ### Content
 
@@ -629,8 +667,14 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Acknowledgements
 
--   My Mentor, Excellence Ilesanmi, for all the kind advice, helpful feedback and recommended tools.
+-   My Academic Supervisor and Lecturer, Rachel Furlong, for the great lessons, encouragement, kind guidance, helpful feedback and recommended tools.
 
--   My academic supervisor and lecturer, Rachel Thurlong, for the great lessons, kind guidance, helpful feedback and recommended tools.
+-   My Mentor, Excellence Ilesanmi, for all the kind advice, encouragement,helpful feedback and recommended tools.
 
--   Tutor support at Code Institute for their support.
+-   Thank you to my classmates at EKCG for all their tips and guidance.
+
+-   Thank you to the tutors and staff at Code Institute for all their support.
+
+Toon Bazaar is purely for the sake of the developer's portfolio, though it might be further developed into a commercial website at some point in the future.
+
+<h4 align="center">yinyangsammy 2024</h4>
