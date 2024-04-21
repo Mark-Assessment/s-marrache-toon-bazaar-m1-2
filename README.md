@@ -163,16 +163,16 @@ It is designed to be responsive and accessible on a range of devices, making it 
         
         - The page is divided into 4 rows, with each one demonstrating a different medium we can provide:
 
-        #### Animations
+        #### 1. Animations
 
          - This section has a row of three 3D animations. 
 
-        #### 2D Illustrations
+        #### 2. 2D Illustrations
 
         - This section has a row of three artboards showcasing 2D illustrations.
        
         
-        #### Comics & Storyboards
+        #### 3. Comics & Storyboards
 
         - This section has a row of three artboards showcasing:
         
@@ -182,7 +182,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
         3. A comic strip
 
-        #### Merchandise
+        #### 4. Merchandise
 
         - This section features a bespoke colouring-in birthday card from parents to their spoilt son wrapped around an ai generated image showcasing the differents types of merchandise we can tailor-make for a client.
 
@@ -536,10 +536,10 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 <h2 align="center"><img src="assets/readme/toon-bazaar-fhd.png"></h2>
 
 #### 2k (2560x1440)
-<h2 align="center"><img src="assets/readme/toon-bazaar-2k.png"></h2>
+<h2 align="center"><img src="assets/readme/toon-bazaar-2k.jpg"></h2>
 
 #### 4K (3840 x 2160)
-<h2 align="center"><img src="assets/readme/toon-bazaar-4k.png"></h2>
+<h2 align="center"><img src="assets/readme/toon-bazaar-4k.jpg"></h2>
 
 
 -   ### Testing User Stories from User Experience (UX) Section
