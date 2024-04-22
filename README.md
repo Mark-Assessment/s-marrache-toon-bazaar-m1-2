@@ -108,7 +108,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
         -   The five main colours used for Toon Bazaar are black, white, pink, purple and orange. These colours are supposed to imbue the site with a vivid and colourful comic strip feel.
   
-  <h3 align="center"><img src="assets/readme/palette-toon-bazaar.jpg"></h3>
+  <h3 align="center"><img src="assets/readme/palette-toon-bazaar.png"></h3>
   
   
 -   ## Typography
