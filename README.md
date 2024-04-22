@@ -37,12 +37,12 @@ It is designed to be responsive and accessible on a range of devices, making it 
   + [Icons](#icons)
 - [Structure](#structure)
   + [Information Architecture](#information-architecture)
-  - [Irregular Structure](#irregular-structure)
+  + [Irregular Structure](#irregular-structure)
 - [Features](#features)
     + [Current Features](#current-features)
         + [Navigation Bar](#navigation-bar)
         + [Buttons](#buttons)
-        + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)
+        + [Links](#links)
         + [Footer](#footer)
   + [Future Features](#future-features)
 - [Wireframes](#wireframes)
@@ -59,77 +59,85 @@ It is designed to be responsive and accessible on a range of devices, making it 
   + [Acknowledgements](#acknowledgements)
 
 
-## User Experience (UX)
+# User Experience
 
--   ## User Stories
+-  ## User Stories
 
-    -   ### First Time Visitor Goals
+    -   ### Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.
+        1. As a Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are, where they are, what they have to offer and how they intend to deliver.
 
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        2. As a Visitor, I want to be able to easily navigate throughout the site to find content.
 
-        3. As a First Time Visitor, I want to see some samples of the artistic services they provide.
+        3. As a Visitor, I want to see some sample artwork.
 
-        4. As a First Time Visitor, I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-
-    -   ### Returning Visitor Goals
-
-        1. As a Returning Visitor, I want to see more of the artwork they have on offer with their daily exhibits of different artists.
-
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.
-
-        3. As a Returning Visitor, I want to find community links and links to all the artists' portfolios.
-
-    -   ### Frequent User Goals
-
-        1. As a Frequent User, I want to check to see if there are any newly added cartoons, comics illustrations and animations.
-
-        2. As a Frequent User, I want to check to see if there are any new artists or any new services on offer.
+        4. As a Visitor, I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
         
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.
+        5. As a Visitor, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.
+
+-   ## Client Stories
+     
+    -   ### Client Goals
+
+        1. As a Potential Client, I want to check to see if there are any newly added cartoons, comics, illustrations and animations while browsing their daily exhibits of different artists.
+        
+        2. As a Potential Client, I want to check to see if there are any new artists or any new services on offer.
+        
+        3. As a Potential Client, I want to find community links and links to all the artists' portfolios. 
+        
+        4. As a Potntial Client, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.
 
 -   ## Artist Stories
 
     -   ### Artist Goals
 
-        1. As an Artist, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.
+        1. As a Potential Artist, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.
 
-        2. As an Artist, I want to see whether my work might suit that of the Toon Bazaar collective and whether it might be a community I would like to join.
+        2. As a Potential Artist, I want to see whether my work might suit that of the Toon Bazaar collective and whether it might be a community I would like to join.
 
-        3.  As an Artist, I want to find community links, social media links and links to all the artists' portfolios to further my knowledge and understanding of the collective.
+        3.  As a Potential Artist, I want to find community links, social media links and links to all the artists' portfolios to further my knowledge and understanding of the collective.
 
-        4. As an Artist, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.
+        4.  As a Potential Artist, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.
 
-        4. As an Artist, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.
+        5. As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.
 
--   ## Design
 
-    -   ### Colour Scheme
+-   # Design
+
+    -   ## Colour Scheme
 
         -   The five main colours used for Toon Bazaar are black, white, pink, purple and orange. These colours are supposed to imbue the site with a vivid and colourful comic strip feel.
+  
+  <h3 align="center"><img src="assets/readme/palette-toon-bazaar.jpg"></h3>
+  
+  
+-   ## Typography
 
-    -   ### Typography
+    -   I use three Google fonts throughout the website to give it a cartoon feel:
 
-        -   I use three Google fonts throughout the website to give it a cartoon feel:
-
-        1) "Titan One", sans-serif;
+    1) "Titan One", sans-serif;
          
          -   Titan One is used for the name brand and for direct marketing messaging.
         
-        2) "Jomhuria", serif;
+        <h3 align="center"><img src="assets/readme/titan-one.jpg"></h3>
+
+    2)  "Jomhuria", serif;
 
          -   Jomhuria is used for the contact form as it is easy to read but still has a comic touch about it.
+        
+        <h3 align="center"><img src="assets/readme/jomhuria.jpg"></h3>
 
-        3) "Raleway", sans-serif;
+    3) "Raleway", sans-serif;
 
          -    Raleway is used for the longer passages as it is easy to read and is widely considered a top ten font for web development. The main about section and the nav bar both use this font.
+
+        <h3 align="center"><img src="assets/readme/raleway.jpg"></h3>
          
-    -   ### Imagery
+    -   ## Imagery
 
         -   Imagery is obviously very important, seeing as the website is supposed to showcase artwork of a high enough calibre to convince users to acquire our cartooning services.
 
-        #### Background Images
+        ### Background Images
         
         - The different background images on each page are of cartoon bazaars, in line with the name of our brand, Toon Bazaar. 
         
@@ -143,36 +151,36 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
         - The contact page background image is supposed to showcase our ability to generate fantastic childish, playful and surreal content.
 
-        #### **Homepage**:
+        ### **Homepage**:
 
         - Whilst the Homepage is there to explain to the user who we are at Toon Bazaar and what it is we do, it serves a secondary purpose of showcasing some of our 3D cartoons.
 
-        #### 3D Comic Strip
+        ### 3D Comic Strip
 
         - Atop the page, sits an eye-catching 3D comic strip, describing why potential customers might desire or need our services.
 
-        #### About Section
+        ### About Section
 
         - Beneath that, as the user scrolls down, they will come across an about section.
 
         - This section has various of our artists rendered as 3D cartoons, surrounding a sales pitch as to who we are, where we are, the services we can provide, the guarantee we offer, links to example artwork on the Marketplace page (market.html) and links to the contact form on the Contact page (contact.html).
 
-        #### **Market Page**:
+        ### **Market Page**:
 
         - The Market Page is there to showcase daily artwork by our artists, so the user can get a feel for the work we produce.
         
         - The page is divided into 4 rows, with each one demonstrating a different medium we can provide:
 
-        #### 1. Animations
+        ### 1. Animations
 
          - This section has a row of three 3D animations. 
 
-        #### 2. 2D Illustrations
+        ### 2. 2D Illustrations
 
         - This section has a row of three artboards showcasing 2D illustrations.
        
         
-        #### 3. Comics & Storyboards
+        ### 3. Comics & Storyboards
 
         - This section has a row of three artboards showcasing:
         
@@ -182,26 +190,26 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
         3. A comic strip
 
-        #### 4. Merchandise
+        ### 4. Merchandise
 
         - This section features a bespoke colouring-in birthday card from parents to their spoilt son wrapped around an ai generated image showcasing the differents types of merchandise we can tailor-make for a client.
 
-        #### **Contact Page**:
+        ### **Contact Page**:
 
         - This features a lovely, colourful background image and a contact form.
 
-    -   ### Icons
+    -   ## Icons
         
         - I used icons from Font Awesome for social media links in the footer and for the email subscription offer, to improve clarity and efficiency for my users.
 
 
--   ## Structure
+-   # Structure
 
-    -   ### Information Architecture
+    -   ## Information Architecture
 
         - The website has 3 pages:
 
-        1. Homepage -  Landing page with a 3D comic strip, an about us section and links to:
+        1. *Homepage* -  Landing page with a 3D comic strip, an about us section and links to:
 
         * External Artist Portfolios
         * Samples of 2D Toons
@@ -211,20 +219,20 @@ It is designed to be responsive and accessible on a range of devices, making it 
         * A Contact Form with SignUp discount.
 
 
-         2. Market Page - A Gallery Page, showcasing daily uploads of our artists' work. These are split into 4 rows, each showcasing three artboards or videos:
+         2. *Market Page* - A Gallery Page, showcasing daily uploads of our artists' work. These are split into 4 rows, each showcasing three artboards or videos:
 
         * Animations
         * 2D Illustrations
         * Comics & Storyboards
         * Merchandise
 
-        3. Contact Page - A Form Page, whereby clients can get in touch to make inquiries, requests and get a quote. Artists can also get in touch to inquire about becoming part of the collective.
+        3. *Contact Page* - A Form Page, whereby clients can get in touch to make inquiries, requests and get a quote. Artists can also get in touch to inquire about becoming part of the collective.
 
-    -   ### Irregular Structure
+    -   ## Irregular Structure
 
         -   The website includes a few structural irregularities:
 
-        #### Embedded CSS 
+        ### Embedded CSS 
         
         -   Background image styling placed in the head of the HTML file    instead of including it in the CSS stylesheet. Rationale:
 
@@ -232,7 +240,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
         
             Therefore I opted for a fixed static background, whereby I could scroll through artwork in the foreground with nothing moving in the background. This proved to be the easiest way to do so, with the least impact on loading performance.
 
-        #### Flexbox & Media Queries 
+        ### Flexbox & Media Queries 
 
         -   My Media Queries use of Flexbox css is extensive because whenever I tried to create text boxes and make them flex with the images, I encountered two problems:
 
@@ -243,9 +251,9 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
             If ever confronted with trying to build an image border around an article of text again, I will try and find an alternative and more efficient way of doing so.
     
--   ## Features
+-   # Features
 
-    -   ### General Features:
+    -   ## General Features:
 
         -   Responsive on all device sizes.
 
@@ -257,7 +265,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
         -   Easy offsite navigation to social media accounts and artists' portfolios.
 
-    -   ### Navigation Bar
+    -   ## Navigation Bar
 
         - The Homepage, Market and Contact pages feature a navigation bar, with easy access buttons to each page, allowing the user to easily navigate between them without needing to go back to the homepage.
         - The Navigation bar appears as a horizontal list of buttons on desktop and mobile.
@@ -266,18 +274,40 @@ It is designed to be responsive and accessible on a range of devices, making it 
     <h2 align="center"><img src="assets/readme/navbar-normal.jpg"></h2>
     <h2 align="center"><img src="assets/readme/navbar-hover.jpg"></h2>
             
-    -   ### Buttons
+    -   ## Buttons
 
         - Buttons are used for navigation, for links to social media and for the contact form.
         - Buttons change colour (both background and text) when hovered over. 
         - Button text is legible both in its normal and hover state.
 
 
+    <h2 align="center"><img src="assets/readme/links-normal.jpg"></h2>
+    <h2 align="center"><img src="assets/readme/links-hover.jpg"></h2>
+
+    -   ## Links
+
+        - Links are used for navigation within the about section, giving users immediate access to what is being highlighted. The links take them to:
+            1. Cartoonists' Portfolios
+            2. Illustrators' Portfolios
+            3. Animators' Portfolios
+            4. Request & Contact Form
+            5. 2D Toons
+            6. 3D Toons
+            7. Comics & Storyboards
+            8. Animations
+            9. Merchandise
+            10. Request & Contact Form
+        
+        - Links change colour (both background and text) when hovered over. 
+            
+        - Links' text is legible both in its normal and hover state.
+
+
     <h2 align="center"><img src="assets/readme/send-button.jpg"></h2>
     <h2 align="center"><img src="assets/readme/send-button-hover.jpg"></h2>
 
 
-    -   ### Footer
+    -   ## Footer
 
         -   The Footer remains consistent on each page.
 
@@ -292,7 +322,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
     <h2 align="center"><img src="assets/readme/footer-normal.jpg"></h2>
     <h2 align="center"><img src="assets/readme/footer-hover.jpg"></h2>
 
--  ## Future Features
+    -  ## Future Features
 
     -   ###  Popup Infinite Slider Gallery Modal (HTML, CSS, JavaScript) 
         
@@ -313,24 +343,24 @@ It is designed to be responsive and accessible on a range of devices, making it 
         - I will add a colourful and friendly custom 404 error page to help the user navigate back to the Homepage if they enter an incorrect URL. I will achieve this by following the below Github documentation:
          [Github Documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
 
-## Wireframes
+# Wireframes
 
--   #### Home Page Wireframe - <h2 align="right"><img src="assets/readme/homepage-wireframe.png"></h2> 
+-   ## Home Page Wireframe - <h2 align="right"><img src="assets/readme/homepage-wireframe.png"></h2> 
 
--   #### Market Page Wireframe - <h2 align="right"><img src="assets/readme/market-wireframe.png"></h2> 
+-   ## Market Page Wireframe - <h2 align="right"><img src="assets/readme/market-wireframe.png"></h2> 
 
--   #### Contact Page Wireframe - <h2 align="right"><img src="assets/readme/contact-wireframe.png"></h2> 
+-   ## Contact Page Wireframe - <h2 align="right"><img src="assets/readme/contact-wireframe.png"></h2> 
 
 
 
-## Technologies
+# Technologies
 
--   ### Languages
+-   ## Languages
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
--   ### Frameworks & Libraries & Programs
+-   ## Frameworks & Libraries & Programs
 
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
@@ -356,7 +386,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
     - CodeBeautify was used to help beautify the code.
 12. [NightCafeStudio:](https://creator.nightcafe.studio/)
     - NightCafeStudio was used in tandem with my own artwork to create the backgrounds and the 3D cartoons characters.
-13. [Git](https://git-scm.com/)
+13. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 14. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
@@ -380,20 +410,21 @@ The Toon Bazaar website has been tested using the following methods:
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+   
 
-# Code Validation
+## Code Validation
 
 ## W3C HTML Validator
 
 The Toon Bazaar website passed all tests using the W3C HTML Validator tool
 
--   #### Home Page - <h2 align="right"><img src="assets/readme/homepage.png"></h2> 
+-   ### Home Page - <h2 align="right"><img src="assets/readme/homepage.png"></h2> 
 
--   #### Market Page - <h2 align="right"><img src="assets/readme/market.png"></h2> 
+-   ### Market Page - <h2 align="right"><img src="assets/readme/market.png"></h2> 
 
--   #### Contact Page - <h2 align="right"><img src="assets/readme/contact.png"></h2> 
+-   ### Contact Page - <h2 align="right"><img src="assets/readme/contact.png"></h2> 
 
 
 
@@ -402,7 +433,7 @@ The Toon Bazaar website passed all tests using the W3C HTML Validator tool
 The Toon Bazaar website passed all tests using the W3C CSS Validator tool
 <h2 align="center"><img src="assets/readme/css.png"></h2>
 
-# Lighthouse
+## Lighthouse
 
 ### Lighthouse Report for Homepage (Desktop)
 <h2 align="center"><img src="assets/readme/lighthouse-homepage-desktop.png"></h2>
@@ -429,7 +460,7 @@ I used the Lighthouse reports in Google Developer Tools to examine the pages of 
 - Best Practices 
 - SEO
 
-### For Desktop:
+* ### For Desktop:
 
 - Homepage scored:
     - Performace - 97
@@ -449,7 +480,7 @@ I used the Lighthouse reports in Google Developer Tools to examine the pages of 
     - Best Practices -100
     - SEO - 100
 
-### For Mobile:
+* ### For Mobile:
 
 - Homepage scored:
     - Performace - 97
@@ -469,28 +500,52 @@ I used the Lighthouse reports in Google Developer Tools to examine the pages of 
     - Best Practices -100
     - SEO - 100
 
-- ### Future Improvements
+- ## Future Improvements
 
-If I want to improve my Best Practices score for the Market Page, I need to correct the aspect ratio for the images, as per:
+- ### Desktop
 
-https://developer.chrome.com/docs/lighthouse/best-practices/image-aspect-ratio/?utm_source=lighthouse&utm_medium=devtools
+    - ### Market Page
+  
+      - **Best Practices**
 
-I will weigh up the pros and cons at a future instance.
+      - If I want to improve my *Best Practices* score for the Market Page, I need to correct the aspect ratio for the images, as per:
 
-For Performance:
+      - https://developer.chrome.com/docs/lighthouse/best-practices/image-aspect-ratio/?utm_source=lighthouse&utm_medium=devtools
 
-- The Home Page & Contact Page performed very well across the board, though for better SEO:
+      - I will weigh up the pros and cons at a future instance.
 
-  - Text-size on the Homepage should be improved for Mobile.
+      - Otherwise, I am satisfied with all of my Desktop results.
 
-- The Market Page performed not so well on Mobile and needs to be improved:
+- ### Mobile
+  
+    - ### Homepage
+  
+      - **SEO**
+  
+      - The Homepage SEO score could be improved by:
 
-  - Lighthouse recommends the following:
+      - Increasing text-size on the Homepage for mobile devices.
+   
+    - ### Market Page
 
-  1. Removing external fonts or making them embedded.
-  2. Saving images in next-gen formats. 
-  3. Removing javascript iframes.
-  4. Eliminating render-blocking resources to improve performance on the Market Page.
+       1. **Best Practices**
+    
+      - If I want to improve my *Best Practices* score for the Market Page, I need to correct the aspect ratio for the images, as per:
+
+      - https://developer.chrome.com/docs/lighthouse/best-practices/image-aspect-ratio/?utm_source=lighthouse&utm_medium=devtools
+
+      - I will weigh up the pros and cons at a future instance.
+
+      2. **Performance**
+
+      - The Market Page loaded slowly on Mobile and the performance needs to be improved:
+
+      - Lighthouse recommends the following:
+
+      1. Removing external fonts or making them embedded.
+      2. Saving images in next-gen formats. 
+      3. Removing javascript iframes.
+      4. Eliminating render-blocking resources to improve performance on the Market Page.
 
 # Browser Compatibility
 
@@ -541,71 +596,48 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 #### 4K (3840 x 2160)
 <h2 align="center"><img src="assets/readme/toon-bazaar-4k.jpg"></h2>
 
+# Testing User Experience
 
--   ### Testing User Stories from User Experience (UX) Section
+-   ## Testing User Stories
 
-    -   #### First Time Visitor Goals
+    -   ### Visitor Goals
 
+        1. *As a Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are, where they are, what they have to offer and how they intend to deliver."*
 
+    + [i] Upon entering the site, users are greeted with a 3D comic strip explaining in four frames why they need our help. That's the 'WHY?' sorted.
+  
+    + [ii] Once they have read the comic strip, we spell out in the about us section, where we are located (everywhere) and how we can help them. There are also links to the contact form wherein they can make requests or get a quote. That's the ''WHO?', 'WHERE?' & 'HOW?' sorted.
+  
+    + [iii] The user can then navigate via the links in the about section to examples of our artwork adorning the Market Page. That's the 'WHAT?' sorted.
+
+      2. *As a Visitor, I want to be able to easily navigate throughout the site to find content.*
+
+    + The navigation bar sits directly beneath the header on each page, with three clearly labelled buttons to take them to whichever page they wish. The buttons change colour if the user hovers over them to clarify that they will action the page request.
+  
+    + In the Homepage's about us section, there are links to example artwork, external links to artists' portfolios and prominant links to the contact form.
+  
+    + At the bottom of each page, there are social media buttons, which match the page buttons in the navigation bar, making for an intutive UX. Each of these buttons will open its respective social media page in a new window, so the user will not lose their position on the Toon Bazaar website. 
+
+      3. *As a Visitor, I want to see some samples of the artistic services they provide.*
    
+    + Each page features a background created by our artists and each page is filled with work by our collective of artists.
+   
+    + In the Homepage's about us section, there are internal links to example artwork and external links to artists' portfolios.
+  
+    + Each row on the Market Page is a gallery of different media, ranging from short animations to illustrations to comics and merchandise.
 
-       
-
-        4. As a First Time Visitor, I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.
-
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
-
-     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-
-     3. As a First Time Visitor, I want to see some samples of the artistic services they provide.
-
-    4. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+      4. *As a Visitor, I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.*
+   
+    + At the bottom of the page, there are social media buttons, which match the page buttons in the navigation bar, making for an intutive UX. Each of these buttons will open its respective social media acount in a new window, so the user will not lose their position on the Toon Bazaar website.
+  
+    + The user can scroll to the bottom of any page on the site to locate social media links in the footer.
+  
+      5. *As a Visitor, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
+   
+    + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The Contact Page is clear to see on the righthand side.
+    
+    + On the Homepage, in the about section, there are two links which direct the user straight to the ocntact form on the Contact Page.
      
-
--   #### Returning Visitor Goals
-
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
-
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
-
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
-
--   #### Frequent User Goals
-
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
-
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
 ### Further Testing
 
@@ -626,9 +658,9 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
     - Minify CSS
 
 
-## Deployment
+# Deployment
 
-### GitHub Pages
+## GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps...
 
@@ -640,9 +672,9 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
-## Credits
+# Credits
 
-### Code
+## Code
 
 -   [Code Institute](https://codeinstitute.net/): I referred back to tutorial videos and my notes taken throughout the process of developing this website. The navbar and footer were built in an almost identical fashion and I referred to the code from the Coders Coffee House project to create the contact form page and to the code from the Love Running project to improve my use of Media Queries.
 
@@ -658,32 +690,34 @@ The project was deployed to GitHub Pages using the following steps...
 
 -   [W3 Schools](https://www.w3schools.com/css/css3_gradients.asp): W3 Schools gave me the knowledge to create backgrounds featuring different gradients of colour.
 
--   [Stack Overflow](https://stackoverflow.com/questions/12991351/how-to-force-image-resize-and-keep-aspect-ratio): Stack Overflow gave me the knowledge to force an image to resize but retain the aspect ratio?
+-   [Stack Overflow](https://stackoverflow.com/questions/12991351/how-to-force-image-resize-and-keep-aspect-ratio): Stack Overflow gave me the knowledge to force an image to resize but retain the aspect ratio.
 
--   [CSS-TRICKS](https://css-tricks.com/almanac/properties/t/text-underline-position/): CSS-TRICKS gave me the knowledge to set the placement of the underline so it wasn't broken by the text when using the Jomhuria font.
+-   [CSS-TRICKS](https://css-tricks.com/almanac/properties/t/text-underline-position/): CSS-TRICKS gave me the knowledge to set the placement of the underline so it wasn't broken by the text when using the Jomhuria font on the Contact Page.
 
 
-### Content
+# Content
 
 -   All content was created and written by the developer.
 
-### Media
+# Media
 
 -   All Images were created by the developer, either by hand or via the AI image generator NightCafe Studio (https://creator.nightcafe.studio/).
 
 - All Animations are placeholders, kindly provided free of charge and free of copyright by BEEPLE (https://www.beeple-crap.com/).
 <h2 align="center"><img src="assets/readme/beeple-proof-open.png"></h2> 
 
-### Acknowledgements
+# Acknowledgements
 
 -   My Academic Supervisor and Lecturer, Rachel Furlong, for the great lessons, encouragement, kind guidance, helpful feedback and recommended tools.
 
--   My Mentor, Excellence Ilesanmi, for all the kind advice, encouragement,helpful feedback and recommended tools.
+-   My Mentor, Excellence Ilesanmi, for all the kind advice, encouragement,  helpful feedback and recommended tools.
 
--   Thank you to my classmates at EKCG for all their tips and guidance.
+-   Thank you to my classmates at EKCG for their friendly tips and guidance.
 
 -   Thank you to the tutors and staff at Code Institute for all their support.
 
-Toon Bazaar is purely for the sake of the developer's portfolio, though it might be further developed into a commercial website at some point in the future.
+# Root
+
+Toon Bazaar is purely for the sake of the developer's portfolio, though it may be further developed into a commercial website at some point in the future.
 
 <h4 align="center">yinyangsammy 2024</h4>
