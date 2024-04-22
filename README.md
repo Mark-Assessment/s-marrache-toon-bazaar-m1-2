@@ -280,9 +280,8 @@ It is designed to be responsive and accessible on a range of devices, making it 
         - Buttons change colour (both background and text) when hovered over. 
         - Button text is legible both in its normal and hover state.
 
-
-    <h2 align="center"><img src="assets/readme/links-normal.jpg"></h2>
-    <h2 align="center"><img src="assets/readme/links-hover.jpg"></h2>
+        <h2 align="center"><img src="assets/readme/send-button.jpg"></h2>
+        <h2 align="center"><img src="assets/readme/send-button-hover.jpg"></h2>
 
     -   ## Links
 
@@ -302,10 +301,8 @@ It is designed to be responsive and accessible on a range of devices, making it 
             
         - Links' text is legible both in its normal and hover state.
 
-
-    <h2 align="center"><img src="assets/readme/send-button.jpg"></h2>
-    <h2 align="center"><img src="assets/readme/send-button-hover.jpg"></h2>
-
+        <h2 align="center"><img src="assets/readme/links-normal.jpg"></h2>
+        <h2 align="center"><img src="assets/readme/links-hover.jpg"></h2>
 
     -   ## Footer
 
