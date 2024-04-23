@@ -288,6 +288,7 @@ nav a:hover {
   padding: 2% 0;
   text-shadow: 0.05vw 0.05vw 0.05vw whitesmoke;
   letter-spacing: 0.205em;
+  white-space: nowrap;
 }
 
 article {
