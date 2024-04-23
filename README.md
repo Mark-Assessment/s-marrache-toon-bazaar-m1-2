@@ -21,7 +21,7 @@ The collective of cartoonists are happy to create anything for a respective cust
 
 This is the main marketing website for Toon Bazaar. 
 
-It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients wishing to see the services on offer and initiate contact. Freelance artists hoping to join should also find the website useful in deciding whether they like the look of the community, whether they make a good match and, if so, in starting the application process.
+It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients wishing to see the services on offer and initiate contact. Freelance artists hoping to join should also find the website useful in understanding the community, assessing whether it is somewhere they would like to work and, if so, starting the application process.
 
 
 # Table of Contents 
@@ -153,7 +153,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
         ### **Homepage**:
 
-        - Whilst the Homepage is there to explain to the user who we are at Toon Bazaar and what it is we do, it serves a secondary purpose of showcasing some of our 3D cartoons.
+        - Whilst the Homepage is there to explain to the user who we are at Toon Bazaar and what it is we do; it serves a secondary purpose of showcasing some of our 3D cartoons.
 
         ### 3D Comic Strip
 
@@ -216,7 +216,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
         * Samples of 3D Toons
         * Samples of Animations
         * Samples of Merchandise
-        * A Contact Form with SignUp discount.
+        * A Contact Form with a SignUp discount.
 
 
          2. *Market Page* - A Gallery Page, showcasing daily uploads of our artists' work. These are split into 4 rows, each showcasing three artboards or videos:
@@ -226,7 +226,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
         * Comics & Storyboards
         * Merchandise
 
-        3. *Contact Page* - A Form Page, whereby clients can get in touch to make inquiries, requests and get a quote. Artists can also get in touch to inquire about becoming part of the collective.
+        3. *Contact Page* - A Form Page, whereby clients can get in touch to make inquiries, requests and get a quote. At the bottom of the page, users are given the option to subscribe to our newsletter for a 15% discount.  Artists can also get in touch to inquire about becoming part of the collective.
 
     -   ## Irregular Structure
 
@@ -244,12 +244,12 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
         -   My Media Queries use of Flexbox css is extensive because whenever I tried to create text boxes and make them flex with the images, I encountered two problems:
 
-            -   [i] **Space vs Size** - I couldn't fit enough text inside a box the same size as one of the about section's border images. I tried using two boxes in column formation (each one sized according to the image next to it), but then formatting the text in the two boxes to look conjoined gave me problems. I tried flex-grow, flex-shrink and flex-basis, but to no avail.
+            -   [i] **Space vs Size** - I couldn't fit enough text inside a box the same size as one of the about section's border images. I tried using two boxes in column-formation (each one sized according to the image next to it), but then formatting the text in the two boxes to look conjoined gave me problems. I tried flex-grow, flex-shrink and flex-basis, but to no avail.
 
             -   [ii] **Duality vs Binary** - I needed the about section to flex with both the columns and the rows of images bordering it, but with flex I either had the option of choosing to flex the text with the row of images or the column of images, never both.
-                Therefore, I had to set different css rules for Media Queries spanning all the device sizes, from a tiny Galaxy Fold resolution to a 4K monitor resolution.
+            Therefore, I had to set different css rules for Media Queries spanning all the device sizes, from a tiny Galaxy Fold resolution to a 4K monitor resolution.
 
-            If ever confronted with trying to build an image border around an article of text again, I will use an alternative and more efficient way to do so.
+            If ever confronted with trying to build an image border around an article of text again, I will obviously use an alternative and more efficient way to do so.
     
 -   # Features
 
@@ -309,6 +309,8 @@ It is designed to be responsive and accessible on a range of devices, making it 
         -   The Footer remains consistent on each page.
 
         -   The Footer includes social media buttons.
+        
+        -   The social media buttons change colour (both background and text) when hovered over. 
 
         -   Social Media links open in a new page.
 
@@ -383,7 +385,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
     - CodeBeautify was used to help beautify the code.
 12. [NightCafeStudio:](https://creator.nightcafe.studio/)
     - NightCafeStudio was used in tandem with my own artwork to create the backgrounds and the 3D cartoons characters.
-13. [Coolors:] (https://coolors.co/?home)
+13. [Coolors:](https://coolors.co/?home)
     - Coolors was used to create the colour palette for this README.
 14. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
@@ -395,9 +397,6 @@ It is designed to be responsive and accessible on a range of devices, making it 
 The Toon Bazaar website has been tested using the following methods:
 - [Code Validation](#code-validation)
     - [W3C HTML Validator](#w3c-html-validator) 
-        - [Homepage](#homepage)
-        - [Market Page](#exhibitions-page)
-        - [Contact Page](#contact-page)
     - [W3C CSS Validator](#w3c-css-validator)
 - [Lighthouse](#lighthouse)
 - [Responsiveness](#responsiveness)
@@ -683,7 +682,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
   
     + The user can then navigate via the links in the about section to examples of our artwork adorning the Homepage & Market Page. That's the 'WHAT?' sorted.
 
-        1. *As a Potential Artist, I want to see whether my work might suit that of the Toon Bazaar collective and whether it might be a community I would like to join.*
+        2. *As a Potential Artist, I want to see whether my work might suit that of the Toon Bazaar collective and whether it might be a community I would like to join.*
          
     + Each page features a background created by our artists and each page is filled with work by our community of artists.
   
@@ -693,19 +692,19 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
     
     + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.
 
-        2.  *As a Potential Artist, I want to find community links, social media links and links to all the artists' portfolios to further my knowledge and understanding of the collective.*
+        3.  *As a Potential Artist, I want to find community links, social media links and links to all the artists' portfolios to further my knowledge and understanding of the collective.*
    
     + In the Homepage's about us section, there are links to example artwork of various mediums, external links to artists' portfolios and links to the contact form.
 
     + At the bottom of each page, there are social media buttons. Each of these buttons will open its respective social media account in a new window.
 
-        3.  *As a Potential Artist, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
+        4.  *As a Potential Artist, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
 
     + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the righthand side.
     
     + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
 
-        4. *As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.*
+        5. *As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.*
 
     + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
 
