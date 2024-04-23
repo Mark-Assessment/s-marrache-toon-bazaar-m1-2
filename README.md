@@ -711,27 +711,23 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 
     + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
 
-### Further Testing
+## Further Testing
 
 -   The Website was tested on Brave, Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices, including a desktop, a laptop & a variety of different-sized S Series Samsung phones.
 -   A large amount of testing was done to ensure that all pages were linking correctly for both internal and external links.
 
-### Resolved Bugs
+## Bugs
+
+### Resolved
 
 -   Please refer to Irregular Structure in the Structure section above.
 
 -   Please refer to Code in the Credits section below. 
 
-### Unresolved Bugs
+### Unresolved
 
--   Improve Lighthouse Performance score on all pages, but particularly the Market Page by making changes including:
-
-- Serve images in next-gen formats (Image formats like WebP and AVIF often provide better compression than PNG or JPEG, which means faster downloads and less data consumption.)
-    
-- Eliminate render-blocking resources (Resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles)
-
-- Minify CSS
+-   Please refer to Market Page under the Mobile subheading in the Future Improvements section above.
 
 
 # Deployment
