@@ -65,49 +65,49 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
     -   ### Visitor Goals
 
-        1. As a Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are, where they are, what they have to offer and how they intend to deliver.
+        i. As a Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are, where they are, what they have to offer and how they intend to deliver.
 
-        2. As a Visitor, I want to be able to easily navigate throughout the site to find content.
+        ii.. As a Visitor, I want to be able to easily navigate throughout the site to find content.
 
-        3. As a Visitor, I want to see some samples of the artistic services they provide
+        iii. As a Visitor, I want to see some samples of the artistic services they provide
 
-        4. As a Visitor, I also want to locate their social media links to see their followings on social media and determine how trusted and known they are.
+        iv. As a Visitor, I also want to locate their social media links to see their followings on social media and determine how trusted and known they are.
         
-        5. As a Visitor, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.
+        v. As a Visitor, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.
         
-        6. As a Visitor, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.
+        vi. As a Visitor, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.
 
 -   ## Client Stories
      
     -   ### Client Goals
 
-        1. As a Potential Client, I want to check to see if there are any newly added cartoons, comics, illustrations and animations while browsing their daily exhibits of different artists.
+        i. As a Potential Client, I want to check to see if there are any newly added cartoons, comics, illustrations and animations while browsing their daily exhibits of different artists.
         
-        2. As a Potential Client, I want to check to see if there are any new artists or any new services on offer.
+        ii. As a Potential Client, I want to check to see if there are any new artists or any new services on offer.
         
-        3. As a Potential Client, I want to find community links and links to all the artists' portfolios. 
+        iii. As a Potential Client, I want to find community links and links to all the artists' portfolios. 
         
-        4. As a Potential Client, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.
+        iv. As a Potential Client, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.
         
-        5. As a Potential Client, I want to detail what I am looking to create with artwork as well as text.
+        v. As a Potential Client, I want to detail what I am looking to create with artwork as well as text.
         
-        6. As a Potential Client, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer. 
+        vi. As a Potential Client, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer. 
 
 -   ## Artist Stories
 
     -   ### Artist Goals
 
-        1. As a Potential Artist, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.
+        i. As a Potential Artist, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.
 
-        2. As a Potential Artist, I want to see whether my work might suit that of the Toon Bazaar collective and whether it might be a community I would like to join.
+        ii. As a Potential Artist, I want to see whether my work might suit that of the Toon Bazaar collective and whether it might be a community I would like to join.
 
-        3.  As a Potential Artist, I want to find community links, social media links and links to all the artists' portfolios to further my knowledge and understanding of the collective.
+        iii.  As a Potential Artist, I want to find community links, social media links and links to all the artists' portfolios to further my knowledge and understanding of the collective.
 
-        4.  As a Potential Artist, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.
+        iv.  As a Potential Artist, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.
 
-        5. As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.
+        v. As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.
         
-        6. As a Potential Artist, I want the option to send in a sample of my artwork to gauge their interest in my work.
+        vi. As a Potential Artist, I want the option to send in a sample of my artwork to gauge their interest in my work.
 
 
 -   # Design
