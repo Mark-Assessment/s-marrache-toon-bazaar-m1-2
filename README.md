@@ -48,7 +48,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 - [Wireframes](#wireframes)
 - [Technologies](#technologies)
   + [Languages](#languages)
-  + [Frameworks & Libraries & Programs](#frameworks-&-libraries-&-programs)
+  + [Frameworks Libraries Programs](#frameworks-libraries-programs)
 - [Testing](#testing)
 - [Deployment](#deployment)
   + [GitHub Pages](#github-pages)
@@ -342,7 +342,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 # Wireframes
 
--   ## Home Page Wireframe - <h2 align="right"><img src="assets/readme/homepage-wireframe.png"></h2> 
+-   ## Homepage Wireframe - <h2 align="right"><img src="assets/readme/homepage-wireframe.png"></h2> 
 
 -   ## Market Page Wireframe - <h2 align="right"><img src="assets/readme/market-wireframe.png"></h2> 
 
@@ -357,7 +357,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
--   ## Frameworks & Libraries & Programs
+-   ## Frameworks Libraries Programs
 
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
@@ -383,9 +383,11 @@ It is designed to be responsive and accessible on a range of devices, making it 
     - CodeBeautify was used to help beautify the code.
 12. [NightCafeStudio:](https://creator.nightcafe.studio/)
     - NightCafeStudio was used in tandem with my own artwork to create the backgrounds and the 3D cartoons characters.
-13. [Git:](https://git-scm.com/)
+13. [Coolors:] (https://coolors.co/?home)
+    - Coolors was used to create the colour palette for this README.
+14. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-14. [GitHub:](https://github.com/)
+15. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 
 # Testing
@@ -393,7 +395,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 The Toon Bazaar website has been tested using the following methods:
 - [Code Validation](#code-validation)
     - [W3C HTML Validator](#w3c-html-validator) 
-        - [Home Page](#home-page)
+        - [Homepage](#homepage)
         - [Market Page](#exhibitions-page)
         - [Contact Page](#contact-page)
     - [W3C CSS Validator](#w3c-css-validator)
@@ -417,7 +419,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The Toon Bazaar website passed all tests using the W3C HTML Validator tool
 
--   ### Home Page - <h2 align="right"><img src="assets/readme/homepage.png"></h2> 
+-   ### Homepage - <h2 align="right"><img src="assets/readme/homepage.png"></h2> 
 
 -   ### Market Page - <h2 align="right"><img src="assets/readme/market.png"></h2> 
 
@@ -717,7 +719,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 
 ### Resolved Bugs
 
--   Please refer to Irregular Structures in the Structure section above.
+-   Please refer to Irregular Structure in the Structure section above.
 
 -   Please refer to Code in the Credits section below. 
 
