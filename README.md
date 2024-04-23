@@ -754,9 +754,9 @@ The project was deployed to GitHub Pages using the following steps...
 ## Code
 
 -   [Code Institute](https://codeinstitute.net/): I referred back to tutorial videos and my notes taken throughout the process of developing this website:  
--   The navbar and footer were built in an almost identical fashion. 
--   I referred to the code from the Coders Coffee House project to create the Contact Page and its contact form.
--   Code from the Love Running project formed the basis of the Media Queries css used in my website.
+    -   The navbar and footer were built in an almost identical fashion. 
+    -   I referred to the code from the Coders Coffee House project to create the Contact Page and its contact form.
+    -   Code from the Love Running project formed the basis of the Media Queries css used in my website.
 
 -   [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries): I also had to do a little more research via Mozilla Developer to achieve the exact level of responsiveness I wanted from Media Queries.
 
