@@ -69,11 +69,13 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
         2. As a Visitor, I want to be able to easily navigate throughout the site to find content.
 
-        3. As a Visitor, I want to see some sample artwork.
+        3. As a Visitor, I want to see some samples of the artistic services they provide
 
-        4. As a Visitor, I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        4. As a Visitor, I also want to locate their social media links to see their followings on social media and determine how trusted and known they are.
         
-        5. As a Visitor, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.
+        5. As a Visitor, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.
+        
+        6. As a Visitor, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.
 
 -   ## Client Stories
      
@@ -86,6 +88,10 @@ It is designed to be responsive and accessible on a range of devices, making it 
         3. As a Potential Client, I want to find community links and links to all the artists' portfolios. 
         
         4. As a Potential Client, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.
+        
+        5. As a Potential Client, I want to detail what I am looking to create with artwork as well as text.
+        
+        6. As a Potential Client, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer. 
 
 -   ## Artist Stories
 
@@ -100,6 +106,8 @@ It is designed to be responsive and accessible on a range of devices, making it 
         4.  As a Potential Artist, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.
 
         5. As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.
+        
+        6. As a Potential Artist, I want the option to send in a sample of my artwork to gauge their interest in my work.
 
 
 -   # Design
@@ -418,11 +426,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The Toon Bazaar website passed all tests using the W3C HTML Validator tool
 
--   ### Homepage - <h2 align="right"><img src="assets/readme/homepage.png"></h2> 
+-   ### Homepage <h2 align="right"><img src="assets/readme/homepage.png"></h2> 
 
--   ### Market Page - <h2 align="right"><img src="assets/readme/market.png"></h2> 
+-   ### Market Page <h2 align="right"><img src="assets/readme/market.png"></h2> 
 
--   ### Contact Page - <h2 align="right"><img src="assets/readme/contact.png"></h2> 
+-   ### Contact Page <h2 align="right"><img src="assets/readme/contact.png"></h2> 
 
 
 
@@ -600,7 +608,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 
     -   ### Testing Visitor Goals
 
-        1. *As a Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are, where they are, what they have to offer and how they intend to deliver."*
+      1. *As a Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are, where they are, what they have to offer and how they intend to deliver.*
 
     + Upon entering the site, users are greeted with a 3D comic strip explaining in four frames why they might need or want our help. That's the 'WHY?' sorted.
   
@@ -624,12 +632,13 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
   
     + Each row on the Market Page is a gallery of different media, ranging from short animations to illustrations to comics and merchandise.
 
-      4. *As a Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.*
+      4. *As a Visitor, I want to locate their social media links to see their followings on social media and determine how trusted and known they are.*
    
     + At the bottom of each page, there are social media buttons. Each of these buttons will open its respective social media account in a new window.
   
     + The user can scroll to the bottom of any page on the site to locate social media links in the footer.
   
+      
       5. *As a Visitor, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
    
     + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the righthand side.
@@ -639,7 +648,6 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
        6. *As a Visitor, I want to sign up to a newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.*
    
     + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
-
 
      
     -   ### Testing Client Goals
@@ -652,7 +660,13 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
   
     + The artwork on the Homepage and Market Page is updated every 24-48 hours, to give visitors and clients alike a reason to come back and sample more of our artists' fantastic work.
 
-        2. "As a Potential Client, I want to check to see if there are any new artists or any new services on offer.*
+        2.  "As a Potential Client, I want to find community links and links to all the artists' portfolios."
+   
+    + In the Homepage's about us section, there are links to example artwork of various mediums, external links to artists' portfolios and links to the contact form.
+
+    + At the bottom of each page, there are social media buttons. Each of these buttons will open its respective social media account in a new window.
+
+        3. *As a Potential Client, I want to check to see if there are any new artists or any new services on offer.*
 
     + In the Homepage's about us section, there are internal links to example artwork and external links to artists' portfolios. The user will be able to filter the portfolios according to medium, style and the date added.
    
@@ -662,15 +676,20 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 
     + Any new services will be highlighted in the about section on the Homepage.
         
-        3. *As a Potential Client, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
+        4. *As a Potential Client, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
    
      + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the righthand side.
     
     + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
 
-        4. *As a Potential Client, I want to detail what I am looking to create with artwork as well as text.*
+        5. *As a Potential Client, I want to detail what I am looking to create with artwork as well as text.*
 
      + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.
+
+        6. *As a Potential Client, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.*
+   
+     + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
+
 
     -   ### Testing Artist Goals
 
@@ -707,6 +726,10 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
         5. *As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.*
 
     + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
+
+        6. *As a Potential Artist, I want the option to send in a sample of my artwork to gauge their interest in my work.*
+   
+    + On the Contact Page, under the text area of the form, there is a file upload button for potential artists to add samples of their work as a preliminary to making a full application.
 
 ## Further Testing
 
