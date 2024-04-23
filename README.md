@@ -21,7 +21,7 @@ The collective of cartoonists are happy to create anything for a respective cust
 
 This is the main marketing website for Toon Bazaar. 
 
-It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients wanting to see the services on offer and hopefully make a request. Freelance artists hoping to join our community should also find the website useful for deciding whether it is somewhere they might wish to work and initiating contact with respects to applying.
+It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients wishing to see the services on offer and initiate contact. Freelance artists hoping to join should also find the website useful in deciding whether they like the look of the community, whether they make a good match and, if so, in starting the application process.
 
 
 # Table of Contents 
@@ -599,7 +599,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 
 -   ## Testing User Stories
 
-    -   ### Visitor Goals
+    -   ### Testing Visitor Goals
 
         1. *As a Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are, where they are, what they have to offer and how they intend to deliver."*
 
@@ -641,9 +641,9 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
    
     + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
 
--   ## Testing Client Stories
+
      
-    -   ### Client Goals
+    -   ### Testing Client Goals
 
         1. *As a Potential Client, I want to check to see if there are any newly added cartoons, comics, illustrations and animations while browsing their daily exhibits of different artists.*
         
@@ -673,9 +673,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 
      + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.
 
--   ## Testing Artist Stories
-
-    -   ### Artist Goals
+    -   ### Testing Artist Goals
 
         1. *As a Potential Artist, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.*
      
@@ -685,7 +683,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
   
     + The user can then navigate via the links in the about section to examples of our artwork adorning the Homepage & Market Page. That's the 'WHAT?' sorted.
 
-        2. *As a Potential Artist, I want to see whether my work might suit that of the Toon Bazaar collective and whether it might be a community I would like to join.*
+        1. *As a Potential Artist, I want to see whether my work might suit that of the Toon Bazaar collective and whether it might be a community I would like to join.*
          
     + Each page features a background created by our artists and each page is filled with work by our community of artists.
   
@@ -695,19 +693,19 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
     
     + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.
 
-        3.  *As a Potential Artist, I want to find community links, social media links and links to all the artists' portfolios to further my knowledge and understanding of the collective.*
+        2.  *As a Potential Artist, I want to find community links, social media links and links to all the artists' portfolios to further my knowledge and understanding of the collective.*
    
     + In the Homepage's about us section, there are links to example artwork of various mediums, external links to artists' portfolios and links to the contact form.
 
     + At the bottom of each page, there are social media buttons. Each of these buttons will open its respective social media account in a new window.
 
-        4.  *As a Potential Artist, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
+        3.  *As a Potential Artist, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
 
     + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the righthand side.
     
     + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
 
-        5. *As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.*
+        4. *As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.*
 
     + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
 
@@ -767,6 +765,8 @@ The project was deployed to GitHub Pages using the following steps...
 -   [Stack Overflow](https://stackoverflow.com/questions/12991351/how-to-force-image-resize-and-keep-aspect-ratio): Stack Overflow gave me the knowledge to force an image to resize but retain the aspect ratio.
 
 -   [CSS-TRICKS](https://css-tricks.com/almanac/properties/t/text-underline-position/): CSS-TRICKS gave me the knowledge to set the placement of the underline so it wasn't broken by the text when using the Jomhuria font on the Contact Page.
+
+-   [Stack Overflow](https://stackoverflow.com/questions/300220/how-to-prevent-text-in-a-table-cell-from-wrapping): Stack Overflow gave me the knowledge to prevent my h3 heading from wrapping. 
 
 
 ## Content
