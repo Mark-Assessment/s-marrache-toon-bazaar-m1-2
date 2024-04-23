@@ -262,8 +262,8 @@ nav a:hover {
   background-color: whitesmoke;
   text-transform: uppercase;
   font-family: "Titan One", sans-serif;
-  align-items: baseline;
-  align-self: stretch;
+  align-items: stretch;
+  display: flex;
 }
 
 .about h3 {
