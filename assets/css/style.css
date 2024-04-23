@@ -542,14 +542,28 @@ label {
   margin: 4.75% 1%;
 }
 
-#request-bespoke {
-  margin: 2% 0%;
-  padding: 0.3em 1em;
-}
-
 #request-nature {
   margin: 1% 0 0.5% 0;
   padding: 0.3em 1em;
+}
+
+#request-bespoke {
+  margin: 2% 0%;
+  padding: 0.3em 0.3em 0.3em 0;
+}
+
+.request-artwork {
+  margin: 2% 0 2.5% 0;
+  padding: 0.3em 1em;
+}
+
+#myFile {
+  margin: 1% 0 2% 0;
+  padding: 0.3em 0.3em; 
+}
+
+#mailing-list-join {
+  margin: 4% 0 0.5% 0;
 }
 
 fieldset > p {
@@ -1370,7 +1384,7 @@ footer {
   #request-bespoke {
     margin: 3% 0%;
     width: 90%;
-  }
+  } 
 
   .social-networks a {
     border: 2.5px solid black;
