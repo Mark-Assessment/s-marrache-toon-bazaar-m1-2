@@ -661,7 +661,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
   
     + The artwork on the Homepage and Market Page is updated every 24-48 hours, to give visitors and clients alike a reason to come back and sample more of our artists' fantastic work.
 
-    2.  "As a Potential Client, I want to find community links and links to all the artists' portfolios."
+    2.  *"As a Potential Client, I want to find community links and links to all the artists' portfolios."*
    
     + In the Homepage's about us section, there are links to example artwork of various mediums, external links to artists' portfolios and links to the contact form.
 
@@ -683,14 +683,13 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
     
     + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
 
-    5. *As a Potential Client, I want to detail what I am looking to create with artwork as well as text.*  
-   
+    5.  *As a Potential Client, I want to detail what I am looking to create with artwork as well as text.*
+        
     + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.  
   
-    6. *As a Potential Client, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.*  
+    6.  *As a Potential Client, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.*
    
-    + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
-
+    + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.  
 
     -   ### Testing Artist Goals
 
@@ -723,15 +722,15 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
     + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the right-hand side.
     
     + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
-
-    5. *As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.*  
-
-    +  At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.  
+    
+    5.  *As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.*  
    
+    +  At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form. 
+
     6. *As a Potential Artist, I want the option to send in a sample of my artwork to gauge their interest in my work.*  
-
+   
     + On the Contact Page, under the text area of the form, there is a file upload button for potential artists to add samples of their work as a preliminary to making a full application.
-
+    
 ## Further Testing
 
 -   The Website was tested on Brave, Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
