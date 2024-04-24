@@ -604,130 +604,130 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 
 -   ## Testing User Stories
 
--   ## Testing Visitor Goals
+    -   ### Testing Visitor Goals
 
-1. *As a Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are, where they are, what they have to offer and how they intend to deliver.*
+    1. *As a Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are, where they are, what they have to offer and how they intend to deliver.*
 
-    + Upon entering the site, users are greeted with a 3D comic strip explaining in four frames why they might need or want our help. That's the 'WHY?' sorted.
+       + Upon entering the site, users are greeted with a 3D comic strip explaining in four frames why they might need or want our help. That's the 'WHY?' sorted.
   
-    + Once they have read the comic strip, they arrive at the about section, where we spell out where we are located (everywhere) and how we can help them. There are also links to the contact form wherein they can make requests or get a quote. That's the ''WHO?', 'WHERE?' & 'HOW?' sorted.
+       + Once they have read the comic strip, they arrive at the about section, where we spell out where we are located (everywhere) and how we can help them. There are also links to the contact form wherein they can make requests or get a quote. That's the ''WHO?', 'WHERE?' & 'HOW?' sorted.
   
-    + The user can then navigate via the links in the about section to examples of our artwork adorning the Homepage & Market Page. That's the 'WHAT?' sorted.
+       + The user can then navigate via the links in the about section to examples of our artwork adorning the Homepage & Market Page. That's the 'WHAT?' sorted.
 
-2. *As a Visitor, I want to be able to easily navigate throughout the site to find content.*
+    2. *As a Visitor, I want to be able to easily navigate throughout the site to find content.*
 
-    + The navigation bar sits directly beneath the header on each page, with three clearly labelled buttons to take them to whichever page they wish. The buttons change colour if the user hovers over them for the sake of clarity.
+       + The navigation bar sits directly beneath the header on each page, with three clearly labelled buttons to take them to whichever page they wish. The buttons change colour if the user hovers over them for the sake of clarity.
   
-    + In the Homepage's about us section, there are links to example artwork of various mediums, external links to artists' portfolios and links to the contact form.
+       + In the Homepage's about us section, there are links to example artwork of various mediums, external links to artists' portfolios and links to the contact form.
   
-    + At the bottom of each page, there are social media buttons, which match the page buttons in the navigation bar, making for an intuitive UX. Each of these buttons will open its respective social media page in a new window, so the user will not lose their position on the Toon Bazaar website. 
+       + At the bottom of each page, there are social media buttons, which match the page buttons in the navigation bar, making for an intuitive UX. Each of these buttons will open its respective social media page in a new window, so the user will not lose their position on the Toon Bazaar website. 
 
-3. *As a Visitor, I want to see some samples of the artistic services they provide.*
+    3. *As a Visitor, I want to see some samples of the artistic services they provide.*
    
-    + Each page features a background created by our artists and each page is filled with work by our community of artists.
+       + Each page features a background created by our artists and each page is filled with work by our community of artists.
    
-    + In the Homepage's about us section, there are internal links to example artwork and external links to artists' portfolios.
+       + In the Homepage's about us section, there are internal links to example artwork and external links to artists' portfolios.
   
-    + Each row on the Market Page is a gallery of different media, ranging from short animations to illustrations to comics and merchandise.
+       + Each row on the Market Page is a gallery of different media, ranging from short animations to illustrations to comics and merchandise.
 
-4. *As a Visitor, I want to locate their social media links to see their followings on social media and determine how trusted and known they are.*
+    4. *As a Visitor, I want to locate their social media links to see their followings on social media and determine how trusted and known they are.*
    
-    + At the bottom of each page, there are social media buttons. Each of these buttons will open its respective social media account in a new window.
+       + At the bottom of each page, there are social media buttons. Each of these buttons will open its respective social media account in a new window.
   
-    + The user can scroll to the bottom of any page on the site to locate social media links in the footer.
+       + The user can scroll to the bottom of any page on the site to locate social media links in the footer.
   
       
-5. *As a Visitor, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
+    5. *As a Visitor, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
    
-    + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the right-hand side.
+       + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the right-hand side.
     
-    + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
+       + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
 
 
-6. *As a Visitor, I want to sign up to a newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.*
+    6. *As a Visitor, I want to sign up to a newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.*
 
-    + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
+       + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
 
      
--   ## Testing Client Goals
+    -   ### Testing Client Goals
 
-1) *As a Potential Client, I want to check to see if there are any newly added cartoons, comics, illustrations and animations while browsing their daily exhibits of different artists.*
+    1) *As a Potential Client, I want to check to see if there are any newly added cartoons, comics, illustrations and animations while browsing their daily exhibits of different artists.*
         
-    + Each page features a background created by our artists and each page is filled with work by our community of artists.
+       + Each page features a background created by our artists and each page is filled with work by our community of artists.
   
-    + Each row on the Market Page is a gallery of different media, ranging from short animations to illustrations to comics and merchandise.
+       + Each row on the Market Page is a gallery of different media, ranging from short animations to illustrations to comics and merchandise.
   
-    + The artwork on the Homepage and Market Page is updated every 24-48 hours, to give visitors and clients alike a reason to come back and sample more of our artists' fantastic work.
+       + The artwork on the Homepage and Market Page is updated every 24-48 hours, to give visitors and clients alike a reason to come back and sample more of our artists' fantastic work.
 
-2)  *"As a Potential Client, I want to find community links and links to all the artists' portfolios."*
+    2)  *"As a Potential Client, I want to find community links and links to all the artists' portfolios."*
    
-    + In the Homepage's about us section, there are links to example artwork of various mediums, external links to artists' portfolios and links to the contact form.
+        + In the Homepage's about us section, there are links to example artwork of various mediums, external links to artists' portfolios and links to the contact form.
 
-    + At the bottom of each page, there are social media buttons. Each of these buttons will open its respective social media account in a new window.
+        + At the bottom of each page, there are social media buttons. Each of these buttons will open its respective social media account in a new window.
 
-3) *As a Potential Client, I want to check to see if there are any new artists or any new services on offer.*
+    3) *As a Potential Client, I want to check to see if there are any new artists or any new services on offer.*
 
-    + In the Homepage's about us section, there are internal links to example artwork and external links to artists' portfolios. The user will be able to filter the portfolios according to medium, style and the date added.
+       + In the Homepage's about us section, there are internal links to example artwork and external links to artists' portfolios. The user will be able to filter the portfolios according to medium, style and the date added.
    
-    + The artwork  is updated every 24-48 hours, to give visitors and clients alike a reason to come back and sample more of our artists' fantastic work.
+       + The artwork  is updated every 24-48 hours, to give visitors and clients alike a reason to come back and sample more of our artists' fantastic work.
   
-    + In a very near future update, Toon Bazaar will host its own portfolio pages, with rankings and recommendations based on prior user interactions and searches.
+       + In a very near future update, Toon Bazaar will host its own portfolio pages, with rankings and recommendations based on prior user interactions and searches.
 
-    + Any new services will be highlighted in the about section on the Homepage.
+       + Any new services will be highlighted in the about section on the Homepage.
         
-4) *As a Potential Client, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
+    4) *As a Potential Client, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
    
-    + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the right-hand side.
+       + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the right-hand side.
     
-    + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
+       + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
 
-5)  *As a Potential Client, I want to detail what I am looking to create with artwork as well as text.*
+    5)  *As a Potential Client, I want to detail what I am looking to create with artwork as well as text.*
         
-    + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.  
+        + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.  
   
-6)  *As a Potential Client, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.*
+    6)  *As a Potential Client, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.*
    
-    + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.  
+        + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.  
 
--   ## Testing Artist Goals
+    -   ### Testing Artist Goals
 
-1. *As a Potential Artist, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.*
+    1. *As a Potential Artist, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.*
      
-    + Upon entering the site, users are greeted with a 3D comic strip explaining in four frames why they might need or want our help. That's the 'WHY?' sorted.
+       + Upon entering the site, users are greeted with a 3D comic strip explaining in four frames why they might need or want our help. That's the 'WHY?' sorted.
   
-    + Once they have read the comic strip, they arrive at the about section, where we spell out where we are located (everywhere) and how we can help them. There are also links to the contact form wherein they can make requests or get a quote. That's the ''WHO?', 'WHERE?' & 'HOW?' sorted.
+       + Once they have read the comic strip, they arrive at the about section, where we spell out where we are located (everywhere) and how we can help them. There are also links to the contact form wherein they can make requests or get a quote. That's the ''WHO?', 'WHERE?' & 'HOW?' sorted.
   
-    + The user can then navigate via the links in the about section to examples of our artwork adorning the Homepage & Market Page. That's the 'WHAT?' sorted.
+       + The user can then navigate via the links in the about section to examples of our artwork adorning the Homepage & Market Page. That's the 'WHAT?' sorted.
 
-2. *As a Potential Artist, I want to see whether my work might suit that of the Toon Bazaar collective and whether it might be a community I would like to join.*
-         
-    + Each page features a background created by our artists and each page is filled with work by our community of artists.
+    2. *As a Potential Artist, I want to see whether my work might suit that of the Toon Bazaar collective and whether it might be a community I would like to join.*
+
+       + Each page features a background created by our artists and each page is filled with work by our community of artists.
   
-    + In the Homepage's about us section, there are internal links to example artwork and external links to artists' portfolios.
+       + In the Homepage's about us section, there are internal links to example artwork and external links to artists' portfolios.
   
-    + Each row on the Market Page is a gallery of different media, ranging from short animations to illustrations to comics and merchandise.
+       + Each row on the Market Page is a gallery of different media, ranging from short animations to illustrations to comics and merchandise.
     
-    + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.
+       + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.
 
-3.  *As a Potential Artist, I want to find community links, social media links and links to all the artists' portfolios to further my knowledge and understanding of the collective.*
+    3.  *As a Potential Artist, I want to find community links, social media links and links to all the artists' portfolios to further my knowledge and understanding of the collective.*
    
-    + In the Homepage's about us section, there are links to example artwork of various mediums, external links to artists' portfolios and links to the contact form.
+        + In the Homepage's about us section, there are links to example artwork of various mediums, external links to artists' portfolios and links to the contact form.
 
-    + At the bottom of each page, there are social media buttons. Each of these buttons will open its respective social media account in a new window.
+        + At the bottom of each page, there are social media buttons. Each of these buttons will open its respective social media account in a new window.
 
-4.  *As a Potential Artist, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
+    4.  *As a Potential Artist, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
 
-    + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the right-hand side.
+        + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the right-hand side.
     
-    + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
+        + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
     
-5.  *As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.*  
+    5.  *As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.*  
    
-    +  At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form. 
+        +  At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form. 
 
-6. *As a Potential Artist, I want the option to send in a sample of my artwork to gauge their interest in my work.*  
+    6. *As a Potential Artist, I want the option to send in a sample of my artwork to gauge their interest in my work.*  
    
-    + On the Contact Page, under the text area of the form, there is a file upload button for potential artists to add samples of their work as a preliminary to making a full application.
+       + On the Contact Page, under the text area of the form, there is a file upload button for potential artists to add samples of their work as a preliminary to making a full application.
     
 ## Further Testing
 
