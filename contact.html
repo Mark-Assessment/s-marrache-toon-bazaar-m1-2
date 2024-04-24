@@ -90,7 +90,7 @@
           <u>Request</u>
         </legend>
         <label for="request-nature" class="block-label">Nature of request?</label>
-        <select id="request-nature" name="request-nature" required style="width:14em">
+        <select id="request-nature" name="request-nature" required>
           <option value="">Select your option</option>
           <option value="personal">Personal</option>
           <option value="independent">Independent</option>
@@ -176,11 +176,11 @@
         <legend>
           <u>Description</u>
         </legend>
-        <label for="request-bespoke" class="block-label">Please describe your vision or request below:</label>
+        <label for="request-bespoke" class="block-label">Please describe your vision or request here:</label>
         <textarea id="request-bespoke" rows="12" cols="54" name="request-bespoke" required></textarea>
         <br>
         <!-- Add Artwork Start -->
-        <label for="request-artwork" class="block-label">Please add any artwork here:</label>
+        <label for="myFile" class="block-label">Please add any artwork here:</label>
         <input type="file" id="myFile" name="filename">
         <!-- Add Artwork End -->
       </fieldset>
@@ -188,7 +188,7 @@
         <label for="mailing-list-join">
           <i class="fa-solid fa-envelope-open-text fa-xs"></i> Join us at Toon Bazaar & get 15% off </label>
         <input type="checkbox" id="mailing-list-join" name="mailing-list-sign-up" value="both" checked>
-        <input class="send-button" type="submit" value="SEND">
+        <input class="send-button" type="submit" title="Send here after you have filled out all necessary form elements" value="SEND">
       </fieldset>
       <!-- Description of Request End -->
     </form>
