@@ -272,8 +272,11 @@ It is designed to be responsive and accessible on a range of devices, making it 
     -   ## Navigation Bar
 
         - The Homepage, Market and Contact pages feature a navigation bar, with easy access buttons to each page, allowing the user to easily navigate between them without needing to go back to the homepage.
-        - The Navigation bar appears as a horizontal list of buttons on desktop and mobile.
+        - The Navigation bar appears as a horizontal list of buttons at the top of the page on desktop and mobile.
         - The colours of the background and the text change when hovered over. This further emphasises that this is a clickable link, making for a very intuitive user experience.
+        - Aria-Labels have been used to make it clear to Screen Readers.
+        - The Navigation Bar & Footer match on each page, to make for an intuitive UX.
+
 
     <h2 align="center"><img src="assets/readme/navbar-normal.jpg"></h2>
     <h2 align="center"><img src="assets/readme/navbar-hover.jpg"></h2>
@@ -304,6 +307,9 @@ It is designed to be responsive and accessible on a range of devices, making it 
         - Links change colour (both background and text) when hovered over. 
             
         - Links' text is legible both in its normal and hover state.
+        - Aria-Labels have been used to make it clear to Screen Readers.
+        - The Footer & Navigation Bar match on each page, to make for an intuitive UX.
+
 
         <h2 align="center"><img src="assets/readme/links-normal.jpg"></h2>
         <h2 align="center"><img src="assets/readme/links-hover.jpg"></h2>
@@ -311,15 +317,11 @@ It is designed to be responsive and accessible on a range of devices, making it 
     -   ## Footer
 
         -   The Footer remains consistent on each page.
-
+        -   The Footer appears as a horizontal list of buttons at the bottom of the page on desktop and mobile.
         -   The Footer includes social media buttons.
-        
         -   The social media buttons change colour (both background and text) when hovered over. 
-
         -   Social Media links open in a new page.
-
-        -   Pleasant looking brand icons make each one evident to the user. 
-
+        -   Pleasant looking Social Media icons make each one evident to the user. 
         -   Aria-Labels have been used to make it clear to Screen Readers.
 
     <h2 align="center"><img src="assets/readme/footer-normal.jpg"></h2>
