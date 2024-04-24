@@ -67,7 +67,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
         i. As a Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are, where they are, what they have to offer and how they intend to deliver.
 
-        ii.. As a Visitor, I want to be able to easily navigate throughout the site to find content.
+        ii. As a Visitor, I want to be able to easily navigate throughout the site to find content.
 
         iii. As a Visitor, I want to see some samples of the artistic services they provide
 
