@@ -641,7 +641,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
       
     5. *As a Visitor, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
    
-    + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the righthand side.
+    + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the right-hand side.
     
     + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
 
@@ -678,17 +678,17 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
         
     4. *As a Potential Client, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
    
-     + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the righthand side.
+    + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the right-hand side.
     
     + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
 
     5. *As a Potential Client, I want to detail what I am looking to create with artwork as well as text.*
 
-     + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.
+    + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.
 
     6. *As a Potential Client, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.*
    
-     + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
+    + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
 
 
     -   ### Testing Artist Goals
@@ -719,13 +719,13 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 
     4.  *As a Potential Artist, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
 
-    + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the righthand side.
+    + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the right-hand side.
     
     + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
 
     5. *As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.*
 
-    + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
+    +  At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
 
     6. *As a Potential Artist, I want the option to send in a sample of my artwork to gauge their interest in my work.*
    
