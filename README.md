@@ -63,7 +63,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 -  ## User Stories
 
-    -   ### Visitor Goals
+    -   ## Visitor Goals
 
         i. As a Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are, where they are, what they have to offer and how they intend to deliver.
 
@@ -76,10 +76,8 @@ It is designed to be responsive and accessible on a range of devices, making it 
         v. As a Visitor, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.
         
         vi. As a Visitor, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.
-
--   ## Client Stories
      
-    -   ### Client Goals
+    -   ## Client Goals
 
         i. As a Potential Client, I want to check to see if there are any newly added cartoons, comics, illustrations and animations while browsing their daily exhibits of different artists.
         
@@ -93,9 +91,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
         
         vi. As a Potential Client, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer. 
 
--   ## Artist Stories
-
-    -   ### Artist Goals
+    -   ## Artist Goals
 
         i. As a Potential Artist, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.
 
@@ -606,7 +602,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 
 -   ## Testing User Stories
 
-    -   ### Testing Visitor Goals
+-   ## Testing Visitor Goals
 
 1. *As a Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are, where they are, what they have to offer and how they intend to deliver.*
 
@@ -651,7 +647,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
     + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
 
      
-    -   ### Testing Client Goals
+-   ## Testing Client Goals
 
 1) *As a Potential Client, I want to check to see if there are any newly added cartoons, comics, illustrations and animations while browsing their daily exhibits of different artists.*
         
@@ -691,7 +687,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
    
     + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.  
 
-    -   ### Testing Artist Goals
+-   ## Testing Artist Goals
 
 1. *As a Potential Artist, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.*
      
