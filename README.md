@@ -646,9 +646,8 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
     + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
 
 
-    6. *As a Visitor, I want to sign up to a newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.*  
-   
-   <br>
+    6. *As a Visitor, I want to sign up to a newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.*
+
     + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
 
      
@@ -686,13 +685,10 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 
     5. *As a Potential Client, I want to detail what I am looking to create with artwork as well as text.*  
    
-    <br>
     + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.  
   
-    <br>
     6. *As a Potential Client, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.*  
    
-   <br>
     + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.
 
 
@@ -729,14 +725,11 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
     + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
 
     5. *As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.*  
-    <br>
 
     +  At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.  
-  
-    <br>
-    6. *As a Potential Artist, I want the option to send in a sample of my artwork to gauge their interest in my work.*  
    
-   <br>
+    6. *As a Potential Artist, I want the option to send in a sample of my artwork to gauge their interest in my work.*  
+
     + On the Contact Page, under the text area of the form, there is a file upload button for potential artists to add samples of their work as a preliminary to making a full application.
 
 ## Further Testing
