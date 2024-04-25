@@ -44,6 +44,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
         + [Buttons](#buttons)
         + [Links](#links)
         + [Footer](#footer)
+        + [404 Page](#404-page)
   + [Future Features](#future-features)
 - [Wireframes](#wireframes)
 - [Technologies](#technologies)
@@ -327,6 +328,12 @@ It is designed to be responsive and accessible on a range of devices, making it 
     <h2 align="center"><img src="assets/readme/footer-normal.jpg"></h2>
     <h2 align="center"><img src="assets/readme/footer-hover.jpg"></h2>
 
+    -   ### 404 Page
+   
+        -   I added a custom 404 error page to help the user navigate back to the homepage if they enter an incorrect URL.  The 404 page features the site's header, navigation bar and footer plus an image of a cartoon spray-painting the numbers "404", an explanation that they're lost and a button back to the Homepage, in case the user hasn't realised they can use the navigation bar to get back.
+  
+    <h2 align="center"><img src="assets/readme/wolfy-404-page.jpg"></h2>
+
     -  ## Future Features
 
     -   ###  Popup Infinite Slider Gallery Modal (HTML, CSS, JavaScript) 
@@ -343,10 +350,6 @@ It is designed to be responsive and accessible on a range of devices, making it 
     -   ### Academy Page
 
         - I would like to add a page with tutorials (text & video) and the ability to be tutored online by the user's artist of choice.
-
-    -   ### 404 Page
-        - I will add a colourful and friendly custom 404 error page to help the user navigate back to the Homepage if they enter an incorrect URL. I will achieve this by following this Github documentation:
-         [Github Documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
 
 # Wireframes
 
