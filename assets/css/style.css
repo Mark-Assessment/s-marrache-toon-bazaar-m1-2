@@ -607,13 +607,8 @@ h3 {
 /* 404 Page */
 
 #page-404 {
-  font-size: 2rem;
+  font-size: 3em;
   line-height: 120%;
-}
-
-#page-404 br {
-  display: block;
-  margin-bottom: 1em;
 }
 
 h5 {
@@ -629,13 +624,13 @@ h5 {
   padding: 25px 25px 25px 25px;
   text-align: center;
   font-family: "Titan One", sans-serif;
-  font-size: 120%;
+  font-size: 3em;
   color: black;
   background-color: white;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 80%;
 }
 
 .back-button:hover {
@@ -649,7 +644,13 @@ h5 {
   margin-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 55%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 /* Footer + Links to Social Media */
@@ -769,6 +770,11 @@ footer {
     padding-bottom: 0.4%;
   }
 
+  #page-404 {
+    font-size: 3vh;
+    line-height: 120%;
+  }
+
   .social-networks a {
     width: 6em;
     font-size: 1.4em;
@@ -876,6 +882,11 @@ footer {
     padding-bottom: 0.3%;
   }
 
+  #page-404 {
+    font-size: 2.75vh;
+    line-height: 120%;
+  }
+
   .social-networks a {
     width: 5.5em;
     font-size: 1em;
@@ -933,6 +944,11 @@ footer {
 
   .about p {
     padding-bottom: 0.3%;
+  }
+
+  #page-404 {
+    font-size: 2em;
+    line-height: 120%;
   }
 }
 
@@ -1020,6 +1036,11 @@ footer {
     width: 100%;
     line-height: 45%;
     padding: 0.5% 0;
+  }
+
+  #page-404 {
+    font-size: 1.5em;
+    line-height: 120%;
   }
 }
 
@@ -1225,6 +1246,10 @@ footer {
     width: 100%;
     height: auto;
   }
+
+  .social-networks {
+    font-size:100%;
+  }
 }
 
 /* For large to medium screens sizes from 1350px wide and down */
@@ -1383,14 +1408,19 @@ footer {
     height: auto;
   }
 
+  #page-404 {
+    font-size: 1.75em;
+    line-height: 120%;
+  }
+
   .social-networks a {
-    font-size: 130%;
-    width: 5.5em;
+    font-size: 100%;
+    width: 5em;
     font-weight: 600;
   }
 
-  .social-networks I {
-    max-height: 120%;
+  .social-networks i {
+    max-height: 100%;
     height: auto;
   }
 }
@@ -1473,7 +1503,7 @@ footer {
     border: 2.5px solid black;
     border-radius: 50%;
     background-color: whitesmoke;
-    width: 5rem;
+    width: 5.5rem;
     padding: 1px 1px;
     text-align: center;
     color: black;
@@ -1548,6 +1578,11 @@ iframe {
   height: auto;
 }
 
+#page-404 {
+  font-size: 2em;
+  line-height: 120%;
+}
+
 /* For medium screens sizes from 1150px wide and down */
 
 @media screen and (max-width: 1150px) {
@@ -1602,7 +1637,15 @@ iframe {
     line-height: 53.5%;
     padding: 1% 0;
   }
-}
+
+  #page-404 {
+    font-size: 1.5em;
+    line-height: 120%;
+  }
+
+  .social-networks {
+    font-size: 125%;
+  }
 
 /* For medium screens sizes from 1050px wide and down */
 
@@ -1725,6 +1768,11 @@ iframe {
     width: 90%;
   }
 
+  #page-404 {
+    font-size: 1.5em;
+    line-height: 120%;
+  }
+
   .social-networks a {
     border: 2.5px solid black;
     border-radius: 50%;
@@ -1737,7 +1785,7 @@ iframe {
     display: inline-block;
     border-radius: 12px;
     font-family: "Raleway", sans-serif;
-    font-size: 110%;
+    font-size: 115%;
     font-weight: 350;
   }
 
@@ -2131,6 +2179,11 @@ iframe {
       font-size: 2.6vw;
       letter-spacing: 0.125em;
     }
+
+    #page-404 {
+      font-size: 1.5em;
+      line-height: 120%;
+    }
   }
 
   /* For small screens sizes from 600px wide and down */
@@ -2196,6 +2249,11 @@ iframe {
       background-color: whitesmoke;
       border: black solid 0.5rem;
       font-size: medium;
+    }
+
+    #page-404 {
+      font-size: 1em;
+      line-height: 120%;
     }
 
     .social-networks a {
@@ -2326,6 +2384,11 @@ iframe {
   #request-bespoke {
     margin: 3% 0%;
     width: 90%;
+  }
+
+  #page-404 {
+    font-size: 1em;
+    line-height: 120%;
   }
 }
 
@@ -2459,6 +2522,11 @@ iframe {
     margin: 3% 0%;
     width: 90%;
   }
+
+  #page-404 {
+    font-size: 1em;
+    line-height: 120%;
+  }
 }
 
 /* For small screens sizes from 400px wide and down */
@@ -2584,6 +2652,11 @@ iframe {
   #request-bespoke {
     margin: 3% 0%;
     width: 90%;
+  }
+
+  #page-404 {
+    font-size: 0.8em;
+    line-height: 120%;
   }
 }
 
