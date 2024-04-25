@@ -332,7 +332,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
    
         -   I added a custom 404 error page to help the user navigate back to the homepage if they enter an incorrect URL.  The 404 page features the site's header, navigation bar and footer plus an image of a cartoon spray-painting the numbers "404", an explanation that they're lost and a button back to the Homepage, in case the user hasn't realised they can use the navigation bar to get back. I created the 404.html page on my repository by following this [Github Documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
   
-    <h2 align="center"><img src="assets/readme/404-page.jpg"></h2>
+    <h2 align="center"><img src="assets/readme/404-page.png"></h2>
 
     -  ## Future Features
 
