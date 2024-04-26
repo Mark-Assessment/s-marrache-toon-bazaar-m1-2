@@ -607,17 +607,12 @@ h3 {
 /* 404 Page */
 
 #page-404 {
-  font-size: 2rem;
+  font-size: 3em;
   line-height: 120%;
 }
 
-#page-404 br {
-  display: block;
-  margin-bottom: 1em;
-}
-
 h5 {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: bolder;
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -629,13 +624,13 @@ h5 {
   padding: 25px 25px 25px 25px;
   text-align: center;
   font-family: "Titan One", sans-serif;
-  font-size: 120%;
+  font-size: 3em;
   color: black;
   background-color: white;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 80%;
 }
 
 .back-button:hover {
@@ -649,7 +644,13 @@ h5 {
   margin-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 55%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 /* Footer + Links to Social Media */
