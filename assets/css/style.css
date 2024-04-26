@@ -299,9 +299,9 @@ nav a:hover {
 
 article {
   flex-basis: auto;
-  padding-top: 0.4%;
-  padding-bottom: 5%;
-  line-height: normal;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  line-height: 110%;
 }
 
 article > p {
@@ -740,7 +740,7 @@ footer {
   }
 
   nav a {
-    font-size: 1.4em;
+    font-size: 1.6em;
     width: 6em;
   }
 
@@ -765,12 +765,12 @@ footer {
   }
 
   .social-networks a {
-    width: 6em;
-    font-size: 1.4em;
+    width: 5.5em;
+    font-size: 1.6em;
     font-weight: 600;
   }
 
-  .social-networks I {
+  .social-networks i {
     max-height: 120%;
     height: auto;
   }
@@ -830,11 +830,11 @@ footer {
 
   .social-networks a {
     width: 5.5em;
-    font-size: 0.8em;
+    font-size: 1.2em;
     font-weight: 600;
   }
 
-  .social-networks I {
+  .social-networks i {
     max-height: 120%;
     height: auto;
   }
@@ -1393,7 +1393,7 @@ footer {
     font-weight: 600;
   }
 
-  .social-networks I {
+  .social-networks i {
     max-height: 100%;
     height: auto;
   }
