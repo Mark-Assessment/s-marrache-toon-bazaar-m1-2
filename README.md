@@ -28,27 +28,40 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 ## Contents
 
-- [User Experience](#user-experience)
-  - [User stories](#user-stories)
-    - [Prospective Visitors](#prospective-visitors)
-    - [Art Collectors](#art-collectors)
-    - [Business Owners](#business-owners)
-  - [Design](#design)
-    - [Colour Scheme](#colour-scheme)
-    - [Typography](#typography)
-    - [Imagery](#imagery)
-    - [Icons](#icons)
+- [User experience](#user-experience)
+  * [User Stories](#user-stories)
+    - [Visitor Goals](#visitor-goals)
+    - [Client Goals](#client-goals)
+    - [Artist Goals](#artist-goals)
+- [Design](#design)
+  + [Colour Scheme](#colour-scheme)
+  + [Typography](#typography)
+  + [Imagery](#imagery)
+  + [Icons](#icons)
+- [Structure](#structure)
+  + [Information Architecture](#information-architecture)
+  + [Irregular Structure](#irregular-structure)
+- [Features](#features)
+    + [Current Features](#current-features)
+        + [Navigation Bar](#navigation-bar)
+        + [Buttons](#buttons)
+        + [Links](#links)
+        + [Footer](#footer)
+        + [Form](#form)
+        + [404 Page](#404-page)
+  + [Future Features](#future-features)
 - [Wireframes](#wireframes)
 - [Technologies](#technologies)
+  + [Languages](#languages)
+  + [Frameworks Libraries Programs](#frameworks-libraries-programs)
 - [Testing](#testing)
 - [Deployment](#deployment)
-  - [GitHub Pages](#github-pages)
+  + [GitHub Pages](#github-pages)
 - [Credits](#credits)
-  - [Code](#code)
-  - [Content](#content)
-  - [Media](#media)
-  - [Acknowledgements](#acknowledgements)
-  - [Root](#root)
+  + [Code](#code)
+  + [Media](#media)
+  + [Content](#content)
+  + [Acknowledgements](#acknowledgements)
 
 
 # User Experience
@@ -100,29 +113,30 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 -   # Design
 
-    -   ## Colour Scheme
+-   ## Colour Scheme
 
     -   The five main colours used for Toon Bazaar are black, orange, white, pink and purple. These colours are supposed to imbue the site with a vivid and colourful comic strip feel.
   
-    <h3 align="center"><img src="assets/readme/palette-toon-bazaar.png"></h3>
+  <h3 align="center"><img src="assets/readme/palette-toon-bazaar.png"></h3>
   
-    -   ## Typography
+  
+-   ## Typography
 
-        -   I use three Google fonts throughout the website to give it a cartoon feel:
+    -   I use three Google fonts throughout the website to give it a cartoon feel:
 
-        1) "Titan One", sans-serif;
+    1) "Titan One", sans-serif;
          
          -   Titan One is used for the name brand and for direct marketing messaging.
         
         <h3 align="center"><img src="assets/readme/titan-one.jpg"></h3>
 
-        2)  "Jomhuria", serif;
+    2)  "Jomhuria", serif;
 
          -   Jomhuria is used for the contact form as it is easy to read but still has a comic touch about it.
         
         <h3 align="center"><img src="assets/readme/jomhuria.jpg"></h3>
 
-        3) "Raleway", sans-serif;
+    3) "Raleway", sans-serif;
 
          -    Raleway is used for the longer passages as it is easy to read and is widely considered a top ten font for web development. The main about section and the nav bar both use this font.
 
@@ -146,52 +160,53 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
         - The contact page background image is supposed to showcase our ability to generate fantastic childish, playful and surreal content.
 
-        ### **Homepage**:
+        ### **Homepage Design**:
 
         - Whilst the Homepage is there to explain to the user who we are at Toon Bazaar and what it is we do; it serves a secondary purpose of showcasing some of our 3D cartoons.
 
-        ### 3D Comic Strip
+            - ### 3D Comic Strip
 
-        - Atop the page, sits an eye-catching 3D comic strip, describing why potential customers might desire or need our services.
+            - Atop the page, sits an eye-catching 3D comic strip, describing why potential customers might desire or need our services.
 
-        ### About Section
+            - ### About Section
 
-        - Beneath that, as the user scrolls down, they will come across an about section.
+            - Beneath that, as the user scrolls down, they will come across an about section.
 
-        - This section has various of our artists rendered as 3D cartoons, surrounding a sales pitch as to who we are, where we are, the services we can provide, the guarantee we offer, links to example artwork on the Marketplace page (market.html) and links to the contact form on the Contact page (contact.html).
+            - This section has various of our artists rendered as 3D cartoons, surrounding a sales pitch as to who we are, where we are, the services we can provide, the guarantee we offer, links to example artwork on the Marketplace page (market.html) and links to the contact form on the Contact page (contact.html).
 
-        ### **Market Page**:
+        ### **Market Page Design**:
 
         - The Market Page is there to showcase daily artwork by our artists, so the user can get a feel for the work we produce.
         
         - The page is divided into 4 rows, with each one demonstrating a different medium we can provide:
 
-        ### 1. Animations
+            - ### 1. Animations
 
-         - This section has a row of three 3D animations. 
+            - This section has a row of three 3D animations. 
 
-        ### 2. 2D Illustrations
+            - ### 2. 2D Illustrations
 
-        - This section has a row of three artboards showcasing 2D illustrations.
-       
+            - This section has a row of three artboards showcasing 2D illustrations.
+
+            - ### 3. Comics & Storyboards
+
+            - This section has a row of three artboards showcasing:
+                
+                1. The first page of a storyboard
+                2. The front cover of a graphic novel
+                3. A comic strip
+            
+            - ### 4. Merchandise
+
+            - The Market Page is there to showcase daily artwork by our artists, so the user can get a feel for the work we produce.
+
+            - This section features a bespoke colouring-in birthday card from parents to their spoilt son wrapped around an AI generated image showcasing the different types of merchandise we can tailor-make for a client.  
+
+        ### **Contact Page Design**:
+                                                    
+        - The Contact Page features a form and various inputs, so that any potential client or artist can provide as much information as possible (including example artwork) to have their requests best served and needs best met.
         
-        ### 3. Comics & Storyboards
-
-        - This section has a row of three artboards showcasing:
-        
-        1. The first page of a storyboard
-
-        2. The front cover of a graphic novel
-
-        3. A comic strip
-
-        ### 4. Merchandise
-
-        - This section features a bespoke colouring-in birthday card from parents to their spoilt son wrapped around an AI generated image showcasing the different types of merchandise we can tailor-make for a client.
-
-        ### **Contact Page**:
-
-        - This features a lovely, colourful, surreal background image and a contact form.
+        - Behind the form lies a lovely, colourful and playful background. 
 
     -   ## Icons
         
@@ -317,10 +332,35 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
     <h2 align="center"><img src="assets/readme/footer-normal.jpg"></h2>
     <h2 align="center"><img src="assets/readme/footer-hover.jpg"></h2>
+    
+    -   ### Form
+
+        -   The Form is featured on the Contact Page.
+        -   The Form features various useful checkboxes and inputs, so that the potential client or artist can provide plenty of information as succinctly as possible:
+
+            - Mandatory Fields:
+
+                1. Name
+                2. Email
+                3. Nature of Request
+                4. Description of Request
+
+            - Optional Fields:
+
+                5. Vision
+                6. Service Checkboxes
+                7. File Upload (Artwork)
+                8. Newsletter Email SignUp
+        
+        -   The Form features the Jomhuria font, so as to look elegant while retaining a cartoon / comic feel. It is also easy on the eyes as far as legibility is concerned.
+
+        -   The Form is spaced out with larger line-breaks, for the sake of both legibility and accessibility. The added space aids users of smaller screens and touch devices in pressing checkboxes and dropdown lists.
+
+    <h2 align="center"><img src="assets/readme/toon-bazaar-form.png"></h2>
 
     -   ### 404 Page
    
-        -   I added a custom 404 error page to help the user navigate back to the homepage if they enter an incorrect URL.  The 404 page features the site's header, navigation bar and footer plus an image of a cartoon spray-painting the numbers "404", an explanation that they're lost and a button back to the Homepage, in case the user hasn't realised they can use the navigation bar to get back. I created the 404.html page on my repository by following this [Github Documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
+        -   I added a custom 404 error page to help the user navigate back to the homepage if they enter an incorrect URL.  The 404 page features the site's header, navigation bar and footer plus an image of a cartoon wolf spray-painting the numbers "404", an explanation that they're lost and a button back to the Homepage. The back button is there in case the user hasn't realised they can use the navigation bar to get back to each of the web pages. I created the 404.html page on my repository by following this [Github Documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
   
     <h2 align="center"><img src="assets/readme/404-page.png"></h2>
 
@@ -394,16 +434,16 @@ It is designed to be responsive and accessible on a range of devices, making it 
 # Testing
 
 The Toon Bazaar website has been tested using the following methods:
-- [Table of Contents](#table-of-contents)
-  - [Contents](#contents)
-- [User Experience](#user-experience)
-- [Wireframes](#wireframes)
-- [Technologies](#technologies)
 - [Testing](#testing)
-  - [Code Validation](#code-validation)
-  - [W3C HTML Validator](#w3c-html-validator)
-  - [W3C CSS Validator](#w3c-css-validator)
-  - [Lighthouse](#lighthouse)
+- [Code Validation](#code-validation)
+    - [W3C HTML Validator](#w3c-html-validator)
+        - [Homepage](#homepage)
+        - [Market Page](#market-page)
+        - [Contact Page](#contact-page)
+    - [W3C CSS Validator](#w3c-css-validator)
+- [Lighthouse](#lighthouse)
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
 - [Browser Compatibility](#browser-compatibility)
 - [Responsiveness](#responsiveness)
     - [Iphone](#iphone)
@@ -413,18 +453,13 @@ The Toon Bazaar website has been tested using the following methods:
     - [2k (2560x1440)](#2k-2560x1440)
     - [4K (3840 x 2160)](#4k-3840-x-2160)
 - [Testing User Experience](#testing-user-experience)
-  - [Further Testing](#further-testing)
+    - [Testing Visitor Goals](#testing-visitor-goals)
+    - [Testing Client Goals](#testing-client-goals)
+    - [Testing Artist Goals](#testing-artist-goals)
+- [Further Testing](#further-testing)
   - [Bugs](#bugs)
     - [Resolved](#resolved)
     - [Unresolved](#unresolved)
-- [Deployment](#deployment)
-  - [GitHub Pages](#github-pages)
-- [Credits](#credits)
-  - [Code](#code)
-  - [Content](#content)
-  - [Media](#media)
-  - [Acknowledgements](#acknowledgements)
-  - [Root](#root)
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -438,11 +473,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The Toon Bazaar website passed all tests using the W3C HTML Validator tool
 
--   ###  Homepage <h2 align="right"><img src="assets/readme/homepage.png"></h2>
+-   ### Homepage 
 
--   ### Market Page <h2 align="right"><img src="assets/readme/market.png"></h2> 
+<h2 align="right"><img src="assets/readme/homepage.png"></h2> 
 
--   ### Contact Page <h2 align="right"><img src="assets/readme/contact.png"></h2> 
+-   ### Market Page 
+
+<h2 align="right"><img src="assets/readme/market.png"></h2> 
+
+-   ### Contact Page 
+
+<h2 align="right"><img src="assets/readme/contact.png"></h2> 
+
+
 
 ## W3C CSS Validator
 
@@ -522,9 +565,9 @@ I used the Lighthouse reports in Google Developer Tools to examine the pages of 
 
 - ## Future Improvements
 
-- ### Desktop
+- ### Desktop Improvements
 
-    - ### Market Page
+    - ### Market Page Improvements
   
       - **Best Practices**
 
@@ -536,9 +579,9 @@ I used the Lighthouse reports in Google Developer Tools to examine the pages of 
 
       - Otherwise, I am satisfied with all of my Desktop results.
 
-- ### Mobile
+- ### Mobile Improvements
   
-    - ### Homepage
+    - ### Homepage Improvements
   
       - **SEO**
   
@@ -546,7 +589,7 @@ I used the Lighthouse reports in Google Developer Tools to examine the pages of 
 
       - Increasing text-size on the Homepage for mobile devices.
    
-    - ### Market Page
+    - ### Market Page Improvements
 
        1. **Best Practices**
     
@@ -556,7 +599,7 @@ I used the Lighthouse reports in Google Developer Tools to examine the pages of 
 
       - I will weigh up the pros and cons at a future instance.
 
-      1. **Performance**
+      2. **Performance**
 
       - The Market Page loads slowly on Mobile and the *Performance* needs to be improved:
 
@@ -565,7 +608,7 @@ I used the Lighthouse reports in Google Developer Tools to examine the pages of 
       1. Removing external fonts or embedding them in the HTML
       2. Saving images in next-gen formats
       3. Removing javascript iframes
-      4. Eliminating render-blocking resources to improve Performance
+      4. Eliminating render-blocking resources
 
 # Browser Compatibility
 
@@ -755,13 +798,26 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 
 ### Resolved
 
--   Please refer to Irregular Structure in the Structure section above.
+1. Images inside my Flexbox code would resize but change aspect ratio. I learnt that by entering max-width and max-height values and setting width and height to auto, this bug could be prevented.
 
--   Please refer to Code in the Credits section below. 
+2. On smaller devices, my h3 heading would wrap over into the next line or some text would disappear and be replaced with an ellipsis. I learnt that by using the 'white-space: nowrap' css code, I could avoid this happening to my headings.  
+
+3. Jomhuria font's underline-formatting ordinarily breaks up for the lower part of low-hanging letters such as 'j' or 'y'. This looked unsightly and made legibility worse on the form of the Contact Page. I resolved this by using 'text-underline-position: under' css code to offset the underline-formatting to a lower position.
+
+4. I couldn't get my background not to change size (zoom) when changing the sizes of my foreground flex elements, until I did some reading and discovered that by applying the css code 'no-repeat', 'center' and 'fixed', my background-image would be unaffected.
+
+5. The HTML validator flagged that there was an issue on my Market Page, where I'd tried to use a div as a child of a span when trying to line up the images side by side for the image border I'd created. I removed this and used 'display: inline-flex' css code instead and everything worked accordingly.
+
 
 ### Unresolved
 
--   Please refer to Market Page under the Mobile subheading in the Future Improvements section above.
+1. Improve Lighthouse Performance score for Market Page on Mobile by making changes including:
+    - Serve images in next-gen formats (Image formats like WebP and AVIF often provide better compression than PNG or JPEG, which means faster downloads and less data consumption.)
+    - Minimize main-thread to reduce the time spent parsing, compiling and executing JS. Delivering smaller JS payloads helps with this
+    - Eliminate render-blocking resources (Resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles)
+    - Minify CSS
+
+2. Media Queries & Flexbox achieve the same results and align my design exactly as desired on Brave, Google Chrome & Microsoft Edge Browsers. Unfortunately, Firefox renders my design slightly differently, meaning that the image and my text-boxes don't quite align.
 
 
 # Deployment
@@ -792,7 +848,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 -   [W3 Schools](https://www.w3schools.com/css/css3_gradients.asp): W3 Schools gave me the knowledge to create backgrounds featuring different gradients of colour.
 
--   [W3 Docs](https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html): W3 Docs gave me the knowledge to link to a specific section of the same page or another page.
+-   [W3 Docs](https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html): W3 Docs gave me the knowledge to link to a specific section of the same page on another page.
 
 -   [Google's IFrame Player API](https://developers.google.com/youtube/iframe_api_reference): It was through Google's own page that I learnt how to insert and resize their IFrame Player API.
 
@@ -800,9 +856,9 @@ The project was deployed to GitHub Pages using the following steps...
 
 -   [Stack Overflow](https://stackoverflow.com/questions/12991351/how-to-force-image-resize-and-keep-aspect-ratio): Stack Overflow gave me the knowledge to force an image to resize but retain the aspect ratio.
 
--   [CSS-TRICKS](https://css-tricks.com/almanac/properties/t/text-underline-position/): CSS-TRICKS gave me the knowledge to set the placement of the underline so it wasn't broken by the text when using the Jomhuria font on the Contact Page.
-
 -   [Stack Overflow](https://stackoverflow.com/questions/300220/how-to-prevent-text-in-a-table-cell-from-wrapping): Stack Overflow gave me the knowledge to prevent my h3 heading from wrapping. 
+
+-   [CSS-TRICKS](https://css-tricks.com/almanac/properties/t/text-underline-position/): CSS-TRICKS gave me the knowledge to set the placement of the underline so it wasn't broken by the text when using the Jomhuria font on the Contact Page.
 
 
 ## Content
@@ -824,7 +880,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 -   My Mentor, Excellence Ilesanmi, for all the kind advice, encouragement,  helpful feedback and recommended tools.
 
--   Thank you to my classmates at EKCG for their friendly tips and guidance.
+-   Thank you to my fellow students for their friendly tips and guidance.
 
 -   Thank you to the tutors and staff at Code Institute for all their support.
 
@@ -833,6 +889,6 @@ The project was deployed to GitHub Pages using the following steps...
 
 ## Root
 
-Toon Bazaar is purely for the sake of the developer's portfolio, though it may be further developed into an E-commerce site at some point in the future.
+Toon Bazaar has been created as part of the developer's portfolio but may be further developed into an E-commerce site in the future.
 
 <h4 align="center">yinyangsammy 2024</h4>
