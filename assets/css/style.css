@@ -794,7 +794,7 @@ footer {
 
   nav a {
     font-size: 1.3em;
-    width: 6.5em;
+    width: 6em;
   }
 
   .img-text {
@@ -829,8 +829,8 @@ footer {
   }
 
   .social-networks a {
-    width: 6em;
-    font-size: 1.2em;
+    width: 5.5em;
+    font-size: 0.8em;
     font-weight: 600;
   }
 
@@ -845,7 +845,7 @@ footer {
 @media screen and (max-width: 2250px) {
   nav a {
     font-size: 1.15em;
-    width: 6.5em;
+    width: 5.5em;
   }
 
   .img-text {
@@ -929,6 +929,11 @@ footer {
   .about p {
     padding-bottom: 0.3%;
   }
+
+  .social-networks a {
+    width: 5.5em;
+    font-size: 1em;
+  }
 }
 
 /* For large to medium screens sizes from 1450px wide and down */
@@ -952,7 +957,7 @@ footer {
   }
 
   nav a {
-    font-size: 1.4em;
+    font-size: 1.2em;
     width: 5.5em;
   }
 
@@ -1015,6 +1020,10 @@ footer {
     width: 100%;
     line-height: 45%;
     padding: 0.5% 0;
+  }
+  .social-networks a {
+    width: 5.5em;
+    font-size: 1em;
   }
 }
 
@@ -1243,7 +1252,7 @@ footer {
   }
 
   nav a {
-    font-size: large;
+    font-size: 1.1em;
     width: 5.5em;
   }
 
@@ -1416,7 +1425,7 @@ footer {
   }
 
   nav a {
-    font-size: large;
+    font-size: 1.1em;
     width: 5.5em;
   }
 
@@ -1554,14 +1563,14 @@ iframe {
 }
 
 .social-networks {
-  font-size: 125%;
+  font-size: 1.2em;
 }
 
 /* For medium screens sizes from 1150px wide and down */
 
 @media screen and (max-width: 1150px) {
   nav a {
-    font-size: large;
+    font-size: 1.1em;
     width: 5.5em;
   }
 
@@ -1618,7 +1627,8 @@ iframe {
   }
 
   .social-networks a {
-    font-size: 125%;
+    font-size: 1.2em;
+    width: 4.5em;
   }
 }
 
@@ -2264,7 +2274,7 @@ iframe {
   }
 
   nav a {
-    font-size: small;
+    font-size: smaller;
     width: 5.5em;
   }
 
@@ -2345,7 +2355,7 @@ iframe {
     padding: 1px 1px;
     text-align: center;
     color: black;
-    font-size: 70%;
+    font-size: 0.8em;
     text-decoration: none;
     display: inline-block;
     border-radius: 12px;
@@ -2362,6 +2372,11 @@ iframe {
   #page-404 {
     font-size: 1em;
     line-height: 120%;
+  }
+
+  .social-networks a {
+    width: 2.5em;
+    font-size: 1em;
   }
 }
 
@@ -2382,7 +2397,7 @@ iframe {
   }
 
   nav a {
-    font-size: small;
+    font-size: smaller;
     width: 5.5em;
   }
 
@@ -2448,7 +2463,7 @@ iframe {
   }
 
   .about h3 {
-    font-size: 4vw;
+    font-size: 3.5vw;
     margin-top: 15%;
     text-align: center;
   }
@@ -2476,7 +2491,7 @@ iframe {
     padding: 1px 1px;
     text-align: center;
     color: black;
-    font-size: 100%;
+    font-size: 0.6em;
     text-decoration: none;
     display: inline-block;
     border-radius: 12px;
@@ -2531,7 +2546,7 @@ iframe {
   }
 
   nav a {
-    font-size: small;
+    font-size: smaller;
     width: 5em;
   }
 
@@ -2588,7 +2603,7 @@ iframe {
   }
 
   .about h3 {
-    font-size: 3.5vw;
+    font-size: 2.9vw;
     margin-top: 15%;
     text-align: center;
   }
@@ -2609,11 +2624,11 @@ iframe {
     border: 2.5px solid black;
     border-radius: 50%;
     background-color: whitesmoke;
-    width: 2em;
+    width: 1.7em;
     padding: 1px 1px;
     text-align: center;
     color: black;
-    font-size: 70%;
+    font-size: 0.5em;
     text-decoration: none;
     display: inline-block;
     border-radius: 12px;
@@ -2678,8 +2693,7 @@ iframe {
   }
 
   .social-networks a {
-    width: 1.9em;
-    font-size: 110%;
+    width: 1.25em;
   }
 
   .social-networks i {
