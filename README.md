@@ -27,8 +27,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 # Table of Contents 
 
 ## Contents
-- [Table of Contents](#table-of-contents)
-  - [Contents](#contents)
+
 - [User Experience](#user-experience)
   - [User stories](#user-stories)
     - [Prospective Visitors](#prospective-visitors)
