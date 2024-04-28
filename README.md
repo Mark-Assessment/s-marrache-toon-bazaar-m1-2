@@ -780,7 +780,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
         
         + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
 
-        + On the Contact Page, there is a text area to ask any questions an artist moght want answered.
+        + On the Contact Page, there is a text area to ask any questions an artist might want answered.
     
     5.  *As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.*  
    
