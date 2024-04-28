@@ -774,11 +774,13 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 
         + At the bottom of each page, there are social media buttons. Each of these buttons will open its respective social media account in a new window.
 
-    4.  *As a Potential Artist, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
+    4.  *As a Potential Artist, I want to find the best way to get in contact with the organisation with any questions I may have about applying and the job particulars.*
 
         + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the right-hand side.
-    
+        
         + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
+
+        + On the Contact Page, there is a text area to ask any questions an artist moght want answered.
     
     5.  *As a Potential Artist, I want to sign up to the Newsletter so that I am emailed any major news or updates.*  
    
