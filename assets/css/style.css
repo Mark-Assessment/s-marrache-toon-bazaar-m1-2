@@ -2402,6 +2402,29 @@ iframe {
     width: 5.5em;
   }
 
+  #bunny {
+    max-width: 28%;
+    max-height: 36.75%;
+    float: left;
+    border: 0.1em black solid;
+    margin: 0 auto;
+  }
+
+  #wolfy {
+    max-width: 28%;
+    max-height: 100%;
+    border: 0.1em black solid;
+    margin: 0 auto;
+  }
+
+  #croc {
+    max-width: 28%;
+    max-height: 36.75%;
+    float: right;
+    border: 0.1em black solid;
+    margin: 0 auto;
+  }
+
   .flexcontainer-cartoon {
     display: flex;
     flex-direction: row;
