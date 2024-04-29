@@ -194,7 +194,6 @@ nav a:hover {
   word-spacing: 0.1vw;
   padding: 0.2em;
   box-sizing: border-box;
-  margin-top: 1%;
   margin-bottom: 3.5%;
 }
 
@@ -802,7 +801,6 @@ footer {
     display: flex;
     flex-flow: nowrap;
     flex-shrink: 0;
-
     max-width: 100%;
     background-color: whitesmoke;
     border: 0.3rem solid black;
@@ -853,7 +851,6 @@ footer {
     display: flex;
     flex-flow: nowrap;
     flex-shrink: 0;
-
     max-width: 100%;
     background-color: whitesmoke;
     border: 0.3rem solid black;
@@ -885,17 +882,16 @@ footer {
     font-size: 1.15em;
     width: 5.5em;
   }
+
   .cartoon img {
     display: inline-flex;
     border: 0.3rem solid black;
-    margin-top: 0.3rem;
   }
 
   .img-text {
     display: flex;
     flex-flow: nowrap;
     flex-shrink: 0;
-
     max-width: 100%;
     background-color: whitesmoke;
     border: 0.3rem solid black;
@@ -987,7 +983,6 @@ footer {
     width: auto;
     height: auto;
     border: 0.3rem solid black;
-    margin-top: 0.3rem;
   }
 
   .img-text {
@@ -1273,7 +1268,6 @@ footer {
     width: auto;
     height: auto;
     border: 0.3rem solid black;
-    margin-top: 0.3rem;
   }
 
   .img-text {
@@ -1446,7 +1440,6 @@ footer {
     width: auto;
     height: auto;
     border: 0.3rem solid black;
-    margin-top: 0.3rem;
   }
 
   .img-text {
@@ -1590,7 +1583,6 @@ iframe {
     width: auto;
     height: auto;
     border: 0.3rem solid black;
-    margin-top: 0.3rem;
   }
 
   .img-text {
@@ -1681,7 +1673,6 @@ iframe {
     width: auto;
     height: auto;
     border: 0.3rem solid black;
-    margin-top: 0.3rem;
   }
 
   .img-text {
@@ -1799,7 +1790,6 @@ iframe {
     width: auto;
     height: auto;
     border: 0.3rem solid black;
-    margin-top: 0.3rem;
   }
 
   .img-text {
@@ -1904,7 +1894,6 @@ iframe {
     width: auto;
     height: auto;
     border: 0.3rem solid black;
-    margin-top: 0.3rem;
   }
 
   .img-text {
@@ -2020,7 +2009,6 @@ iframe {
       width: auto;
       height: auto;
       border: 0.3rem solid black;
-      margin-top: 0.3rem;
     }
 
     .img-text {
@@ -2136,7 +2124,6 @@ iframe {
     width: auto;
     height: auto;
     border: 0.3rem solid black;
-    margin-top: 0.3rem;
   }
 
   .img-text {
@@ -2203,14 +2190,12 @@ iframe {
     width: auto;
     height: auto;
     border: 0.3rem solid black;
-    margin-top: 0.3rem;
   }
 
   .img-text {
     display: flex;
     flex-flow: nowrap;
     flex-shrink: 0;
-
     max-width: 165px;
     max-height: 165px;
     width: 300px;
@@ -2291,7 +2276,6 @@ iframe {
     display: flex;
     flex-flow: nowrap;
     flex-shrink: 0;
-
     max-width: 165px;
     max-height: 165px;
     width: 300px;
