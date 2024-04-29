@@ -194,6 +194,8 @@ nav a:hover {
   word-spacing: 0.1vw;
   padding: 0.2em;
   box-sizing: border-box;
+  margin-top: 1%;
+  margin-bottom: 3.5%;
 }
 
 .flexcontainer-about {
@@ -628,8 +630,7 @@ h5 {
   color: black;
   background-color: white;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 80%;
 }
 
@@ -2433,6 +2434,7 @@ iframe {
     font-family: "Titan One", sans-serif;
     font-size: 2.625vw;
     word-spacing: 0.1vw;
+    margin-bottom: 10%;
   }
 
   #pics-column-left {
