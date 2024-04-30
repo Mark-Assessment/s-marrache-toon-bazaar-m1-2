@@ -2612,16 +2612,19 @@ iframe {
   }
   
   .about h3 {
-    font-size: 2.8VW;
-    text-shadow: 0.5px 0.5px 0.5px black;
+    font-size: 2.8vw;
+    margin-top: 15%;
+    text-align: center;
   }
 
   .about h4 {
-    font-size: 2.25vw;
+    font-size: 2.4vw;
     letter-spacing: 0.06em;
-    text-shadow: 0.5px 0.5px 0.5px whitesmoke;
+    font-weight: bold;
+    margin-top: 5%;
+    padding: 0 5%;
   }
-
+  
   .about p {
     font-size: 2.15vw;
   }
