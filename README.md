@@ -668,18 +668,26 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
     1. *As a Visitor, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are, where they are, what they have to offer and how they intend to deliver.*
 
        + Upon entering the site, users are greeted with a 3D comic strip explaining in four frames why they might need or want our help. That's the 'WHY?' sorted.
+
+        <h2 align="center"><img src="assets/readme/toon-bazaar-comic-strip-welcome.png"></h2>
   
        + Once they have read the comic strip, they arrive at the about section, where we spell out where we are located (everywhere) and how we can help them. There are also links to the contact form wherein they can make requests or get a quote. That's the ''WHO?', 'WHERE?' & 'HOW?' sorted.
   
        + The user can then navigate via the links in the about section to examples of our artwork adorning the Homepage & Market Page. That's the 'WHAT?' sorted.
 
+       <h2 align="center"><img src="assets/readme/toon-bazaar-home-about.png"></h2>
+
     2. *As a Visitor, I want to be able to easily navigate throughout the site to find content.*
+
+        <h2 align="center"><img src="assets/readme/toon-bazaar-navbar.png"></h2>
 
        + The navigation bar sits directly beneath the header on each page, with three clearly labelled buttons to take them to whichever page they wish. The buttons change colour if the user hovers over them for the sake of clarity.
   
        + In the Homepage's about us section, there are links to example artwork of various mediums, external links to artists' portfolios and links to the contact form.
   
-       + At the bottom of each page, there are social media buttons, which match the page buttons in the navigation bar, making for an intuitive UX. Each of these buttons will open its respective social media page in a new window, so the user will not lose their position on the Toon Bazaar website. 
+       + At the bottom of each page, there are social media buttons, which match the page buttons in the navigation bar, making for an intuitive UX. Each of these buttons will open its respective social media page in a new window, so the user will not lose their position on the Toon Bazaar website.
+
+        <h2 align="center"><img src="assets/readme/toon-bazaar-social.png"></h2>
 
     3. *As a Visitor, I want to see some samples of the artistic services they provide.*
    
@@ -689,6 +697,8 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
   
        + Each row on the Market Page is a gallery of different media, ranging from short animations to illustrations to comics and merchandise.
 
+        <h2 align="center"><img src="assets/readme/market-row-samples.png"></h2>
+       
     4. *As a Visitor, I want to locate their social media links to see their followings on social media and determine how trusted and known they are.*
    
        + At the bottom of each page, there are social media buttons. Each of these buttons will open its respective social media account in a new window.
@@ -711,6 +721,8 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
     -   ### Testing Client Goals
 
     1) *As a Potential Client, I want to check to see if there are any newly added cartoons, comics, illustrations and animations while browsing their daily exhibits of different artists.*
+
+        <h2 align="center"><img src="assets/readme/market-row-merch.png"></h2>
         
        + Each page features a background created by our artists and each page is filled with work by our community of artists.
   
@@ -719,6 +731,8 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
        + The artwork on the Homepage and Market Page is updated every 24-48 hours, to give visitors and clients alike a reason to come back and sample more of our artists' fantastic work.
 
     2)  *"As a Potential Client, I want to find community links and links to all the artists' portfolios."*
+
+        <h2 align="center"><img src="assets/readme/toon-bazaar-community.png"></h2>
    
         + In the Homepage's about us section, there are links to example artwork of various mediums, external links to artists' portfolios and links to the contact form.
 
@@ -737,6 +751,8 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
     4) *As a Potential Client, I want to find the best way to get in contact with the organisation with any questions I may have or to get a quote.*
    
        + At the top of each page, underneath the header, there is a navigation bar with buttons to navigate to each page. The button for the Contact Page is clear to see on the right-hand side.
+
+        <h2 align="center"><img src="assets/readme/toon-bazaar-contact.png"></h2> 
     
        + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
 
@@ -745,6 +761,8 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
         + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.  
   
     6)  *As a Potential Client, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.*
+
+        <h2 align="center"><img src="assets/readme/form-signup.png"></h2>
    
         + At the bottom of the Contact Page, underneath the request form text area, there is a checkbox (already checked - but which can be unchecked by the user) signing them up with the email address they had to input at the top of the form.  
 
@@ -769,6 +787,8 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
        + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.
 
     3.  *As a Potential Artist, I want to find community links, social media links and links to all the artists' portfolios to further my knowledge and understanding of the collective.*
+
+        <h2 align="center"><img src="assets/readme/toon-bazaar-community.png"></h2>
    
         + In the Homepage's about us section, there are links to example artwork of various mediums, external links to artists' portfolios and links to the contact form.
 
@@ -789,6 +809,8 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
     6. *As a Potential Artist, I want the option to send in a sample of my artwork to gauge their interest in my work.*  
    
        + On the Contact Page, under the text area of the form, there is a file upload button for potential artists to add samples of their work as a preliminary to making a full application.
+
+        <h2 align="center"><img src="assets/readme/form-file-upload-button.png"></h2>
     
 ## Further Testing
 
