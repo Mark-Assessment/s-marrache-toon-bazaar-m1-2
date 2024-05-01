@@ -757,8 +757,10 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
        + On the Homepage, in the about section, there are two links which direct the user straight to the contact form on the Contact Page.
 
     5)  *As a Potential Client, I want to detail what I am looking to create with artwork as well as text.*
+
+        <h2 align="center"><img src="assets/readme/form-file-upload-button.png"></h2>
         
-        + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.  
+        + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add artwork of their own to their request.  
   
     6)  *As a Potential Client, I want to sign up to the Newsletter so that I am emailed any major news, updates or offers, like the 15% off signup offer.*
 
@@ -770,9 +772,9 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 
     1. *As a Potential Artist, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.*
      
-       + Upon entering the site, users are greeted with a 3D comic strip explaining in four frames why they might need or want our help. That's the 'WHY?' sorted.
-  
-       + Once they have read the comic strip, they arrive at the about section, where we spell out where we are located (everywhere) and how we can help them. There are also links to the contact form wherein they can make requests or get a quote. That's the ''WHO?', 'WHERE?' & 'HOW?' sorted.
+        <h2 align="center"><img src="assets/readme/artist-about.png"></h2>
+
+       + In the about section, we spell out where we are located (everywhere) and how we can help them. There are also links to the contact form wherein they can make requests or get a quote. That's the ''WHO?', 'WHERE?' & 'HOW?' sorted.
   
        + The user can then navigate via the links in the about section to examples of our artwork adorning the Homepage & Market Page. That's the 'WHAT?' sorted.
 
@@ -784,7 +786,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
   
        + Each row on the Market Page is a gallery of different media, ranging from short animations to illustrations to comics and merchandise.
     
-       + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add their artwork of their own to their request.
+       + On the Contact Page, under the text area of the form, there is a file upload button for potential artists or potential clients to add artwork of their own to their request.
 
     3.  *As a Potential Artist, I want to find community links, social media links and links to all the artists' portfolios to further my knowledge and understanding of the collective.*
 
