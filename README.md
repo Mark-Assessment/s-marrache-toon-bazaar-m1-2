@@ -675,7 +675,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
   
        + The user can then navigate via the links in the about section to examples of our artwork adorning the Homepage & Market Page. That's the 'WHAT?' sorted.
 
-       <h2 align="center"><img src="assets/readme/toon-bazaar-home-about.png"></h2>
+       <h2 align="center"><img src="assets/readme/home-about.png"></h2>
 
     2. *As a Visitor, I want to be able to easily navigate throughout the site to find content.*
 
@@ -772,7 +772,7 @@ I also created custom settings for FHD (1920x1080), 2k (2560x1440) & 4K (3840 x 
 
     1. *As a Potential Artist, I want to easily understand the main purpose of the site, learn more about the collective and get a feeling for who they are and what they have to offer.*
      
-        <h2 align="center"><img src="assets/readme/artist-about.png"></h2>
+       <h2 align="center"><img src="assets/readme/artist-about.png"></h2>
 
        + In the about section, we spell out where we are located (everywhere) and how we can help them. There are also links to the contact form wherein they can make requests or get a quote. That's the ''WHO?', 'WHERE?' & 'HOW?' sorted.
   
